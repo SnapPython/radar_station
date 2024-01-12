@@ -1,0 +1,79 @@
+[0.039s] Invoking command in '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechax/zyb/radar_station/src/Img_Handle -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.144s] -- Detecting C compiler ABI info - done
+[0.148s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.148s] -- Detecting C compile features
+[0.148s] -- Detecting C compile features - done
+[0.150s] -- Detecting CXX compiler ABI info
+[0.194s] -- Detecting CXX compiler ABI info - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.199s] -- Detecting CXX compile features - done
+[0.200s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.350s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.376s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.378s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.383s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.442s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.444s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.497s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.513s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.542s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.547s] -- Looking for pthread.h
+[0.587s] -- Looking for pthread.h - found
+[0.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.629s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.630s] -- Found Threads: TRUE  
+[0.720s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.795s] -- Found OpenCV: /usr/local (found version "4.8.0") 
+[0.796s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.801s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.834s] WARNING: Package name "Img_Handle" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.849s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.850s] -- Configured cppcheck include dirs: /home/mechax/zyb/radar_station/src/Img_Handle/include
+[0.850s] -- Configured cppcheck exclude dirs and/or files: 
+[0.850s] -- Added test 'lint_cmake' to check CMake code style
+[0.852s] -- Added test 'uncrustify' to check C / C++ code style
+[0.852s] -- Configured uncrustify additional arguments: 
+[0.853s] -- Added test 'xmllint' to check XML markup files
+[0.853s] -- Configuring done
+[0.861s] -- Generating done
+[0.862s] -- Build files have been written to: /home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle
+[0.868s] Invoked command in '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechax/zyb/radar_station/src/Img_Handle -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle
+[0.870s] Invoking command in '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle -- -j16 -l16
+[0.898s] [ 50%] [32mBuilding CXX object CMakeFiles/Img_Pub.dir/src/img_pub.cpp.o[0m
+[0.898s] [ 50%] [32mBuilding CXX object CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o[0m
+[4.568s] [ 75%] [32m[1mLinking CXX executable Img_Pub[0m
+[4.784s] [ 75%] Built target Img_Pub
+[6.477s] [100%] [32m[1mLinking CXX executable Img_Sub[0m
+[6.599s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+[6.599s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[6.890s] [100%] Built target Img_Sub
+[6.897s] Invoked command in '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle -- -j16 -l16
+[6.918s] Invoking command in '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle
+[6.923s] -- Install configuration: ""
+[6.923s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/lib/Img_Handle/Img_Pub
+[6.923s] -- Set runtime path of "/home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/lib/Img_Handle/Img_Pub" to ""
+[6.923s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/lib/Img_Handle/Img_Sub
+[6.925s] -- Set runtime path of "/home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/lib/Img_Handle/Img_Sub" to ""
+[6.925s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/ament_index/resource_index/package_run_dependencies/Img_Handle
+[6.925s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/ament_index/resource_index/parent_prefix_path/Img_Handle
+[6.925s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/environment/ament_prefix_path.sh
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/environment/ament_prefix_path.dsv
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/environment/path.sh
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/environment/path.dsv
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/local_setup.bash
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/local_setup.sh
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/local_setup.zsh
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/local_setup.dsv
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/package.dsv
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/ament_index/resource_index/packages/Img_Handle
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/cmake/Img_HandleConfig.cmake
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/cmake/Img_HandleConfig-version.cmake
+[6.926s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/package.xml
+[6.927s] Invoked command in '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle

@@ -1,0 +1,75 @@
+[0.074s] Invoking command in '/home/mechax/zyb/radar_station/build/Img_Handle': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mechax/zyb/radar_station/src/Img_Handle -DCMAKE_EXPORT_CONPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/install/Img_Handle
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.147s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.269s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.426s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.503s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.548s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.551s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.556s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.621s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.623s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.696s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.714s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.747s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.752s] -- Looking for pthread.h
+[0.805s] -- Looking for pthread.h - found
+[0.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.856s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.857s] -- Found Threads: TRUE  
+[0.959s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.038s] -- Found OpenCV: /usr/local (found version "4.8.0") 
+[1.038s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.042s] -- Found my_msgss: 0.0.0 (/home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake)
+[1.085s] WARNING: Package name "Img_Handle" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.095s] -- Configuring done
+[1.107s] -- Generating done
+[1.107s] [33mCMake Warning:
+[1.107s]   Manually-specified variables were not used by the project:
+[1.107s] 
+[1.108s]     CMAKE_EXPORT_CONPILE_COMMANDS
+[1.108s] 
+[1.108s] [0m
+[1.108s] -- Build files have been written to: /home/mechax/zyb/radar_station/build/Img_Handle
+[1.116s] Invoked command in '/home/mechax/zyb/radar_station/build/Img_Handle' returned '0': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mechax/zyb/radar_station/src/Img_Handle -DCMAKE_EXPORT_CONPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/install/Img_Handle
+[1.118s] Invoking command in '/home/mechax/zyb/radar_station/build/Img_Handle': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/Img_Handle -- -j16 -l16
+[1.150s] [ 12%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[1.152s] [ 25%] [32mBuilding CXX object CMakeFiles/Img_Pub.dir/src/img_pub.cpp.o[0m
+[1.155s] [ 37%] [32mBuilding CXX object CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o[0m
+[1.155s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/inference.cpp.o[0m
+[1.156s] [ 62%] [32mBuilding CXX object CMakeFiles/Img_Sub.dir/src/inference.cpp.o[0m
+[2.396s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.397s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:31:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.397s]    31 |     for (int i = 0; [01;35m[Ki < imageNames.size()[m[K; ++i)
+[2.397s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[2.402s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:12:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.402s]    12 | int main([01;35m[Kint argc[m[K, char **argv)
+[2.402s]       |          [01;35m[K~~~~^~~~[m[K
+[2.402s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:12:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.402s]    12 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[2.402s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[3.034s] [ 75%] [32m[1mLinking CXX executable main[0m
+[3.330s] [ 75%] Built target main
+[3.691s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:[m[K In member function ‘[01m[Kvoid Img_Sub::draw_img()[m[K’:
+[3.692s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:189:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Yolopoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Yolopoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.692s]   189 |     for(int i =0 ;[01;35m[Ki<this->robot_boxes.data.size()[m[K;i++)
+[3.692s]       |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.628s] [ 87%] [32m[1mLinking CXX executable Img_Pub[0m
+[6.771s] gmake[2]: *** Deleting file 'Img_Pub'
+[6.771s] gmake[2]: *** [CMakeFiles/Img_Sub.dir/build.make:76: CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o] Interrupt
+[6.771s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/Img_Sub.dir/all] Interrupt
+[6.772s] gmake[2]: *** [CMakeFiles/Img_Pub.dir/build.make:190: Img_Pub] Interrupt
+[6.773s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/Img_Pub.dir/all] Interrupt
+[6.773s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,9 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+/usr/bin/ld: CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o: in function `GetDepth::write_csv(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<float, std::allocator<float> >)':
+get_depth_node.cpp:(.text+0xdc): undefined reference to `GetDepth::pointCloudCallback(std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > const&)'
+/usr/bin/ld: CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o: in function `void __gnu_cxx::new_allocator<GetDepth>::construct<GetDepth>(GetDepth*)':
+get_depth_node.cpp:(.text._ZN9__gnu_cxx13new_allocatorI8GetDepthE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI8GetDepthE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `GetDepth::GetDepth()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/get_depth_node.dir/build.make:281: get_depth_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/get_depth_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

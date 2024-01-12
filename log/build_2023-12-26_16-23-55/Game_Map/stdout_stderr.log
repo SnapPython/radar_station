@@ -1,0 +1,866 @@
+[35m[1mConsolidate compiler generated dependencies of target Game_Map[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Game_Map.dir/src/game_map.cpp.o[0m
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:52:42:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   52 |     vector<cv::Point3d> far_objectPoints([01;31m[K4[m[K);
+      |                                          [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:52:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:53:41:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   53 |     vector<cv::Point2d> far_imagePoints([01;31m[K4[m[K);
+      |                                         [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:53:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:59:44:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   59 |     vector<cv::Point3d> close_objectPoints([01;31m[K4[m[K);
+      |                                            [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:59:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:60:43:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   60 |     vector<cv::Point2d> close_imagePoints([01;31m[K4[m[K);
+      |                                           [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:60:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:105:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KPublisher[m[K’?
+  105 |     rclcpp::[01;31m[Kpublisher[m[K<my_msgss::msg::Points>::SharedPtr world_points_pub_;
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[KPublisher[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:106:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KPublisher[m[K’?
+  106 |     rclcpp::[01;31m[Kpublisher[m[K<my_msgss::msg::Points>::SharedPtr guard_points_pub_;
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[KPublisher[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:107:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KPublisher[m[K’?
+  107 |     rclcpp::[01;31m[Kpublisher[m[K<my_msgss::msg::Point>::SharedPtr hero_point_pub_;
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[KPublisher[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:108:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+  108 |     rclcpp::[01;31m[Ksubscriber[m[K<my_msgss::msg::Points>::SharedPtr far_image_sub_;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:109:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+  109 |     rclcpp::[01;31m[Ksubscriber[m[K<my_msgss::msg::Distpoints>::SharedPtr far_distpoints_sub_;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:110:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+  110 |     rclcpp::[01;31m[Ksubscriber[m[K<my_msgss::msg::Points>::SharedPtr close_image_sub_;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:111:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+  111 |     rclcpp::[01;31m[Ksubscriber[m[K<my_msgss::msg::Distpoints>::SharedPtr close_distpoints_sub_;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:112:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+  112 |     rclcpp::[01;31m[Ksubscriber[m[K<my_msgss::msg::Distpoint>::SharedPtr outpost_distpoint_sub_;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In constructor ‘[01m[KGame_Map::Game_Map()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:25:98:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+   25 |     our_region_names[6] = {"our_R1", "our_R2", "our_R3", "our_dafu", "our_highway", "our_outpost"[01;31m[K}[m[K;
+      |                                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:11[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:1[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:799:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  799 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:799:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:25:98:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+   25 |     our_region_names[6] = {"our_R1", "our_R2", "our_R3", "our_dafu", "our_highway", "our_outpost"[01;36m[K}[m[K;
+      |                                                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:11[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:1[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:679:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  679 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:679:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+  679 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:689:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  689 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:689:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst char*[m[K’
+  689 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:700:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  700 |       [01;36m[Koperator[m[K=(_CharT __c)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:700:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kchar[m[K’
+  700 |       operator=([01;36m[K_CharT __c[m[K)
+      |                 [01;36m[K~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:717:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  717 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:717:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+  717 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:785:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (near match)
+  785 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:785:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:25:28:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |     our_region_names[6] = {[01;31m[K"our_R1"[m[K, "our_R2", "our_R3", "our_dafu", "our_highway", "our_outpost"};
+      |                            [01;31m[K^~~~~~~~[m[K
+      |                            [01;31m[K|[m[K
+      |                            [01;31m[Kconst char*[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:25:38:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |     our_region_names[6] = {"our_R1", [01;31m[K"our_R2"[m[K, "our_R3", "our_dafu", "our_highway", "our_outpost"};
+      |                                      [01;31m[K^~~~~~~~[m[K
+      |                                      [01;31m[K|[m[K
+      |                                      [01;31m[Kconst char*[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:25:48:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |     our_region_names[6] = {"our_R1", "our_R2", [01;31m[K"our_R3"[m[K, "our_dafu", "our_highway", "our_outpost"};
+      |                                                [01;31m[K^~~~~~~~[m[K
+      |                                                [01;31m[K|[m[K
+      |                                                [01;31m[Kconst char*[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:25:58:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |     our_region_names[6] = {"our_R1", "our_R2", "our_R3", [01;31m[K"our_dafu"[m[K, "our_highway", "our_outpost"};
+      |                                                          [01;31m[K^~~~~~~~~~[m[K
+      |                                                          [01;31m[K|[m[K
+      |                                                          [01;31m[Kconst char*[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:25:70:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |     our_region_names[6] = {"our_R1", "our_R2", "our_R3", "our_dafu", [01;31m[K"our_highway"[m[K, "our_outpost"};
+      |                                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                      [01;31m[K|[m[K
+      |                                                                      [01;31m[Kconst char*[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:25:85:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |     our_region_names[6] = {"our_R1", "our_R2", "our_R3", "our_dafu", "our_highway", [01;31m[K"our_outpost"[m[K};
+      |                                                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                                     [01;31m[K|[m[K
+      |                                                                                     [01;31m[Kconst char*[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:26:107:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+   26 |     enemy_region_names[5] = {"enemy_highway", "enemy_dafu", "enemy_outpost", "enemy_hero_hide", "enemy_R3"[01;31m[K}[m[K;
+      |                                                                                                           [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:11[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:1[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:799:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  799 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:799:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:26:107:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+   26 |     enemy_region_names[5] = {"enemy_highway", "enemy_dafu", "enemy_outpost", "enemy_hero_hide", "enemy_R3"[01;36m[K}[m[K;
+      |                                                                                                           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:11[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:1[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:679:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  679 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:679:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+  679 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:689:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  689 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:689:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst char*[m[K’
+  689 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:700:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  700 |       [01;36m[Koperator[m[K=(_CharT __c)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:700:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kchar[m[K’
+  700 |       operator=([01;36m[K_CharT __c[m[K)
+      |                 [01;36m[K~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:717:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  717 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:717:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+  717 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:785:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (near match)
+  785 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:785:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:26:30:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   26 |     enemy_region_names[5] = {[01;31m[K"enemy_highway"[m[K, "enemy_dafu", "enemy_outpost", "enemy_hero_hide", "enemy_R3"};
+      |                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                              [01;31m[K|[m[K
+      |                              [01;31m[Kconst char*[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:26:47:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   26 |     enemy_region_names[5] = {"enemy_highway", [01;31m[K"enemy_dafu"[m[K, "enemy_outpost", "enemy_hero_hide", "enemy_R3"};
+      |                                               [01;31m[K^~~~~~~~~~~~[m[K
+      |                                               [01;31m[K|[m[K
+      |                                               [01;31m[Kconst char*[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:26:61:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   26 |     enemy_region_names[5] = {"enemy_highway", "enemy_dafu", [01;31m[K"enemy_outpost"[m[K, "enemy_hero_hide", "enemy_R3"};
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                             [01;31m[K|[m[K
+      |                                                             [01;31m[Kconst char*[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:26:78:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   26 |     enemy_region_names[5] = {"enemy_highway", "enemy_dafu", "enemy_outpost", [01;31m[K"enemy_hero_hide"[m[K, "enemy_R3"};
+      |                                                                              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                                              [01;31m[K|[m[K
+      |                                                                              [01;31m[Kconst char*[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:26:97:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   26 |     enemy_region_names[5] = {"enemy_highway", "enemy_dafu", "enemy_outpost", "enemy_hero_hide", [01;31m[K"enemy_R3"[m[K};
+      |                                                                                                 [01;31m[K^~~~~~~~~~[m[K
+      |                                                                                                 [01;31m[K|[m[K
+      |                                                                                                 [01;31m[Kconst char*[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kworld_points_pub[m[K’ was not declared in this scope
+   29 |     [01;31m[Kworld_points_pub[m[K = this->create_publisher<my_msgss::msg::Points>("world_point", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kguard_points_pub[m[K’ was not declared in this scope
+   30 |     [01;31m[Kguard_points_pub[m[K = this->create_publisher<my_msgss::msg::Points>("guard_pub", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khero_point_pub[m[K’ was not declared in this scope
+   31 |     [01;31m[Khero_point_pub[m[K = this->create_publisher<my_msgss::msg::Point>("hero_pub", 1);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::warn_regions_init()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:53:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+   53 |     guard_forbidden_zone[01;31m[K{[m[KPoint(160, 647), Point(160, 705), Point(287, 705), Point(287, 647)};
+      |                         [01;31m[K^[m[K
+      |                         [32m[K;[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:53:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   53 |     [01;35m[Kguard_forbidden_zone[m[K{Point(160, 647), Point(160, 705), Point(287, 705), Point(287, 647)};
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:54:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+   54 |     guidao_houbian[01;31m[K{[m[KPoint(0, 676), Point(0, 840), Point(450, 840), Point(450, 676)};
+      |                   [01;31m[K^[m[K
+      |                   [32m[K;[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:54:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   54 |     [01;35m[Kguidao_houbian[m[K{Point(0, 676), Point(0, 840), Point(450, 840), Point(450, 676)};
+      |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::get_parameter()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:71:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [29], int&)[m[K’
+   71 |     [01;31m[Kthis->get_parameter("/small_map/small_map_shift_X", X_shift)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:72:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [29], int&)[m[K’
+   72 |     [01;31m[Kthis->get_parameter("/small_map/small_map_shift_Y", Y_shift)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:75:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   75 |     this->get_parameter("/sensor_far/point1/x", far_objectPoints[01;31m[K[[m[K0].x);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:76:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   76 |     this->get_parameter("/sensor_far/point1/y", far_objectPoints[01;31m[K[[m[K0].y);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:77:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   77 |     this->get_parameter("/sensor_far/point1/z", far_objectPoints[01;31m[K[[m[K0].z);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:78:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   78 |     this->get_parameter("/sensor_far/point2/x", far_objectPoints[01;31m[K[[m[K1].x);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:79:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   79 |     this->get_parameter("/sensor_far/point2/y", far_objectPoints[01;31m[K[[m[K1].y));
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:80:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   80 |     this->get_parameter("/sensor_far/point2/z", far_objectPoints[01;31m[K[[m[K1].z);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:81:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   81 |     this->get_parameter("/sensor_far/point3/x", far_objectPoints[01;31m[K[[m[K2].x);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:82:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   82 |     this->get_parameter("/sensor_far/point3/y", far_objectPoints[01;31m[K[[m[K2].y);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:83:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   83 |     this->get_parameter("/sensor_far/point3/z", far_objectPoints[01;31m[K[[m[K2].z);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:84:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   84 |     this->get_parameter("/sensor_far/point4/x", far_objectPoints[01;31m[K[[m[K3].x);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:85:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   85 |     this->get_parameter("/sensor_far/point4/y", far_objectPoints[01;31m[K[[m[K3].y);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:86:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+   86 |     this->get_parameter("/sensor_far/point4/z", far_objectPoints[01;31m[K[[m[K3].z);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:88:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [35], double&)[m[K’
+   88 |     [01;31m[Kthis->get_parameter("/sensor_far/camera_matrix/zerozero", far_CamMatrix_.at<double>(0, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:89:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [34], double&)[m[K’
+   89 |     [01;31m[Kthis->get_parameter("/sensor_far/camera_matrix/zerotwo", far_CamMatrix_.at<double>(0, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:90:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [33], double&)[m[K’
+   90 |     [01;31m[Kthis->get_parameter("/sensor_far/camera_matrix/oneone", far_CamMatrix_.at<double>(1, 1))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:91:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [33], double&)[m[K’
+   91 |     [01;31m[Kthis->get_parameter("/sensor_far/camera_matrix/onetwo", far_CamMatrix_.at<double>(1, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:92:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [33], double&)[m[K’
+   92 |     [01;31m[Kthis->get_parameter("/sensor_far/camera_matrix/twotwo", far_CamMatrix_.at<double>(2, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:98:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [40], double&)[m[K’
+   98 |     [01;31m[Kthis->get_parameter("/sensor_far/distortion_coefficient/zero", far_distCoeffs_.at<double>(0, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:99:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [39], double&)[m[K’
+   99 |     [01;31m[Kthis->get_parameter("/sensor_far/distortion_coefficient/one", far_distCoeffs_.at<double>(1, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:100:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [39], double&)[m[K’
+  100 |     [01;31m[Kthis->get_parameter("/sensor_far/distortion_coefficient/two", far_distCoeffs_.at<double>(2, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:101:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [41], double&)[m[K’
+  101 |     [01;31m[Kthis->get_parameter("/sensor_far/distortion_coefficient/three", far_distCoeffs_.at<double>(3, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:102:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [40], double&)[m[K’
+  102 |     [01;31m[Kthis->get_parameter("/sensor_far/distortion_coefficient/four", far_distCoeffs_.at<double>(4, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:105:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  105 |     this->get_parameter("/sensor_close/point1/x", close_objectPoints[01;31m[K[[m[K0].x);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:106:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  106 |     this->get_parameter("/sensor_close/point1/y", close_objectPoints[01;31m[K[[m[K0].y);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:107:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  107 |     this->get_parameter("/sensor_close/point1/z", close_objectPoints[01;31m[K[[m[K0].z);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:108:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  108 |     this->get_parameter("/sensor_close/point2/x", close_objectPoints[01;31m[K[[m[K1].x);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:109:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  109 |     this->get_parameter("/sensor_close/point2/y", close_objectPoints[01;31m[K[[m[K1].y);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:110:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  110 |     this->get_parameter("/sensor_close/point2/z", close_objectPoints[01;31m[K[[m[K1].z);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:111:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  111 |     this->get_parameter("/sensor_close/point3/x", close_objectPoints[01;31m[K[[m[K2].x);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:112:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  112 |     this->get_parameter("/sensor_close/point3/y", close_objectPoints[01;31m[K[[m[K2].y);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:113:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  113 |     this->get_parameter("/sensor_close/point3/z", close_objectPoints[01;31m[K[[m[K2].z);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:114:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  114 |     this->get_parameter("/sensor_close/point4/x", close_objectPoints[01;31m[K[[m[K3].x);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:115:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  115 |     this->get_parameter("/sensor_close/point4/y", close_objectPoints[01;31m[K[[m[K3].y);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:116:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  116 |     this->get_parameter("/sensor_close/point4/z", close_objectPoints[01;31m[K[[m[K3].z);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:118:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [37], double&)[m[K’
+  118 |     [01;31m[Kthis->get_parameter("/sensor_close/camera_matrix/zerozero", close_CamMatrix_.at<double>(0, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:119:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [36], double&)[m[K’
+  119 |     [01;31m[Kthis->get_parameter("/sensor_close/camera_matrix/zerotwo", close_CamMatrix_.at<double>(0, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:120:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [35], double&)[m[K’
+  120 |     [01;31m[Kthis->get_parameter("/sensor_close/camera_matrix/oneone", close_CamMatrix_.at<double>(1, 1))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:121:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [35], double&)[m[K’
+  121 |     [01;31m[Kthis->get_parameter("/sensor_close/camera_matrix/onetwo", close_CamMatrix_.at<double>(1, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:122:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [35], double&)[m[K’
+  122 |     [01;31m[Kthis->get_parameter("/sensor_close/camera_matrix/twotwo", close_CamMatrix_.at<double>(2, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:128:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [42], double&)[m[K’
+  128 |     [01;31m[Kthis->get_parameter("/sensor_close/distortion_coefficient/zero", close_distCoeffs_.at<double>(0, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:129:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [41], double&)[m[K’
+  129 |     [01;31m[Kthis->get_parameter("/sensor_close/distortion_coefficient/one", close_distCoeffs_.at<double>(1, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:130:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [41], double&)[m[K’
+  130 |     [01;31m[Kthis->get_parameter("/sensor_close/distortion_coefficient/two", close_distCoeffs_.at<double>(2, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:131:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [43], double&)[m[K’
+  131 |     [01;31m[Kthis->get_parameter("/sensor_close/distortion_coefficient/three", close_distCoeffs_.at<double>(3, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:132:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [42], double&)[m[K’
+  132 |     [01;31m[Kthis->get_parameter("/sensor_close/distortion_coefficient/four", close_distCoeffs_.at<double>(4, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:135:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [27], std::string&)[m[K’
+  135 |     [01;31m[Kthis->get_parameter("/battle_state/battle_color", btlcolor)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::camera_pnp_calibration()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:144:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  144 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point1/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:145:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  145 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point1/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:146:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  146 |     close_imagePoints[01;31m[K[[m[K0] = cv::Point2d(x, y);
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:147:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  147 |     close_imagePoints[01;31m[K[[m[K0].x *= imgCols;
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:148:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  148 |     close_imagePoints[01;31m[K[[m[K0].y *= imgRows;
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:148:31:[m[K [01;31m[Kerror: [m[K‘[01m[KimgRows[m[K’ was not declared in this scope; did you mean ‘[01m[KimgRow[m[K’?
+  148 |     close_imagePoints[0].y *= [01;31m[KimgRows[m[K;
+      |                               [01;31m[K^~~~~~~[m[K
+      |                               [32m[KimgRow[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:149:30:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  149 |     cout << close_imagePoints[01;31m[K[[m[K0] << endl;
+      |                              [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:150:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  150 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point2/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:151:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  151 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point2/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:152:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  152 |     close_imagePoints[01;31m[K[[m[K1] = cv::Point2d(x, y);
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:153:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  153 |     close_imagePoints[01;31m[K[[m[K1].x *= imgCols;
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:154:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  154 |     close_imagePoints[01;31m[K[[m[K1].y *= imgRows;
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:155:30:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  155 |     cout << close_imagePoints[01;31m[K[[m[K1] << endl;
+      |                              [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:156:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  156 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point3/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:157:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  157 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point3/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:158:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  158 |     close_imagePoints[01;31m[K[[m[K2] = cv::Point2d(x, y);
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:159:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  159 |     close_imagePoints[01;31m[K[[m[K2].x *= imgCols;
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:160:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  160 |     close_imagePoints[01;31m[K[[m[K2].y *= imgRows;
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:161:30:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  161 |     cout << close_imagePoints[01;31m[K[[m[K2] << endl;
+      |                              [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:162:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  162 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point4/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:163:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  163 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point4/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:164:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  164 |     close_imagePoints[01;31m[K[[m[K3] = cv::Point2d(x, y);
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:165:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  165 |     close_imagePoints[01;31m[K[[m[K3].x *= imgCols;
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:166:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  166 |     close_imagePoints[01;31m[K[[m[K3].y *= imgRows;
+      |                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:167:30:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  167 |     cout << close_imagePoints[01;31m[K[[m[K3] << endl;
+      |                              [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:170:33:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::vector<cv::Point3_<double> > Game_Map::close_objectPoints(int)[m[K’
+  170 |     [01;31m[Kcout << "close obj points:" << close_objectPoints[m[K << endl;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:59:25:[m[K [01;36m[Knote: [m[Kdeclared here
+   59 |     vector<cv::Point3d> [01;36m[Kclose_objectPoints[m[K(4);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:171:24:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::vector<cv::Point3_<double> > Game_Map::close_objectPoints(int)[m[K’
+  171 |     cv::solvePnPRansac([01;31m[Kclose_objectPoints[m[K, close_imagePoints, close_CamMatrix_, close_distCoeffs_,
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:59:25:[m[K [01;36m[Knote: [m[Kdeclared here
+   59 |     vector<cv::Point3d> [01;36m[Kclose_objectPoints[m[K(4);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:177:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  177 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point1/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:178:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  178 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point1/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:179:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  179 |     far_imagePoints[01;31m[K[[m[K0] = cv::Point2d(x, y);
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:180:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  180 |     far_imagePoints[01;31m[K[[m[K0].x *= imgCols;
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:181:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  181 |     far_imagePoints[01;31m[K[[m[K0].y *= imgRows;
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:182:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  182 |     cout << far_imagePoints[01;31m[K[[m[K0] << endl;
+      |                            [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:183:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  183 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point2/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:184:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  184 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point2/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:185:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  185 |     far_imagePoints[01;31m[K[[m[K1] = cv::Point2d(x, y);
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:186:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  186 |     far_imagePoints[01;31m[K[[m[K1].x *= imgCols;
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:187:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  187 |     far_imagePoints[01;31m[K[[m[K1].y *= imgRows;
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:188:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  188 |     cout << far_imagePoints[01;31m[K[[m[K1] << endl;
+      |                            [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:189:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  189 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point3/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:190:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  190 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point3/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:191:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  191 |     far_imagePoints[01;31m[K[[m[K2] = cv::Point2d(x, y);
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:192:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  192 |     far_imagePoints[01;31m[K[[m[K2].x *= imgCols;
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:193:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  193 |     far_imagePoints[01;31m[K[[m[K2].y *= imgRows;
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:194:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  194 |     cout << far_imagePoints[01;31m[K[[m[K2] << endl;
+      |                            [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:195:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  195 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point4/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:196:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  196 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point4/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   69 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:197:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  197 |     far_imagePoints[01;31m[K[[m[K3] = cv::Point2d(x, y);
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:198:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  198 |     far_imagePoints[01;31m[K[[m[K3].x *= imgCols;
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:199:20:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  199 |     far_imagePoints[01;31m[K[[m[K3].y *= imgRows;
+      |                    [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:200:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  200 |     cout << far_imagePoints[01;31m[K[[m[K3] << endl;
+      |                            [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:203:31:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::vector<cv::Point3_<double> > Game_Map::far_objectPoints(int)[m[K’
+  203 |     [01;31m[Kcout << "far obj points:" << far_objectPoints[m[K << endl;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:52:25:[m[K [01;36m[Knote: [m[Kdeclared here
+   52 |     vector<cv::Point3d> [01;36m[Kfar_objectPoints[m[K(4);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:204:24:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::vector<cv::Point3_<double> > Game_Map::far_objectPoints(int)[m[K’
+  204 |     cv::solvePnPRansac([01;31m[Kfar_objectPoints[m[K, far_imagePoints, far_CamMatrix_, far_distCoeffs_,
+      |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:52:25:[m[K [01;36m[Knote: [m[Kdeclared here
+   52 |     vector<cv::Point3d> [01;36m[Kfar_objectPoints[m[K(4);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::onMouse(int, int, int, int, void*)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:219:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  219 | void Game_Map::onMouse(int event, int x, int y, [01;35m[Kint flags[m[K, void *userdata)
+      |                                                 [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K At global scope:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:235:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble Game_Map::Point2PointDist(const Point&, const Point3f&)[m[K’
+  235 | double [01;31m[KGame_Map[m[K::Point2PointDist(const my_msgss::msg::Point &a, const Point3f &b)
+      |        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:235:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble Game_Map::Point2PointDist(const Point&, const Point3f&)[m[K’
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:15:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Game_Map[m[K’ defined here
+   15 | class [01;36m[KGame_Map[m[K : public::rclcpp::Node
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:247:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble Game_Map::calculate_dist(const Point&, const Point&)[m[K’
+  247 | double [01;31m[KGame_Map[m[K::calculate_dist(const my_msgss::msg::Point &a, const my_msgss::msg::Point &b) {
+      |        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:247:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble Game_Map::calculate_dist(const Point&, const Point&)[m[K’
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:15:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Game_Map[m[K’ defined here
+   15 | class [01;36m[KGame_Map[m[K : public::rclcpp::Node
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:258:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool Game_Map::is_enemy_car(uint8_t)[m[K’
+  258 | bool [01;31m[KGame_Map[m[K::is_enemy_car(uint8_t id) {
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:258:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool Game_Map::is_enemy_car(uint8_t)[m[K’
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:15:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Game_Map[m[K’ defined here
+   15 | class [01;36m[KGame_Map[m[K : public::rclcpp::Node
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::remove_duplicate()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:283:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  283 |         int [01;35m[Ktest2[m[K=pointPolygonTest(right_region, calculate_pixel_codi(i), false);
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:294:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  294 |         int [01;35m[Ktest2[m[K=pointPolygonTest(left_region, calculate_pixel_codi(i), false);
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:307:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalculate_dist[m[K’ was not declared in this scope
+  307 |             if (it_left->id == it_right->id && it_left->id == 12 && [01;31m[Kcalculate_dist[m[K(*it_left, *it_right) < 5) {
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::warn_on_map(const Points&, cv::Mat&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:364:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  364 |     for (int i = 0; [01;35m[Ki < our_warn_regions.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:366:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_enemy_car[m[K’ was not declared in this scope
+  366 |             if ([01;31m[Kis_enemy_car[m[K(car.id) && pointPolygonTest(our_half_field,
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:380:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Point_<std::allocator<void> >, std::allocator<my_msgss::msg::Point_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  380 |     for (int i = 0; [01;35m[Ki < relative_coordinates.data.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:381:16:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint2PointDist[m[K’ was not declared in this scope
+  381 |         dist = [01;31m[KPoint2PointDist[m[K(relative_coordinates.data[i], Point3f(0, 0, 0));
+      |                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:390:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  390 |     for (int i = 0; [01;35m[Ki < enemy_warn_regions.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:392:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_enemy_car[m[K’ was not declared in this scope
+  392 |             if ([01;31m[Kis_enemy_car[m[K(car.id) && pointPolygonTest(enemy_warn_regions[i],
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K At global scope:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:424:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Game_Map::outpost_Callback(const Distpoint&)[m[K’
+  424 | void [01;31m[KGame_Map[m[K::outpost_Callback(const my_msgss::msg::Distpoint &msg) {
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:32:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Game_Map::outpost_Callback(const Distpoints&)[m[K’
+   32 |     void [01;36m[Koutpost_Callback[m[K(const my_msgss::msg::Distpoints &msg);
+      |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:15:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Game_Map[m[K’ defined here
+   15 | class [01;36m[KGame_Map[m[K : public::rclcpp::Node
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:447:9:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kcv::Point2f Game_Map::calculate_pixel_text_codi(const Point&)[m[K’
+  447 | Point2f [01;31m[KGame_Map[m[K::calculate_pixel_text_codi(const my_msgss::msg::Point &point) {
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:447:9:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kcv::Point2f Game_Map::calculate_pixel_text_codi(const Point&)[m[K’
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:15:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Game_Map[m[K’ defined here
+   15 | class [01;36m[KGame_Map[m[K : public::rclcpp::Node
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::draw_point_on_map(const Point&, cv::Mat&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:468:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalculate_pixel_text_codi[m[K’ was not declared in this scope; did you mean ‘[01m[Kcalculate_pixel_codi[m[K’?
+  468 |                 [01;31m[Kcalculate_pixel_text_codi[m[K(point), cv::FONT_HERSHEY_SIMPLEX, 0.7,
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[Kcalculate_pixel_codi[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::draw_warn_region(cv::Mat&, const std::vector<std::vector<cv::Point_<int> > >&, const std::vector<std::vector<cv::Point_<int> > >&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:483:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kregion[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  483 |     for (const vector<Point> &[01;35m[Kregion[m[K: our_regions) {
+      |                               [01;35m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:486:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kregion[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  486 |     for (const vector<Point> &[01;35m[Kregion[m[K: enemy_regions) {
+      |                               [01;35m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::far_distPointCallback(const Distpoints&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:497:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Distpoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Distpoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  497 |     for (int i = 0; [01;35m[Ki < input.data.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::far_calibration(const Points&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:558:24:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[const _id_type {aka const unsigned char}][m[K’ for array subscript
+  558 |         far_imagePoints[01;31m[K[[m[Kpoint.id] = cv::Point2d(point.x, point.y);
+      |                        [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:559:24:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[const _id_type {aka const unsigned char}][m[K’ for array subscript
+  559 |         far_imagePoints[01;31m[K[[m[Kpoint.id].x *= imgCols;
+      |                        [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:560:24:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[const _id_type {aka const unsigned char}][m[K’ for array subscript
+  560 |         far_imagePoints[01;31m[K[[m[Kpoint.id].y *= imgRows;
+      |                        [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:560:40:[m[K [01;31m[Kerror: [m[K‘[01m[KimgRows[m[K’ was not declared in this scope; did you mean ‘[01m[KimgRow[m[K’?
+  560 |         far_imagePoints[point.id].y *= [01;31m[KimgRows[m[K;
+      |                                        [01;31m[K^~~~~~~[m[K
+      |                                        [32m[KimgRow[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:561:32:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[const _id_type {aka const unsigned char}][m[K’ for array subscript
+  561 |         cout << far_imagePoints[01;31m[K[[m[Kpoint.id] << endl;
+      |                                [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:564:42:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  564 |     outpost_2d_armour.x = far_imagePoints[01;31m[K[[m[K0].x;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:565:42:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  565 |     outpost_2d_armour.y = far_imagePoints[01;31m[K[[m[K0].y;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:567:34:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::vector<cv::Point3_<double> > Game_Map::far_objectPoints(int)[m[K’
+  567 |     int suc = cv::solvePnPRansac([01;31m[Kfar_objectPoints[m[K, far_imagePoints, far_CamMatrix_, far_distCoeffs_, far_Rjacob,
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:52:25:[m[K [01;36m[Knote: [m[Kdeclared here
+   52 |     vector<cv::Point3d> [01;36m[Kfar_objectPoints[m[K(4);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::close_distPointCallback(const Distpoints&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:583:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Distpoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Distpoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  583 |     for (int i = 0; [01;35m[Ki < input.data.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::close_calibration(const Points&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:635:26:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[const _id_type {aka const unsigned char}][m[K’ for array subscript
+  635 |         close_imagePoints[01;31m[K[[m[Kpoint.id] = cv::Point2d(point.x, point.y);
+      |                          [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:636:26:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[const _id_type {aka const unsigned char}][m[K’ for array subscript
+  636 |         close_imagePoints[01;31m[K[[m[Kpoint.id].x *= imgCols;
+      |                          [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:637:26:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[const _id_type {aka const unsigned char}][m[K’ for array subscript
+  637 |         close_imagePoints[01;31m[K[[m[Kpoint.id].y *= imgRows;
+      |                          [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:637:42:[m[K [01;31m[Kerror: [m[K‘[01m[KimgRows[m[K’ was not declared in this scope; did you mean ‘[01m[KimgRow[m[K’?
+  637 |         close_imagePoints[point.id].y *= [01;31m[KimgRows[m[K;
+      |                                          [01;31m[K^~~~~~~[m[K
+      |                                          [32m[KimgRow[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:638:34:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[const _id_type {aka const unsigned char}][m[K’ for array subscript
+  638 |         cout << close_imagePoints[01;31m[K[[m[Kpoint.id] << endl;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:642:33:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::vector<cv::Point3_<double> > Game_Map::close_objectPoints(int)[m[K’
+  642 |     [01;31m[Kcout << "close obj points:" << close_objectPoints[m[K << endl;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:59:25:[m[K [01;36m[Knote: [m[Kdeclared here
+   59 |     vector<cv::Point3d> [01;36m[Kclose_objectPoints[m[K(4);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:643:34:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::vector<cv::Point3_<double> > Game_Map::close_objectPoints(int)[m[K’
+  643 |     int suc = cv::solvePnPRansac([01;31m[Kclose_objectPoints[m[K, close_imagePoints, close_CamMatrix_, close_distCoeffs_,
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:59:25:[m[K [01;36m[Knote: [m[Kdeclared here
+   59 |     vector<cv::Point3d> [01;36m[Kclose_objectPoints[m[K(4);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:652:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  652 | int main([01;35m[Kint argc[m[K, char* argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:652:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  652 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Game_Map.dir/build.make:76: CMakeFiles/Game_Map.dir/src/game_map.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Game_Map.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

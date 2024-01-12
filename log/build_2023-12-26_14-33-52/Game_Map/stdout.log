@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target Game_Map[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Game_Map.dir/src/game_map.cpp.o[0m
+[100%] [32m[1mLinking CXX executable Game_Map[0m
+[100%] Built target Game_Map
+-- Install configuration: ""
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/ament_index/resource_index/package_run_dependencies/Game_Map
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/ament_index/resource_index/parent_prefix_path/Game_Map
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/environment/ament_prefix_path.sh
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/environment/ament_prefix_path.dsv
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/environment/path.sh
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/environment/path.dsv
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/local_setup.bash
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/local_setup.sh
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/local_setup.zsh
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/local_setup.dsv
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/package.dsv
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/ament_index/resource_index/packages/Game_Map
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/cmake/Game_MapConfig.cmake
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/cmake/Game_MapConfig-version.cmake
+-- Installing: /home/mechax/zyb/radar_station/install/Game_Map/share/Game_Map/package.xml

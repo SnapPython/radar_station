@@ -1,0 +1,53 @@
+[35m[1mConsolidate compiler generated dependencies of target Get_Img[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/get_img.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable Get_Img[0m
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Init(int)':
+MVCamera.cpp:(.text+0x15c): undefined reference to `CameraSdkInit'
+/usr/bin/ld: MVCamera.cpp:(.text+0x1cb): undefined reference to `CameraEnumerateDevice'
+/usr/bin/ld: MVCamera.cpp:(.text+0x357): undefined reference to `CameraInit'
+/usr/bin/ld: MVCamera.cpp:(.text+0x3e0): undefined reference to `CameraPlay'
+/usr/bin/ld: MVCamera.cpp:(.text+0x404): undefined reference to `CameraSetIspOutFormat'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Uninit()':
+MVCamera.cpp:(.text+0x4f8): undefined reference to `CameraSaveParameter'
+/usr/bin/ld: MVCamera.cpp:(.text+0x531): undefined reference to `CameraUnInit'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetExposureTime(bool, double)':
+MVCamera.cpp:(.text+0x687): undefined reference to `CameraSetAeState'
+/usr/bin/ld: MVCamera.cpp:(.text+0x706): undefined reference to `CameraSetAeState'
+/usr/bin/ld: MVCamera.cpp:(.text+0x751): undefined reference to `CameraSetExposureTime'
+/usr/bin/ld: MVCamera.cpp:(.text+0x802): undefined reference to `CameraGetCapability'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetExposureTime()':
+MVCamera.cpp:(.text+0x83e): undefined reference to `CameraGetAeState'
+/usr/bin/ld: MVCamera.cpp:(.text+0x86c): undefined reference to `CameraGetExposureTime'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetLargeResolution(bool)':
+MVCamera.cpp:(.text+0x94e): undefined reference to `CameraSetImageResolution'
+/usr/bin/ld: MVCamera.cpp:(.text+0x9d8): undefined reference to `CameraSetImageResolution'
+/usr/bin/ld: MVCamera.cpp:(.text+0x9ed): undefined reference to `CameraSetImageResolution'
+/usr/bin/ld: MVCamera.cpp:(.text+0xa6e): undefined reference to `CameraGetCapability'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetWBMode(bool)':
+MVCamera.cpp:(.text+0xab3): undefined reference to `CameraSetWbMode'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetWBMode(bool&)':
+MVCamera.cpp:(.text+0xbb7): undefined reference to `CameraGetWbMode'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetOnceWB()':
+MVCamera.cpp:(.text+0xc32): undefined reference to `CameraSetOnceWB'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetGain(double)':
+MVCamera.cpp:(.text+0xcb0): undefined reference to `CameraSetGain'
+/usr/bin/ld: MVCamera.cpp:(.text+0xcfc): undefined reference to `CameraGetCapability'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetGain()':
+MVCamera.cpp:(.text+0xd3d): undefined reference to `CameraGetGain'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Play()':
+MVCamera.cpp:(.text+0xddb): undefined reference to `CameraGetCapability'
+/usr/bin/ld: MVCamera.cpp:(.text+0xde9): undefined reference to `CameraPlay'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Read()':
+MVCamera.cpp:(.text+0xe2e): undefined reference to `CameraGetImageBuffer'
+/usr/bin/ld: MVCamera.cpp:(.text+0xe88): undefined reference to `CameraImageProcess'
+/usr/bin/ld: MVCamera.cpp:(.text+0xed3): undefined reference to `CameraReleaseImageBuffer'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Set_fps(int)':
+MVCamera.cpp:(.text+0xf16): undefined reference to `CameraSetFrameSpeed'
+/usr/bin/ld: MVCamera.cpp:(.text+0xf51): undefined reference to `CameraGetCapability'
+/usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetFrame_B(cv::Mat&, bool)':
+MVCamera.cpp:(.text+0xff8): undefined reference to `CameraGetImageBuffer'
+/usr/bin/ld: MVCamera.cpp:(.text+0x120f): undefined reference to `CameraReleaseImageBuffer'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:207: Get_Img] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

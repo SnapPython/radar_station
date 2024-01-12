@@ -1,0 +1,187 @@
+[0.040s] Invoking command in '/home/mechax/zyb/radar_station/build/get_depth': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mechax/zyb/radar_station/src/get_depth -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/install/get_depth
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.224s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.229s] -- Detecting CXX compile features
+[0.229s] -- Detecting CXX compile features - done
+[0.231s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.345s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.383s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.400s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.427s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.430s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.435s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.496s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.498s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.558s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.582s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.614s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.623s] -- Looking for pthread.h
+[0.667s] -- Looking for pthread.h - found
+[0.667s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.720s] -- Found Threads: TRUE  
+[0.822s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[0.823s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.918s] -- Checking for module 'eigen3'
+[0.929s] --   Found eigen3, version 3.4.0
+[0.953s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.953s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.974s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.984s] -- Checking for module 'flann'
+[0.994s] --   Found flann, version 1.9.1
+[1.040s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.040s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.079s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.086s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.255s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.255s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.259s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.271s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.292s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.307s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.452s] -- Found X11: /usr/include   
+[1.452s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.541s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.542s] -- Looking for gethostbyname
+[1.628s] -- Looking for gethostbyname - found
+[1.629s] -- Looking for connect
+[1.711s] -- Looking for connect - found
+[1.711s] -- Looking for remove
+[1.795s] -- Looking for remove - found
+[1.795s] -- Looking for shmat
+[1.881s] -- Looking for shmat - found
+[1.881s] -- Looking for IceConnectionNumber in ICE
+[1.968s] -- Looking for IceConnectionNumber in ICE - found
+[2.063s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[2.066s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.068s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.071s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[2.100s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.112s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.118s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.124s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.219s] -- Checking for module 'libusb-1.0'
+[2.237s] --   Found libusb-1.0, version 1.0.25
+[2.277s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.278s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.278s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.351s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.351s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.351s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.557s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.565s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.573s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.760s] -- Found Qhull version 8.0.2
+[2.941s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.093s] -- looking for PCL_COMMON
+[3.094s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.094s] -- looking for PCL_KDTREE
+[3.095s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.095s] -- looking for PCL_OCTREE
+[3.095s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.096s] -- looking for PCL_SEARCH
+[3.096s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.096s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.096s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.097s] -- looking for PCL_FILTERS
+[3.097s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.097s] -- looking for PCL_2D
+[3.097s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.097s] -- looking for PCL_GEOMETRY
+[3.098s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.098s] -- looking for PCL_IO
+[3.098s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.098s] -- looking for PCL_FEATURES
+[3.099s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.099s] -- looking for PCL_ML
+[3.099s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.099s] -- looking for PCL_SEGMENTATION
+[3.100s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.100s] -- looking for PCL_VISUALIZATION
+[3.101s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.101s] -- looking for PCL_SURFACE
+[3.101s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.101s] -- looking for PCL_REGISTRATION
+[3.102s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.102s] -- looking for PCL_KEYPOINTS
+[3.102s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.103s] -- looking for PCL_TRACKING
+[3.103s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.103s] -- looking for PCL_RECOGNITION
+[3.104s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.104s] -- looking for PCL_STEREO
+[3.104s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.104s] -- looking for PCL_APPS
+[3.105s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.106s] -- looking for PCL_IN_HAND_SCANNER
+[3.106s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.106s] -- looking for PCL_MODELER
+[3.106s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.106s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.107s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.107s] -- looking for PCL_OUTOFCORE
+[3.107s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.108s] -- looking for PCL_PEOPLE
+[3.108s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.109s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.111s] -- Found OpenCV: /usr/local (found version "4.8.0") 
+[3.111s] -- Found my_msgss: 0.0.0 (/home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake)
+[3.121s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.321s] -- Configuring done
+[3.366s] -- Generating done
+[3.369s] -- Build files have been written to: /home/mechax/zyb/radar_station/build/get_depth
+[3.395s] Invoked command in '/home/mechax/zyb/radar_station/build/get_depth' returned '0': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mechax/zyb/radar_station/src/get_depth -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/install/get_depth
+[3.396s] Invoking command in '/home/mechax/zyb/radar_station/build/get_depth': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/get_depth -- -j16 -l16
+[3.456s] [ 50%] [32mBuilding CXX object CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o[0m
+[8.896s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K In member function ‘[01m[Kvoid GetDepth::frame_point_match(const Distpoints&, my_msgss::msg::Distpoints&)[m[K’:
+[8.896s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:173:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Distpoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Distpoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[8.897s]   173 |     for (int k = 0; [01;35m[Kk < this_frame.data.size()[m[K; k++) {
+[8.897s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.898s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K In member function ‘[01m[Kvoid GetDepth::far_yoloCallback(const Yolopoints&)[m[K’:
+[8.898s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:198:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[8.898s]   198 |         if ([01;35m[Kfar_depth_queue.size() == length_of_cloud_queue[m[K) {
+[8.898s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.899s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:204:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Yolopoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Yolopoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[8.899s]   204 |         for (int j = 0; [01;35m[Kj < (input).data.size()[m[K; j++) {
+[8.899s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.902s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K In member function ‘[01m[Kvoid GetDepth::close_yoloCallback(const Yolopoints&)[m[K’:
+[8.902s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:260:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[8.902s]   260 |         if ([01;35m[Kclose_depth_queue.size() == length_of_cloud_queue[m[K) {
+[8.902s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.902s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:265:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Yolopoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Yolopoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[8.902s]   265 |         for (int j = 0; [01;35m[Kj < (input).data.size()[m[K; j++) {
+[8.902s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[16.511s] [100%] [32m[1mLinking CXX executable get_depth_node[0m
+[18.572s] [100%] Built target get_depth_node
+[18.581s] Invoked command in '/home/mechax/zyb/radar_station/build/get_depth' returned '0': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/get_depth -- -j16 -l16
+[18.599s] Invoking command in '/home/mechax/zyb/radar_station/build/get_depth': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mechax/zyb/radar_station/build/get_depth
+[18.603s] -- Install configuration: ""
+[18.603s] -- Execute custom install script
+[18.603s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/lib/get_depth/get_depth_node
+[18.609s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth//launch/get_depth_launch.py
+[18.613s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/ament_index/resource_index/package_run_dependencies/get_depth
+[18.618s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/ament_index/resource_index/parent_prefix_path/get_depth
+[18.623s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/environment/ament_prefix_path.sh
+[18.628s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/environment/ament_prefix_path.dsv
+[18.633s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/environment/path.sh
+[18.638s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/environment/path.dsv
+[18.643s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/local_setup.bash
+[18.648s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/local_setup.sh
+[18.653s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/local_setup.zsh
+[18.657s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/local_setup.dsv
+[18.664s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/package.dsv
+[18.669s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/ament_index/resource_index/packages/get_depth
+[18.674s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/cmake/get_depthConfig.cmake
+[18.680s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/cmake/get_depthConfig-version.cmake
+[18.685s] -- Symlinking: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/package.xml
+[18.691s] Invoked command in '/home/mechax/zyb/radar_station/build/get_depth' returned '0': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mechax/zyb/radar_station/build/get_depth

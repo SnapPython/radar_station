@@ -1,0 +1,252 @@
+[0.045s] Invoking command in '/home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss -- -j16 -l16
+[0.059s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.141s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.144s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.326s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.599s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.613s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.613s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.613s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.620s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.642s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.642s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss/rosidl_generator_c>;$<BUILD_INTERFACE:/home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss/rosidl_typesupport_introspection_cpp>;/home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss/rosidl_generator_c;/home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss/rosidl_generator_py
+[0.642s] -- Configured cppcheck exclude dirs and/or files: 
+[0.645s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.649s] -- Added test 'lint_cmake' to check CMake code style
+[0.651s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.667s] -- Added test 'uncrustify' to check C / C++ code style
+[0.667s] -- Configured uncrustify additional arguments: 
+[0.669s] -- Added test 'xmllint' to check XML markup files
+[0.670s] -- Configuring done
+[0.688s] -- Generating done
+[0.689s] -- Build files have been written to: /home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss
+[0.705s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.713s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.718s] [  2%] Built target ament_cmake_python_copy_my_msgss
+[0.846s] running egg_info
+[0.846s] writing my_msgss.egg-info/PKG-INFO
+[0.846s] writing dependency_links to my_msgss.egg-info/dependency_links.txt
+[0.846s] writing top-level names to my_msgss.egg-info/top_level.txt
+[0.848s] reading manifest file 'my_msgss.egg-info/SOURCES.txt'
+[0.848s] writing manifest file 'my_msgss.egg-info/SOURCES.txt'
+[0.869s] [  2%] Built target ament_cmake_python_build_my_msgss_egg
+[0.987s] [  2%] Built target my_msgss__cpp
+[0.993s] [35m[1mConsolidate compiler generated dependencies of target my_msgss__rosidl_generator_c[0m
+[0.993s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.993s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.996s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.001s] [  8%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/yolopoint__functions.c.o[0m
+[1.006s] [ 15%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/distpoints__functions.c.o[0m
+[1.006s] [ 15%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/points__functions.c.o[0m
+[1.006s] [ 15%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/yolopoints__functions.c.o[0m
+[1.006s] [ 15%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/distpoint__functions.c.o[0m
+[1.006s] [ 15%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/point__functions.c.o[0m
+[1.057s] [ 16%] [32m[1mLinking C shared library libmy_msgss__rosidl_generator_c.so[0m
+[1.080s] [ 16%] Built target my_msgss__rosidl_generator_c
+[1.086s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.090s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.090s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.192s] [35m[1mConsolidate compiler generated dependencies of target my_msgss__rosidl_typesupport_cpp[0m
+[1.202s] [ 22%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/distpoint__type_support.cpp.o[0m
+[1.205s] [ 25%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/yolopoint__type_support.cpp.o[0m
+[1.205s] [ 25%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/yolopoints__type_support.cpp.o[0m
+[1.205s] [ 26%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/point__type_support.cpp.o[0m
+[1.205s] [ 28%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/points__type_support.cpp.o[0m
+[1.207s] [ 29%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/distpoints__type_support.cpp.o[0m
+[1.302s] [35m[1mConsolidate compiler generated dependencies of target my_msgss__rosidl_typesupport_fastrtps_cpp[0m
+[1.333s] [ 32%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/yolopoint__type_support.cpp.o[0m
+[1.337s] [ 32%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/yolopoints__type_support.cpp.o[0m
+[1.338s] [ 35%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/points__type_support.cpp.o[0m
+[1.339s] [ 35%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/distpoints__type_support.cpp.o[0m
+[1.340s] [ 36%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/distpoint__type_support.cpp.o[0m
+[1.357s] [ 38%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[1.403s] Traceback (most recent call last):
+[1.404s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 31, in <module>
+[1.404s] Traceback (most recent call last):
+[1.404s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>
+[1.404s]     sys.exit(main())
+[1.404s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 27, in main
+[1.404s]     generate_c(args.generator_arguments_file)
+[1.404s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py", line 31, in generate_c
+[1.404s]     return generate_files(generator_arguments_file, mapping)
+[1.404s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[1.404s]     sys.exit(main())
+[1.404s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main
+[1.404s]     generate_cpp(args.generator_arguments_file)
+[1.404s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp
+[1.404s]     expand_template(
+[1.405s] Traceback (most recent call last):
+[1.405s] gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/my_msgss/msg/detail/yolopoint__rosidl_typesupport_introspection_c.h'
+[1.405s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/build.make:126: CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/yolopoint__type_support.cpp.o] Interrupt
+[1.405s]   File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 28, in <module>
+[1.405s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/build.make:196: CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/points__type_support.cpp.o] Interrupt
+[1.405s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/build.make:168: CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/distpoints__type_support.cpp.o] Interrupt
+[1.405s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/build.make:154: CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/distpoint__type_support.cpp.o] Interrupt
+[1.405s] gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_c/my_msgss/msg/detail/yolopoint__rosidl_typesupport_fastrtps_c.h'
+[1.405s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/build.make:106: CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/yolopoint__type_support.cpp.o] Interrupt
+[1.405s] gmake[2]: *** Deleting file 'rosidl_typesupport_c/my_msgss/msg/yolopoint__type_support.cpp'
+[1.406s] gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/my_msgss/msg/detail/yolopoint__rosidl_typesupport_introspection_cpp.hpp'
+[1.406s]     return generate_files(generator_arguments_file, mapping)
+[1.406s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/build.make:134: CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/distpoint__type_support.cpp.o] Interrupt
+[1.406s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[1.406s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/build.make:162: CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/point__type_support.cpp.o] Interrupt
+[1.406s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/build.make:140: CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/yolopoints__type_support.cpp.o] Interrupt
+[1.406s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[1.406s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/build.make:176: CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/points__type_support.cpp.o] Interrupt
+[1.406s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/build.make:182: CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/point__type_support.cpp.o] Interrupt
+[1.406s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/build.make:148: CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/distpoints__type_support.cpp.o] Interrupt
+[1.406s] gmake[2]: *** wait: No child processes.  Stop.
+[1.406s] gmake[2]: *** Waiting for unfinished jobs....
+[1.406s] gmake[2]: *** wait: No child processes.  Stop.
+[1.406s]     expand_template(
+[1.406s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[1.406s]     interpreter.string(template_content, template_path, locals=data)
+[1.406s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[1.406s]     interpreter.string(template_content, template_path, locals=data)
+[1.406s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[1.406s]     sys.exit(main())
+[1.406s]   File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 24, in main
+[1.406s]     generate_c(args.generator_arguments_file, args.typesupports)
+[1.407s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py", line 28, in generate_c
+[1.407s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/all] Error 2
+[1.407s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[1.407s]     self.safe(scanner, True, locals)
+[1.407s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[1.407s]     self.safe(scanner, True, locals)
+[1.407s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[1.407s]     self.parse(scanner, locals)
+[1.407s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[1.407s]     self.parse(scanner, locals)
+[1.407s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[1.407s]     token.run(self, locals)
+[1.407s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[1.407s]     token.run(self, locals)
+[1.407s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[1.407s]     self.subrun(info[0][1], interpreter, locals)
+[1.407s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[1.407s]     self.subrun(info[0][1], interpreter, locals)
+[1.407s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[1.408s]     token.run(interpreter, locals)
+[1.408s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[1.408s]     interpreter.execute(self.code, locals)
+[1.408s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[1.408s]     token.run(interpreter, locals)
+[1.408s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[1.408s]     interpreter.execute(self.code, locals)
+[1.408s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[1.409s]     _exec(statements, self.globals, locals)
+[1.409s]   File "<string>", line 2, in <module>
+[1.409s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[1.409s]     interpreter.string(content, str(template_path), kwargs)
+[1.409s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[1.409s]     _exec(statements, self.globals, locals)
+[1.409s]   File "<string>", line 2, in <module>
+[1.409s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[1.409s]     interpreter.string(content, str(template_path), kwargs)
+[1.409s]     self.safe(scanner, True, locals)
+[1.409s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[1.409s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[1.409s]     self.parse(scanner, locals)
+[1.409s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[1.409s]     self.safe(scanner, True, locals)
+[1.409s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[1.409s]     token.run(self, locals)
+[1.409s]   File "/usr/lib/python3/dist-packages/em.py", line 1527, in run
+[1.409s]     self.subrun(subtokens, interpreter, locals)
+[1.409s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[1.410s]     self.parse(scanner, locals)
+[1.410s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[1.410s]     token.run(interpreter, locals)
+[1.410s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[1.410s]     self.subrun(info[0][1], interpreter, locals)
+[1.410s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[1.410s]     token = scanner.one()
+[1.410s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[1.411s]     token.run(interpreter, locals)
+[1.411s]   File "/usr/lib/python3/dist-packages/em.py", line 1526, in run
+[1.411s]     token.scan(self)
+[1.411s]   File "/usr/lib/python3/dist-packages/em.py", line 1309, in scan
+[1.411s]     if interpreter.evaluate(secondary.rest, locals):
+[1.411s]   File "/usr/lib/python3/dist-packages/em.py", line 2568, in evaluate
+[1.411s]     z = scanner.complex('(', ')', 0)
+[1.411s]   File "/usr/lib/python3/dist-packages/em.py", line 1892, in complex
+[1.411s]     self.push()
+[1.411s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[1.411s]     return generate_files(
+[1.411s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[1.411s]     sys.stdout.push(self)
+[1.411s] KeyboardInterrupt
+[1.411s]     while i < end:
+[1.411s] KeyboardInterrupt
+[1.411s]     expand_template(
+[1.411s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[1.411s]     interpreter.string(template_content, template_path, locals=data)
+[1.412s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[1.412s]     self.safe(scanner, True, locals)
+[1.412s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[1.412s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_c.dir/build.make:87: rosidl_typesupport_fastrtps_c/my_msgss/msg/detail/yolopoint__rosidl_typesupport_fastrtps_c.h] Interrupt
+[1.412s]     self.parse(scanner, locals)
+[1.412s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[1.412s] gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+[1.412s]     token.run(self, locals)
+[1.412s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[1.412s]     self.subrun(info[0][1], interpreter, locals)
+[1.412s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[1.412s]     token.run(interpreter, locals)
+[1.412s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[1.412s]     interpreter.execute(self.code, locals)
+[1.412s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[1.412s]     _exec(statements, self.globals, locals)
+[1.412s]   File "<string>", line 2, in <module>
+[1.412s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[1.412s]     interpreter.string(content, str(template_path), kwargs)
+[1.413s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[1.413s]     self.safe(scanner, True, locals)
+[1.413s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[1.413s]     self.parse(scanner, locals)
+[1.413s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[1.413s]     token = scanner.one()
+[1.413s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[1.413s]     token.scan(self)
+[1.413s]   File "/usr/lib/python3/dist-packages/em.py", line 1421, in scan
+[1.413s]     i = scanner.complex('{', '}', 0)
+[1.413s]   File "/usr/lib/python3/dist-packages/em.py", line 1893, in complex
+[1.413s]     newQuote = self.check(i, quote)
+[1.413s]   File "/usr/lib/python3/dist-packages/em.py", line 1766, in check
+[1.413s]     if self[i] in '\'\"':
+[1.413s]   File "/usr/lib/python3/dist-packages/em.py", line 1683, in __getitem__
+[1.413s]     if isinstance(index, slice):
+[1.413s] KeyboardInterrupt
+[1.426s] Exception ignored in: <function Interpreter.__del__ at 0x7f1690002440>
+[1.426s] Traceback (most recent call last):
+[1.426s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[1.426s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[1.426s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[1.427s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[1.427s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[1.431s] Exception ignored in: <function Interpreter.__del__ at 0x7fdc31ebe440>
+[1.431s] Traceback (most recent call last):
+[1.431s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[1.431s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[1.431s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[1.431s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[1.431s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[1.436s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_introspection_c.dir/build.make:87: rosidl_typesupport_introspection_c/my_msgss/msg/detail/yolopoint__rosidl_typesupport_introspection_c.h] Interrupt
+[1.436s] gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/my_msgss__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[1.440s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_introspection_cpp.dir/build.make:87: rosidl_typesupport_introspection_cpp/my_msgss/msg/detail/yolopoint__rosidl_typesupport_introspection_cpp.hpp] Interrupt
+[1.441s] gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/my_msgss__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[1.449s] Exception ignored in: <function Interpreter.__del__ at 0x7f9c50102320>
+[1.449s] Traceback (most recent call last):
+[1.449s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[1.449s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[1.449s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[1.449s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[1.449s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[1.458s] gmake[2]: *** [CMakeFiles/my_msgss__rosidl_typesupport_c.dir/build.make:85: rosidl_typesupport_c/my_msgss/msg/yolopoint__type_support.cpp] Interrupt
+[1.458s] gmake[1]: *** [CMakeFiles/Makefile2:290: CMakeFiles/my_msgss__rosidl_typesupport_c.dir/all] Interrupt
+[1.459s] gmake: *** [Makefile:146: all] Interrupt
+[1.460s] Invoked command in '/home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/my_msgss/build/my_msgss -- -j16 -l16

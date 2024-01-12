@@ -1,0 +1,53 @@
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::camera_pnp_calibration()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:173:50:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+  173 |                        close_Rjacob, close_T,[01;35m[Kcv::SOLVEPNP_AP3P[m[K);
+      |                                              [01;35m[K~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:206:47:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+  206 |                        far_Rjacob, far_T, [01;35m[Kcv::SOLVEPNP_AP3P[m[K);
+      |                                           [01;35m[K~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In function ‘[01m[Kvoid onMouse(int, int, int, int, void*)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:242:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kour_R3[m[K’ was not declared in this scope
+  242 |         [01;31m[Kour_R3[m[K = {Point(0, 572), Point(0, 705), Point(157, 705), Point(157, 654), Point(31, 572)};
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:238:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  238 | void onMouse(int event, int x, int y, [01;35m[Kint flags[m[K, void *userdata)
+      |                                       [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kbool Game_Map::is_enemy_car(uint8_t)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:280:17:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  280 |         if (([01;35m[Kid >= 0[m[K && id <= 8))
+      |              [01;35m[K~~~^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::remove_duplicate()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:303:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  303 |         int [01;35m[Ktest2[m[K=pointPolygonTest(right_region, calculate_pixel_codi(i), false);
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:314:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  314 |         int [01;35m[Ktest2[m[K=pointPolygonTest(left_region, calculate_pixel_codi(i), false);
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::warn_on_map(const Points&, cv::Mat&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:384:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  384 |     for (int i = 0; [01;35m[Ki < our_warn_regions.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:400:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Point_<std::allocator<void> >, std::allocator<my_msgss::msg::Point_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  400 |     for (int i = 0; [01;35m[Ki < relative_coordinates.data.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:410:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  410 |     for (int i = 0; [01;35m[Ki < enemy_warn_regions.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::draw_warn_region(cv::Mat&, const std::vector<std::vector<cv::Point_<int> > >&, const std::vector<std::vector<cv::Point_<int> > >&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:503:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kregion[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  503 |     for (const vector<Point> &[01;35m[Kregion[m[K: our_regions) {
+      |                               [01;35m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:506:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kregion[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  506 |     for (const vector<Point> &[01;35m[Kregion[m[K: enemy_regions) {
+      |                               [01;35m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::far_distPointCallback(const Distpoints&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:517:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Distpoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Distpoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  517 |     for (int i = 0; [01;35m[Ki < input.data.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::close_distPointCallback(const Distpoints&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:603:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Distpoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Distpoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  603 |     for (int i = 0; [01;35m[Ki < input.data.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Game_Map.dir/build.make:76: CMakeFiles/Game_Map.dir/src/game_map.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Game_Map.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

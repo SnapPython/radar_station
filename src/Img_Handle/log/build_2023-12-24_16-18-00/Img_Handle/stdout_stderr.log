@@ -1,0 +1,11 @@
+[ 37%] [32mBuilding CXX object CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o[0m
+[ 37%] Built target Img_Pub
+[ 75%] Built target main
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/img_sub.hpp:8:10:[m[K [01;31m[Kfatal error: [m[KMy_Customize_Msg/install/include/my_msgss/msg/yolopoint.hpp: No such file or directory
+    8 | #include [01;31m[K"My_Customize_Msg/install/include/my_msgss/msg/yolopoint.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/Img_Sub.dir/build.make:76: CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/Img_Sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

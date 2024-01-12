@@ -1,0 +1,2 @@
+Invoking command in '/home/mechax/zyb/radar_station/src/Game_Map/build/Game_Map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechax/zyb/radar_station/src/Game_Map -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/src/Game_Map/install/Game_Map
+Invoked command in '/home/mechax/zyb/radar_station/src/Game_Map/build/Game_Map' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechax/zyb/radar_station/src/Game_Map -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/src/Game_Map/install/Game_Map

@@ -1,0 +1,506 @@
+[35m[1mConsolidate compiler generated dependencies of target Game_Map[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Game_Map.dir/src/game_map.cpp.o[0m
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In constructor ‘[01m[KGame_Map::Game_Map()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[KimgRow[m[K’ was not declared in this scope; did you mean ‘[01m[KimgRows[m[K’?
+    9 |     [01;31m[KimgRow[m[K = 1024.0;
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[KimgRows[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::get_parameter()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:68:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [29], int&)[m[K’
+   68 |     [01;31m[Kthis->get_parameter("/small_map/small_map_shift_X", X_shift)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:69:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [29], int&)[m[K’
+   69 |     [01;31m[Kthis->get_parameter("/small_map/small_map_shift_Y", Y_shift)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:72:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   72 |     [01;31m[Kthis->get_parameter("/sensor_far/point1/x", far_objectPoints[0].x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:73:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   73 |     [01;31m[Kthis->get_parameter("/sensor_far/point1/y", far_objectPoints[0].y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:74:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   74 |     [01;31m[Kthis->get_parameter("/sensor_far/point1/z", far_objectPoints[0].z)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:75:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   75 |     [01;31m[Kthis->get_parameter("/sensor_far/point2/x", far_objectPoints[1].x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:76:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   76 |     [01;31m[Kthis->get_parameter("/sensor_far/point2/y", far_objectPoints[1].y)[m[K);
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:77:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   77 |     [01;31m[Kthis->get_parameter("/sensor_far/point2/z", far_objectPoints[1].z)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:78:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   78 |     [01;31m[Kthis->get_parameter("/sensor_far/point3/x", far_objectPoints[2].x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:79:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   79 |     [01;31m[Kthis->get_parameter("/sensor_far/point3/y", far_objectPoints[2].y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:80:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   80 |     [01;31m[Kthis->get_parameter("/sensor_far/point3/z", far_objectPoints[2].z)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:81:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   81 |     [01;31m[Kthis->get_parameter("/sensor_far/point4/x", far_objectPoints[3].x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:82:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   82 |     [01;31m[Kthis->get_parameter("/sensor_far/point4/y", far_objectPoints[3].y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:83:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [21], double&)[m[K’
+   83 |     [01;31m[Kthis->get_parameter("/sensor_far/point4/z", far_objectPoints[3].z)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:85:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [35], double&)[m[K’
+   85 |     [01;31m[Kthis->get_parameter("/sensor_far/camera_matrix/zerozero", far_CamMatrix_.at<double>(0, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:86:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [34], double&)[m[K’
+   86 |     [01;31m[Kthis->get_parameter("/sensor_far/camera_matrix/zerotwo", far_CamMatrix_.at<double>(0, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:87:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [33], double&)[m[K’
+   87 |     [01;31m[Kthis->get_parameter("/sensor_far/camera_matrix/oneone", far_CamMatrix_.at<double>(1, 1))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:88:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [33], double&)[m[K’
+   88 |     [01;31m[Kthis->get_parameter("/sensor_far/camera_matrix/onetwo", far_CamMatrix_.at<double>(1, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:89:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [33], double&)[m[K’
+   89 |     [01;31m[Kthis->get_parameter("/sensor_far/camera_matrix/twotwo", far_CamMatrix_.at<double>(2, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:95:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [40], double&)[m[K’
+   95 |     [01;31m[Kthis->get_parameter("/sensor_far/distortion_coefficient/zero", far_distCoeffs_.at<double>(0, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:96:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [39], double&)[m[K’
+   96 |     [01;31m[Kthis->get_parameter("/sensor_far/distortion_coefficient/one", far_distCoeffs_.at<double>(1, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:97:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [39], double&)[m[K’
+   97 |     [01;31m[Kthis->get_parameter("/sensor_far/distortion_coefficient/two", far_distCoeffs_.at<double>(2, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:98:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [41], double&)[m[K’
+   98 |     [01;31m[Kthis->get_parameter("/sensor_far/distortion_coefficient/three", far_distCoeffs_.at<double>(3, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:99:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [40], double&)[m[K’
+   99 |     [01;31m[Kthis->get_parameter("/sensor_far/distortion_coefficient/four", far_distCoeffs_.at<double>(4, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:102:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  102 |     [01;31m[Kthis->get_parameter("/sensor_close/point1/x", close_objectPoints[0].x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:103:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  103 |     [01;31m[Kthis->get_parameter("/sensor_close/point1/y", close_objectPoints[0].y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:104:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  104 |     [01;31m[Kthis->get_parameter("/sensor_close/point1/z", close_objectPoints[0].z)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:105:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  105 |     [01;31m[Kthis->get_parameter("/sensor_close/point2/x", close_objectPoints[1].x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:106:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  106 |     [01;31m[Kthis->get_parameter("/sensor_close/point2/y", close_objectPoints[1].y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:107:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  107 |     [01;31m[Kthis->get_parameter("/sensor_close/point2/z", close_objectPoints[1].z)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:108:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  108 |     [01;31m[Kthis->get_parameter("/sensor_close/point3/x", close_objectPoints[2].x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:109:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  109 |     [01;31m[Kthis->get_parameter("/sensor_close/point3/y", close_objectPoints[2].y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:110:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  110 |     [01;31m[Kthis->get_parameter("/sensor_close/point3/z", close_objectPoints[2].z)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:111:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  111 |     [01;31m[Kthis->get_parameter("/sensor_close/point4/x", close_objectPoints[3].x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:112:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  112 |     [01;31m[Kthis->get_parameter("/sensor_close/point4/y", close_objectPoints[3].y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:113:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [23], double&)[m[K’
+  113 |     [01;31m[Kthis->get_parameter("/sensor_close/point4/z", close_objectPoints[3].z)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:115:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [37], double&)[m[K’
+  115 |     [01;31m[Kthis->get_parameter("/sensor_close/camera_matrix/zerozero", close_CamMatrix_.at<double>(0, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:116:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [36], double&)[m[K’
+  116 |     [01;31m[Kthis->get_parameter("/sensor_close/camera_matrix/zerotwo", close_CamMatrix_.at<double>(0, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:117:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [35], double&)[m[K’
+  117 |     [01;31m[Kthis->get_parameter("/sensor_close/camera_matrix/oneone", close_CamMatrix_.at<double>(1, 1))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:118:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [35], double&)[m[K’
+  118 |     [01;31m[Kthis->get_parameter("/sensor_close/camera_matrix/onetwo", close_CamMatrix_.at<double>(1, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:119:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [35], double&)[m[K’
+  119 |     [01;31m[Kthis->get_parameter("/sensor_close/camera_matrix/twotwo", close_CamMatrix_.at<double>(2, 2))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:125:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [42], double&)[m[K’
+  125 |     [01;31m[Kthis->get_parameter("/sensor_close/distortion_coefficient/zero", close_distCoeffs_.at<double>(0, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:126:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [41], double&)[m[K’
+  126 |     [01;31m[Kthis->get_parameter("/sensor_close/distortion_coefficient/one", close_distCoeffs_.at<double>(1, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:127:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [41], double&)[m[K’
+  127 |     [01;31m[Kthis->get_parameter("/sensor_close/distortion_coefficient/two", close_distCoeffs_.at<double>(2, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:128:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [43], double&)[m[K’
+  128 |     [01;31m[Kthis->get_parameter("/sensor_close/distortion_coefficient/three", close_distCoeffs_.at<double>(3, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:129:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [42], double&)[m[K’
+  129 |     [01;31m[Kthis->get_parameter("/sensor_close/distortion_coefficient/four", close_distCoeffs_.at<double>(4, 0))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:132:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [27], std::string&)[m[K’
+  132 |     [01;31m[Kthis->get_parameter("/battle_state/battle_color", btlcolor)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::camera_pnp_calibration()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:141:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  141 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point1/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:142:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  142 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point1/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:147:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  147 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point2/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:148:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  148 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point2/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:153:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  153 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point3/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:154:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  154 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point3/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:159:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  159 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point4/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:160:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [50], float&)[m[K’
+  160 |     [01;31m[Kthis->get_parameter("/camera/list/closeCam/calibrationDefault/point4/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:169:50:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+  169 |                        close_Rjacob, close_T,[01;35m[Kcv::SOLVEPNP_AP3P[m[K);
+      |                                              [01;35m[K~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:174:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  174 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point1/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:175:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  175 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point1/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:180:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  180 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point2/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:181:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  181 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point2/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:186:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  186 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point3/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:187:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  187 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point3/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:192:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  192 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point4/x", x)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:193:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGame_Map::get_parameter(const char [48], float&)[m[K’
+  193 |     [01;31m[Kthis->get_parameter("/camera/list/farCam/calibrationDefault/point4/y", y)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Game_Map::get_parameter()[m[K’
+   66 | void [01;36m[KGame_Map[m[K::get_parameter()
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:66:6:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:202:47:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+  202 |                        far_Rjacob, far_T, [01;35m[Kcv::SOLVEPNP_AP3P[m[K);
+      |                                           [01;35m[K~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::onMouse(int, int, int, int, void*)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:216:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  216 | void Game_Map::onMouse(int event, int x, int y, [01;35m[Kint flags[m[K, void *userdata)
+      |                                                 [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kbool Game_Map::is_enemy_car(uint8_t)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:257:17:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  257 |         if (([01;35m[Kid >= 0[m[K && id <= 8))
+      |              [01;35m[K~~~^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::remove_duplicate()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:280:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  280 |         int [01;35m[Ktest2[m[K=pointPolygonTest(right_region, calculate_pixel_codi(i), false);
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:291:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  291 |         int [01;35m[Ktest2[m[K=pointPolygonTest(left_region, calculate_pixel_codi(i), false);
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::warn_on_map(const Points&, cv::Mat&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:361:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  361 |     for (int i = 0; [01;35m[Ki < our_warn_regions.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:377:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Point_<std::allocator<void> >, std::allocator<my_msgss::msg::Point_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  377 |     for (int i = 0; [01;35m[Ki < relative_coordinates.data.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:387:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  387 |     for (int i = 0; [01;35m[Ki < enemy_warn_regions.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::draw_warn_region(cv::Mat&, const std::vector<std::vector<cv::Point_<int> > >&, const std::vector<std::vector<cv::Point_<int> > >&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:480:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kregion[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  480 |     for (const vector<Point> &[01;35m[Kregion[m[K: our_regions) {
+      |                               [01;35m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:483:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kregion[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  483 |     for (const vector<Point> &[01;35m[Kregion[m[K: enemy_regions) {
+      |                               [01;35m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::far_distPointCallback(const Distpoints&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:494:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Distpoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Distpoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  494 |     for (int i = 0; [01;35m[Ki < input.data.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In member function ‘[01m[Kvoid Game_Map::close_distPointCallback(const Distpoints&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:580:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Distpoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Distpoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  580 |     for (int i = 0; [01;35m[Ki < input.data.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:649:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  649 | int main([01;35m[Kint argc[m[K, char* argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:649:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  649 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Game_Map.dir/build.make:76: CMakeFiles/Game_Map.dir/src/game_map.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Game_Map.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target Get_Img[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/get_img.cpp.o[0m
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:[m[K In member function ‘[01m[Kvoid GetImg::timer_callback()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:44:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kh_camera_[m[K’ was not declared in this scope
+   44 |     CameraGetImageBuffer([01;31m[Kh_camera_[m[K, &sFrameInfo_, &pbyBuffer_, 1000);
+      |                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:44:38:[m[K [01;31m[Kerror: [m[K‘[01m[KsFrameInfo_[m[K’ was not declared in this scope
+   44 |     CameraGetImageBuffer(h_camera_, &[01;31m[KsFrameInfo_[m[K, &pbyBuffer_, 1000);
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:44:52:[m[K [01;31m[Kerror: [m[K‘[01m[KpbyBuffer_[m[K’ was not declared in this scope
+   44 |     CameraGetImageBuffer(h_camera_, &sFrameInfo_, &[01;31m[KpbyBuffer_[m[K, 1000);
+      |                                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:47:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg_[m[K’ was not declared in this scope
+   47 |         [01;31m[Kimg_[m[K = cv::Mat(sFrameInfo_.iHeight, sFrameInfo_.iWidth, CV_8UC1, pbyBuffer_);
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg_[m[K’ was not declared in this scope
+   51 |         [01;31m[Kimg_[m[K = cv::Mat(sFrameInfo_.iHeight, sFrameInfo_.iWidth, CV_8UC3, pbyBuffer_);
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:62:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg_[m[K’ was not declared in this scope
+   62 |     img_msg.height = [01;31m[Kimg_[m[K.rows;
+      |                      [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

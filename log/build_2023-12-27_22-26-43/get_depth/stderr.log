@@ -1,0 +1,10 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_CONPILE_COMMANDS
+
+[0m
+gmake[2]: *** [CMakeFiles/get_depth_node.dir/build.make:76: CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/get_depth_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,49 @@
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:[m[K In constructor ‘[01m[KImg_Sub::Img_Sub()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:3:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KInference::Inference()[m[K’
+    3 | Img_Sub::Img_Sub() : Node("img_sub"[01;31m[K)[m[K
+      |                                    [01;31m[K^[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/img_sub.hpp:7[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:27:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KInference::Inference(const string&, const Size&, const string&, const bool&)[m[K’
+   27 |     [01;36m[KInference[m[K(const std::string &onnxModelPath, const cv::Size &modelInputShape = {640, 640}, const std::string &classesTxtFile = "", const bool &runWithCuda = true);
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:27:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:24:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KInference::Inference(const Inference&)[m[K’
+   24 | class [01;36m[KInference[m[K
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:24:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:24:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KInference::Inference(Inference&&)[m[K’
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:24:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:3:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KInference::Inference()[m[K’
+    3 | Img_Sub::Img_Sub() : Node("img_sub"[01;31m[K)[m[K
+      |                                    [01;31m[K^[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/img_sub.hpp:7[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:27:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KInference::Inference(const string&, const Size&, const string&, const bool&)[m[K’
+   27 |     [01;36m[KInference[m[K(const std::string &onnxModelPath, const cv::Size &modelInputShape = {640, 640}, const std::string &classesTxtFile = "", const bool &runWithCuda = true);
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:27:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:24:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KInference::Inference(const Inference&)[m[K’
+   24 | class [01;36m[KInference[m[K
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:24:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:24:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KInference::Inference(Inference&&)[m[K’
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/inference.h:24:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:[m[K In member function ‘[01m[Kvoid Img_Sub::yolo_init()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:41:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kinf_armors[m[K’
+   41 |     this->inf_armor = Inference [01;31m[Kinf_armors[m[K("/home/mechax/zyb/radar_station/src/Img_Handle/Yolov8_weight/armor/weights/best.onnx",
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:45:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kinf_robots[m[K’
+   45 |     this->inf_robot = Inference [01;31m[Kinf_robots[m[K("/home/mechax/zyb/radar_station/src/Img_Handle/Yolov8_weight/robot/weights/best.onnx",
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:38:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KrunOnGPU[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   38 |     bool [01;35m[KrunOnGPU[m[K = false;
+      |          [01;35m[K^~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:[m[K In member function ‘[01m[Kvoid Img_Sub::yolo_identify()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:61:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kthia[m[K’ was not declared in this scope; did you mean ‘[01m[Kthis[m[K’?
+   61 |         cv::resize([01;31m[Kthia[m[K->sub_img, this->sub_img, cv::Size(this->sub_img.cols, this->sub_img.rows));
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kthis[m[K
+gmake[2]: *** [CMakeFiles/Img_Sub.dir/build.make:76: CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/Img_Sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,37 @@
+[0.071s] Invoking command in '/home/mechax/zyb/radar_station/build/Img_Handle': CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/zyb/radar_station/install/get_depth:/home/mechax/zyb/radar_station/install/Img_Handle:/home/mechax/zyb/radar_station/install/Game_Map:/home/mechax/zyb/radar_station/install/Yolo_Handle:/home/mechax/zyb/radar_station/install/Get_Camera_Img:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/Img_Handle -- -j16 -l16
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target Img_Sub[0m
+[0.105s] [ 62%] Built target main
+[0.105s] [ 62%] Built target Img_Pub
+[0.111s] [ 75%] [32mBuilding CXX object CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o[0m
+[2.343s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:[m[K In member function ‘[01m[Kvoid Img_Sub::draw_img()[m[K’:
+[2.343s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:191:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Yolopoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Yolopoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.343s]   191 |     for(int i =0 ;[01;35m[Ki<this->robot_boxes.data.size()[m[K;i++)
+[2.343s]       |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.006s] [ 87%] [32m[1mLinking CXX executable Img_Sub[0m
+[7.159s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+[7.159s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+[7.160s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[7.513s] [100%] Built target Img_Sub
+[7.521s] Invoked command in '/home/mechax/zyb/radar_station/build/Img_Handle' returned '0': CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/zyb/radar_station/install/get_depth:/home/mechax/zyb/radar_station/install/Img_Handle:/home/mechax/zyb/radar_station/install/Game_Map:/home/mechax/zyb/radar_station/install/Yolo_Handle:/home/mechax/zyb/radar_station/install/Get_Camera_Img:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/Img_Handle -- -j16 -l16
+[7.541s] Invoking command in '/home/mechax/zyb/radar_station/build/Img_Handle': CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/zyb/radar_station/install/get_depth:/home/mechax/zyb/radar_station/install/Img_Handle:/home/mechax/zyb/radar_station/install/Game_Map:/home/mechax/zyb/radar_station/install/Yolo_Handle:/home/mechax/zyb/radar_station/install/Get_Camera_Img:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/mechax/zyb/radar_station/build/Img_Handle
+[7.546s] -- Install configuration: ""
+[7.546s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/lib/Img_Handle/Img_Pub
+[7.546s] -- Installing: /home/mechax/zyb/radar_station/install/Img_Handle/lib/Img_Handle/Img_Sub
+[7.548s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/Img_Handle/lib/Img_Handle/Img_Sub" to ""
+[7.548s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/lib/Img_Handle/main
+[7.549s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/ament_index/resource_index/package_run_dependencies/Img_Handle
+[7.549s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/ament_index/resource_index/parent_prefix_path/Img_Handle
+[7.549s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/environment/ament_prefix_path.sh
+[7.549s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/environment/ament_prefix_path.dsv
+[7.549s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/environment/path.sh
+[7.549s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/environment/path.dsv
+[7.549s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/local_setup.bash
+[7.549s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/local_setup.sh
+[7.549s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/local_setup.zsh
+[7.549s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/local_setup.dsv
+[7.549s] -- Installing: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/package.dsv
+[7.550s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/ament_index/resource_index/packages/Img_Handle
+[7.550s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/cmake/Img_HandleConfig.cmake
+[7.550s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/cmake/Img_HandleConfig-version.cmake
+[7.551s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Img_Handle/share/Img_Handle/package.xml
+[7.552s] Invoked command in '/home/mechax/zyb/radar_station/build/Img_Handle' returned '0': CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/zyb/radar_station/install/get_depth:/home/mechax/zyb/radar_station/install/Img_Handle:/home/mechax/zyb/radar_station/install/Game_Map:/home/mechax/zyb/radar_station/install/Yolo_Handle:/home/mechax/zyb/radar_station/install/Get_Camera_Img:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/mechax/zyb/radar_station/build/Img_Handle

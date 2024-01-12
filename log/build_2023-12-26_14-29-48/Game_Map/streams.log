@@ -1,0 +1,11 @@
+[0.088s] Invoking command in '/home/mechax/zyb/radar_station/build/Game_Map': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/Game_Map -- -j16 -l16
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/Game_Map.dir/src/game_map.cpp.o[0m
+[0.126s] In file included from [01m[K/home/mechax/zyb/radar_station/src/Game_Map/src/game_map.cpp:1[m[K:
+[0.126s] [01m[K/home/mechax/zyb/radar_station/src/Game_Map/include/game_map.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/image_encodings.hpp: No such file or directory
+[0.127s]     1 | #include [01;31m[K"sensor_msgs/msg/image_encodings.hpp"[m[K
+[0.127s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.127s] compilation terminated.
+[0.128s] gmake[2]: *** [CMakeFiles/Game_Map.dir/build.make:76: CMakeFiles/Game_Map.dir/src/game_map.cpp.o] Error 1
+[0.128s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Game_Map.dir/all] Error 2
+[0.128s] gmake: *** [Makefile:146: all] Error 2
+[0.130s] Invoked command in '/home/mechax/zyb/radar_station/build/Game_Map' returned '2': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/Game_Map -- -j16 -l16

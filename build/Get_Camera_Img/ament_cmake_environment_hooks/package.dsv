@@ -1,0 +1,4 @@
+source;share/Get_Camera_Img/local_setup.bash
+source;share/Get_Camera_Img/local_setup.dsv
+source;share/Get_Camera_Img/local_setup.sh
+source;share/Get_Camera_Img/local_setup.zsh

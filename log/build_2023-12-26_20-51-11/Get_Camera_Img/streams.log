@@ -1,0 +1,88 @@
+[0.084s] Invoking command in '/home/mechax/zyb/radar_station/build/Get_Camera_Img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechax/zyb/radar_station/src/Get_Camera_Img -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/install/Get_Camera_Img
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.150s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.260s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.369s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.435s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.464s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.468s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.474s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.497s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.540s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.542s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.600s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.618s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.646s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.653s] -- Looking for pthread.h
+[0.695s] -- Looking for pthread.h - found
+[0.695s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.740s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.741s] -- Found Threads: TRUE  
+[0.833s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.907s] -- Found OpenCV: /usr/local (found version "4.8.0") 
+[0.908s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.913s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.949s] WARNING: Package name "Get_Camera_Img" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.977s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.977s] -- Configured cppcheck include dirs: /home/mechax/zyb/radar_station/src/Get_Camera_Img/include
+[0.977s] -- Configured cppcheck exclude dirs and/or files: 
+[0.978s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.981s] -- Added test 'lint_cmake' to check CMake code style
+[0.983s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.993s] -- Added test 'uncrustify' to check C / C++ code style
+[0.993s] -- Configured uncrustify additional arguments: 
+[0.994s] -- Added test 'xmllint' to check XML markup files
+[0.995s] -- Configuring done
+[1.001s] -- Generating done
+[1.002s] -- Build files have been written to: /home/mechax/zyb/radar_station/build/Get_Camera_Img
+[1.009s] Invoked command in '/home/mechax/zyb/radar_station/build/Get_Camera_Img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechax/zyb/radar_station/src/Get_Camera_Img -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/install/Get_Camera_Img
+[1.010s] Invoking command in '/home/mechax/zyb/radar_station/build/Get_Camera_Img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/Get_Camera_Img -- -j16 -l16
+[1.037s] [ 33%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/get_img.cpp.o[0m
+[1.038s] [ 66%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o[0m
+[4.263s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:[m[K In constructor ‘[01m[KMVCamera::MVCamera()[m[K’:
+[4.263s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:17:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.263s]    17 |     [01;35m[KtCapability[m[K;      //设备描述信息
+[4.263s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[4.263s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:18:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.263s]    18 |     [01;35m[KsFrameInfo[m[K;
+[4.263s]       |     [01;35m[K^~~~~~~~~~[m[K
+[4.264s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:[m[K In member function ‘[01m[Kint MVCamera::Init(int)[m[K’:
+[4.264s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:32:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcam_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.264s]    32 |     int [01;35m[Kcam_id[m[K;
+[4.265s]       |         [01;35m[K^~~~~~[m[K
+[11.338s] [100%] [32m[1mLinking CXX executable Get_Img[0m
+[11.522s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+[11.522s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[11.993s] [100%] Built target Get_Img
+[12.002s] Invoked command in '/home/mechax/zyb/radar_station/build/Get_Camera_Img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/Get_Camera_Img -- -j16 -l16
+[12.019s] Invoking command in '/home/mechax/zyb/radar_station/build/Get_Camera_Img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechax/zyb/radar_station/build/Get_Camera_Img
+[12.024s] -- Install configuration: ""
+[12.024s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/lib/Get_Camera_Img/Get_Img
+[12.027s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/Get_Camera_Img/lib/Get_Camera_Img/Get_Img" to ""
+[12.027s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/ament_index/resource_index/package_run_dependencies/Get_Camera_Img
+[12.027s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/ament_index/resource_index/parent_prefix_path/Get_Camera_Img
+[12.027s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/environment/ament_prefix_path.sh
+[12.027s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/environment/ament_prefix_path.dsv
+[12.027s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/environment/path.sh
+[12.027s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/environment/path.dsv
+[12.027s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/local_setup.bash
+[12.028s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/local_setup.sh
+[12.028s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/local_setup.zsh
+[12.028s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/local_setup.dsv
+[12.028s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/package.dsv
+[12.028s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/ament_index/resource_index/packages/Get_Camera_Img
+[12.028s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/cmake/Get_Camera_ImgConfig.cmake
+[12.028s] -- Installing: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/cmake/Get_Camera_ImgConfig-version.cmake
+[12.028s] -- Up-to-date: /home/mechax/zyb/radar_station/install/Get_Camera_Img/share/Get_Camera_Img/package.xml
+[12.029s] Invoked command in '/home/mechax/zyb/radar_station/build/Get_Camera_Img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechax/zyb/radar_station/build/Get_Camera_Img

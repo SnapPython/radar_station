@@ -1,0 +1,95 @@
+[0.036s] Invoking command in '/home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img -- -j16 -l16
+[0.051s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.143s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.160s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.162s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.165s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.212s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.213s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.283s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.373s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.446s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.449s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.481s] WARNING: Package name "Get_Camera_Img" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.501s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.501s] -- Configured cppcheck include dirs: /home/mechax/zyb/radar_station/src/Get_Camera_Img/include
+[0.501s] -- Configured cppcheck exclude dirs and/or files: 
+[0.503s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.505s] -- Added test 'lint_cmake' to check CMake code style
+[0.506s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.516s] -- Added test 'uncrustify' to check C / C++ code style
+[0.516s] -- Configured uncrustify additional arguments: 
+[0.518s] -- Added test 'xmllint' to check XML markup files
+[0.519s] -- Configuring done
+[0.525s] -- Generating done
+[0.526s] -- Build files have been written to: /home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img
+[0.544s] [35m[1mConsolidate compiler generated dependencies of target Get_Img[0m
+[0.557s] [ 66%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/get_img.cpp.o[0m
+[0.557s] [ 66%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o[0m
+[2.744s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:[m[K In constructor ‘[01m[KMVCamera::MVCamera()[m[K’:
+[2.744s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:17:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.744s]    17 |     [01;35m[KtCapability[m[K;      //设备描述信息
+[2.744s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[2.745s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:18:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.745s]    18 |     [01;35m[KsFrameInfo[m[K;
+[2.745s]       |     [01;35m[K^~~~~~~~~~[m[K
+[2.746s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:[m[K In member function ‘[01m[Kint MVCamera::Init(int)[m[K’:
+[2.746s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:32:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcam_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.746s]    32 |     int [01;35m[Kcam_id[m[K;
+[2.746s]       |         [01;35m[K^~~~~~[m[K
+[8.549s] [100%] [32m[1mLinking CXX executable Get_Img[0m
+[8.731s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+[8.731s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[9.097s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Init(int)':
+[9.097s] MVCamera.cpp:(.text+0x15c): undefined reference to `CameraSdkInit'
+[9.097s] /usr/bin/ld: MVCamera.cpp:(.text+0x1cb): undefined reference to `CameraEnumerateDevice'
+[9.097s] /usr/bin/ld: MVCamera.cpp:(.text+0x357): undefined reference to `CameraInit'
+[9.097s] /usr/bin/ld: MVCamera.cpp:(.text+0x3e0): undefined reference to `CameraPlay'
+[9.098s] /usr/bin/ld: MVCamera.cpp:(.text+0x404): undefined reference to `CameraSetIspOutFormat'
+[9.098s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Uninit()':
+[9.098s] MVCamera.cpp:(.text+0x4f8): undefined reference to `CameraSaveParameter'
+[9.098s] /usr/bin/ld: MVCamera.cpp:(.text+0x531): undefined reference to `CameraUnInit'
+[9.098s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetExposureTime(bool, double)':
+[9.098s] MVCamera.cpp:(.text+0x687): undefined reference to `CameraSetAeState'
+[9.098s] /usr/bin/ld: MVCamera.cpp:(.text+0x706): undefined reference to `CameraSetAeState'
+[9.098s] /usr/bin/ld: MVCamera.cpp:(.text+0x751): undefined reference to `CameraSetExposureTime'
+[9.098s] /usr/bin/ld: MVCamera.cpp:(.text+0x802): undefined reference to `CameraGetCapability'
+[9.098s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetExposureTime()':
+[9.098s] MVCamera.cpp:(.text+0x83e): undefined reference to `CameraGetAeState'
+[9.098s] /usr/bin/ld: MVCamera.cpp:(.text+0x86c): undefined reference to `CameraGetExposureTime'
+[9.098s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetLargeResolution(bool)':
+[9.098s] MVCamera.cpp:(.text+0x94e): undefined reference to `CameraSetImageResolution'
+[9.098s] /usr/bin/ld: MVCamera.cpp:(.text+0x9d8): undefined reference to `CameraSetImageResolution'
+[9.098s] /usr/bin/ld: MVCamera.cpp:(.text+0x9ed): undefined reference to `CameraSetImageResolution'
+[9.098s] /usr/bin/ld: MVCamera.cpp:(.text+0xa6e): undefined reference to `CameraGetCapability'
+[9.099s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetWBMode(bool)':
+[9.099s] MVCamera.cpp:(.text+0xab3): undefined reference to `CameraSetWbMode'
+[9.099s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetWBMode(bool&)':
+[9.099s] MVCamera.cpp:(.text+0xbb7): undefined reference to `CameraGetWbMode'
+[9.099s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetOnceWB()':
+[9.099s] MVCamera.cpp:(.text+0xc32): undefined reference to `CameraSetOnceWB'
+[9.099s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetGain(double)':
+[9.099s] MVCamera.cpp:(.text+0xcb0): undefined reference to `CameraSetGain'
+[9.099s] /usr/bin/ld: MVCamera.cpp:(.text+0xcfc): undefined reference to `CameraGetCapability'
+[9.099s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetGain()':
+[9.099s] MVCamera.cpp:(.text+0xd3d): undefined reference to `CameraGetGain'
+[9.099s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Play()':
+[9.099s] MVCamera.cpp:(.text+0xddb): undefined reference to `CameraGetCapability'
+[9.099s] /usr/bin/ld: MVCamera.cpp:(.text+0xde9): undefined reference to `CameraPlay'
+[9.099s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Read()':
+[9.099s] MVCamera.cpp:(.text+0xe2e): undefined reference to `CameraGetImageBuffer'
+[9.099s] /usr/bin/ld: MVCamera.cpp:(.text+0xe88): undefined reference to `CameraImageProcess'
+[9.099s] /usr/bin/ld: MVCamera.cpp:(.text+0xed3): undefined reference to `CameraReleaseImageBuffer'
+[9.099s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Set_fps(int)':
+[9.099s] MVCamera.cpp:(.text+0xf16): undefined reference to `CameraSetFrameSpeed'
+[9.099s] /usr/bin/ld: MVCamera.cpp:(.text+0xf51): undefined reference to `CameraGetCapability'
+[9.099s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetFrame_B(cv::Mat&, bool)':
+[9.099s] MVCamera.cpp:(.text+0xff8): undefined reference to `CameraGetImageBuffer'
+[9.099s] /usr/bin/ld: MVCamera.cpp:(.text+0x120f): undefined reference to `CameraReleaseImageBuffer'
+[9.140s] collect2: error: ld returned 1 exit status
+[9.141s] gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:207: Get_Img] Error 1
+[9.142s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+[9.142s] gmake: *** [Makefile:146: all] Error 2
+[9.144s] Invoked command in '/home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img -- -j16 -l16

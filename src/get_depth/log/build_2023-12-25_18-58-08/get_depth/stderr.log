@@ -1,0 +1,6 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[31mCMake Error at CMakeLists.txt:34 (target_link_directories):
+  Cannot specify link directories for target "GetDepth" which is not built by
+  this project.
+
+[0m

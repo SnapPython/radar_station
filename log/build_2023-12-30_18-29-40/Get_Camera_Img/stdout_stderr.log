@@ -1,0 +1,8 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/get_img.cpp.o[0m
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:[m[K In member function ‘[01m[Kvoid GetImg::camera_init()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:87:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MVCamera[m[K’ has no member named ‘[01m[KCameraSetDisplaySize[m[K’
+   87 |     mv_driver->[01;31m[KCameraSetDisplaySize[m[K(init_suc, 640, 480)
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

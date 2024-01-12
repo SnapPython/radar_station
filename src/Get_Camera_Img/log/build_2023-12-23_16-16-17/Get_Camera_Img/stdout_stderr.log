@@ -1,0 +1,31 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/get_img.cpp.o[0m
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:[m[K In member function ‘[01m[Kvoid GetImg::camera_init()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmv_driver[m[K’ was not declared in this scope
+   69 |     [01;31m[Kmv_driver[m[K = &mvcamera;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:[m[K In member function ‘[01m[Kvoid GetImg::get_exp(const Int16&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:122:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmv_driver[m[K’ was not declared in this scope
+  122 |         [01;31m[Kmv_driver[m[K->SetExposureTime(autoexposure_, exposure_);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:[m[K In member function ‘[01m[Kvoid GetImg::get_is_large(const Bool&)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:133:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmv_driver[m[K’ was not declared in this scope
+  133 |         [01;31m[Kmv_driver[m[K->SetExposureTime(0, 3000);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:135:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmv_driver[m[K’ was not declared in this scope
+  135 |         [01;31m[Kmv_driver[m[K->SetExposureTime(0, 1500);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:[m[K In constructor ‘[01m[KMVCamera::MVCamera()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:17:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   17 |     [01;35m[KtCapability[m[K;      //设备描述信息
+      |     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:18:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   18 |     [01;35m[KsFrameInfo[m[K;
+      |     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:[m[K In member function ‘[01m[Kint MVCamera::Init(int)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:32:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcam_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   32 |     int [01;35m[Kcam_id[m[K;
+      |         [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

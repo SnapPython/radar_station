@@ -1,0 +1,10 @@
+[0.103s] Invoking command in '/home/mechax/zyb/radar_station/build/Game_Map': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/Game_Map -- -j16 -l16
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/Game_Map.dir/src/game_map.cpp.o[0m
+[2.472s] [100%] [32m[1mLinking CXX executable Game_Map[0m
+[2.568s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.569s] (.text+0x1b): undefined reference to `main'
+[2.572s] collect2: error: ld returned 1 exit status
+[2.573s] gmake[2]: *** [CMakeFiles/Game_Map.dir/build.make:198: Game_Map] Error 1
+[2.573s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Game_Map.dir/all] Error 2
+[2.573s] gmake: *** [Makefile:146: all] Error 2
+[2.576s] Invoked command in '/home/mechax/zyb/radar_station/build/Game_Map' returned '2': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/Game_Map -- -j16 -l16

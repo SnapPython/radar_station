@@ -1,0 +1,573 @@
+[0.030s] Invoking command in '/home/mechax/zyb/radar_station/build/get_depth': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/get_depth -- -j16 -l16
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target get_depth_node[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o[0m
+[4.172s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.172s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:31:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ has not been declared
+[4.172s]    31 |   void write_csv(std::string filename, [01;31m[Kvector[m[K<float> vals);
+[4.172s]       |                                        [01;31m[K^~~~~~[m[K
+[4.172s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:31:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[4.172s]    31 |   void write_csv(std::string filename, vector[01;31m[K<[m[Kfloat> vals);
+[4.172s]       |                                              [01;31m[K^[m[K
+[4.174s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type
+[4.174s]    32 |   [01;31m[KMat[m[K Cloud2Mat(const pcl::PointCloud<pcl::PointXYZ>::Ptr &input);//Convert PointCloud to Mat
+[4.174s]       |   [01;31m[K^~~[m[K
+[4.174s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:33:19:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ has not been declared
+[4.174s]    33 |   void MatProject([01;31m[KMat[m[K &input_depth, Mat &input_uv, Mat &Cam_matrix, Mat &Uni_matrix);
+[4.174s]       |                   [01;31m[K^~~[m[K
+[4.174s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:33:37:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ has not been declared
+[4.174s]    33 |   void MatProject(Mat &input_depth, [01;31m[KMat[m[K &input_uv, Mat &Cam_matrix, Mat &Uni_matrix);
+[4.174s]       |                                     [01;31m[K^~~[m[K
+[4.174s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:33:52:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ has not been declared
+[4.174s]    33 |   void MatProject(Mat &input_depth, Mat &input_uv, [01;31m[KMat[m[K &Cam_matrix, Mat &Uni_matrix);
+[4.174s]       |                                                    [01;31m[K^~~[m[K
+[4.174s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:33:69:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ has not been declared
+[4.174s]    33 |   void MatProject(Mat &input_depth, Mat &input_uv, Mat &Cam_matrix, [01;31m[KMat[m[K &Uni_matrix);
+[4.174s]       |                                                                     [01;31m[K^~~[m[K
+[4.174s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:35:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.174s]    35 |   void far_yoloCallback(const my_msgss::msg::Yolopoints::ConstPtr &input[01;35m[K)[m[K;
+[4.174s]       |                                                                         [01;35m[K^[m[K
+[4.174s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[4.174s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:15[m[K,
+[4.174s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.174s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.174s]   129 |     [01;36m[KConstPtr[m[K;
+[4.174s]       |     [01;36m[K^~~~~~~~[m[K
+[4.174s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.174s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:36:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.174s]    36 |   void close_yoloCallback(const my_msgss::msg::Yolopoints::ConstPtr &input[01;35m[K)[m[K;
+[4.174s]       |                                                                           [01;35m[K^[m[K
+[4.175s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[4.175s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:15[m[K,
+[4.175s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.175s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.175s]   129 |     [01;36m[KConstPtr[m[K;
+[4.175s]       |     [01;36m[K^~~~~~~~[m[K
+[4.175s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.175s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:37:51:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2ConstPtr[m[K’ in namespace ‘[01m[Ksensor_msgs::msg[m[K’ does not name a type
+[4.175s]    37 |   void pointCloudCallback(const sensor_msgs::msg::[01;31m[KPointCloud2ConstPtr[m[K &input);
+[4.175s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.175s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:39:24:[m[K [01;31m[Kerror: [m[K‘[01m[KRect[m[K’ has not been declared
+[4.175s]    39 |   float getDepthInRect([01;31m[KRect[m[K rect, vector<Mat> &depth_queue, radar_msgs::msg::Yolopoint::id id);//得到ROI中点的深度
+[4.175s]       |                        [01;31m[K^~~~[m[K
+[4.175s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:39:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ has not been declared
+[4.175s]    39 |   float getDepthInRect(Rect rect, [01;31m[Kvector[m[K<Mat> &depth_queue, radar_msgs::msg::Yolopoint::id id);//得到ROI中点的深度
+[4.175s]       |                                   [01;31m[K^~~~~~[m[K
+[4.175s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:39:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[4.175s]    39 |   float getDepthInRect(Rect rect, vector[01;31m[K<[m[KMat> &depth_queue, radar_msgs::msg::Yolopoint::id id);//得到ROI中点的深度
+[4.175s]       |                                         [01;31m[K^[m[K
+[4.181s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:50:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kradar_msgs[m[K’ does not name a type
+[4.181s]    50 |   [01;31m[Kradar_msgs[m[K::msg::Distpoint outpost_distance_it;
+[4.181s]       |   [01;31m[K^~~~~~~~~~[m[K
+[4.182s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:53:42:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2ConstPtr[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[4.182s]    53 |   rclcpp::Subscription<sensor_msgs::msg::[01;31m[KPointCloud2ConstPtr[m[K>::SharedPtr cloud_sub;
+[4.182s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.182s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:53:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.182s]    53 |   rclcpp::Subscription<sensor_msgs::msg::PointCloud2ConstPtr[01;31m[K>[m[K::SharedPtr cloud_sub;
+[4.182s]       |                                                             [01;31m[K^[m[K
+[4.182s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:53:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[4.182s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:53:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[4.182s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:53:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[4.182s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:53:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.182s]    53 |   rclcpp::Subscription<sensor_msgs::msg::PointCloud2ConstPtr>::[01;31m[KSharedPtr[m[K cloud_sub;
+[4.182s]       |                                                                [01;31m[K^~~~~~~~~[m[K
+[4.182s]       |                                                                         [32m[K;[m[K
+[4.185s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:53:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_sub[m[K’ does not name a type
+[4.185s]    53 |   rclcpp::Subscription<sensor_msgs::msg::PointCloud2ConstPtr>::SharedPtr [01;31m[Kcloud_sub[m[K;
+[4.185s]       |                                                                          [01;31m[K^~~~~~~~~[m[K
+[4.185s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:54:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.185s]    54 |   rclcpp::Subscription<my_msgss::msg::Yolopoints::[01;35m[KConstPtr[m[K>::SharedPtr far_yolo_sub;
+[4.185s]       |                                                   [01;35m[K^~~~~~~~[m[K
+[4.185s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[4.185s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:15[m[K,
+[4.185s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.185s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.185s]   129 |     [01;36m[KConstPtr[m[K;
+[4.185s]       |     [01;36m[K^~~~~~~~[m[K
+[4.207s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.208s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:55:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.208s]    55 |   rclcpp::Subscription<my_msgss::msg::Yolopoints::[01;35m[KConstPtr[m[K>::SharedPtr close_yolo_sub;
+[4.208s]       |                                                   [01;35m[K^~~~~~~~[m[K
+[4.208s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[4.208s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:15[m[K,
+[4.208s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.208s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.208s]   129 |     [01;36m[KConstPtr[m[K;
+[4.208s]       |     [01;36m[K^~~~~~~~[m[K
+[4.210s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.210s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:56:3:[m[K [01;31m[Kerror: [m[K‘[01m[KrCLCPP[m[K’ does not name a type
+[4.210s]    56 |   [01;31m[KrCLCPP[m[K::Subscription<my_msgss::msg::points>::SharedPtr outpost_Sub;
+[4.210s]       |   [01;31m[K^~~~~~[m[K
+[4.210s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:58:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[4.210s]    58 | }
+[4.210s]       |  [01;31m[K^[m[K
+[4.210s]       |  [32m[K;[m[K
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:27:1:[m[K [01;31m[Kerror: [m[Kmissing type-name in typedef-declaration
+[4.213s]    27 | [01;31m[Ktypedef[m[K struct {
+[4.213s]       | [01;31m[K^~~~~~~[m[K
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:60:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid GetDepth::write_csv(std::string, std::vector<float>)[m[K’
+[4.213s]    60 | void [01;31m[KGetDepth[m[K::write_csv(std::string filename, vector<float> vals) {
+[4.213s]       |      [01;31m[K^~~~~~~~[m[K
+[4.213s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid GetDepth::write_csv(std::string, int)[m[K’
+[4.213s]    31 |   void [01;36m[Kwrite_csv[m[K(std::string filename, vector<float> vals);
+[4.213s]       |        [01;36m[K^~~~~~~~~[m[K
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass GetDepth[m[K’ defined here
+[4.213s]    21 | class [01;36m[KGetDepth[m[K : public::rclcpp::Node
+[4.213s]       |       [01;36m[K^~~~~~~~[m[K
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:76:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kcv::Mat GetDepth::Cloud2Mat(const Ptr&)[m[K’
+[4.213s]    76 | Mat [01;31m[KGetDepth[m[K::Cloud2Mat(const pcl::PointCloud<pcl::PointXYZ>::Ptr &input) {
+[4.213s]       |     [01;31m[K^~~~~~~~[m[K
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:76:5:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kcv::Mat GetDepth::Cloud2Mat(const Ptr&)[m[K’
+[4.213s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass GetDepth[m[K’ defined here
+[4.213s]    21 | class [01;36m[KGetDepth[m[K : public::rclcpp::Node
+[4.213s]       |       [01;36m[K^~~~~~~~[m[K
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:93:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid GetDepth::MatProject(cv::Mat&, cv::Mat&, cv::Mat&, cv::Mat&)[m[K’
+[4.213s]    93 | void [01;31m[KGetDepth[m[K::MatProject(Mat &input_depth, Mat &input_uv, Mat &Cam_matrix, Mat &Uni_matrix) {
+[4.213s]       |      [01;31m[K^~~~~~~~[m[K
+[4.213s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:33:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid GetDepth::MatProject(int&, int&, int&, int&)[m[K’
+[4.213s]    33 |   void [01;36m[KMatProject[m[K(Mat &input_depth, Mat &input_uv, Mat &Cam_matrix, Mat &Uni_matrix);
+[4.213s]       |        [01;36m[K^~~~~~~~~~[m[K
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass GetDepth[m[K’ defined here
+[4.213s]    21 | class [01;36m[KGetDepth[m[K : public::rclcpp::Node
+[4.213s]       |       [01;36m[K^~~~~~~~[m[K
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:109:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid GetDepth::frame_point_match(const Distpoints&, my_msgss::msg::Distpoints&)[m[K’
+[4.213s]   109 | void [01;31m[KGetDepth[m[K::frame_point_match(const my_msgss::msg::Distpoints &last_frame, my_msgss::msg::Distpoints &this_frame) {
+[4.213s]       |      [01;31m[K^~~~~~~~[m[K
+[4.213s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:34:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid GetDepth::frame_point_match(const Distpoint&, my_msgss::msg::Distpoint&)[m[K’
+[4.213s]    34 |   void [01;36m[Kframe_point_match[m[K(const my_msgss::msg::Distpoint &last_frame, my_msgss::msg::Distpoint &this_frame);
+[4.213s]       |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass GetDepth[m[K’ defined here
+[4.213s]    21 | class [01;36m[KGetDepth[m[K : public::rclcpp::Node
+[4.213s]       |       [01;36m[K^~~~~~~~[m[K
+[4.213s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:125:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.213s]   125 | void GetDepth::far_yoloCallback(const my_msgss::msg::Yolopoints::ConstPtr &input[01;35m[K)[m[K {
+[4.213s]       |                                                                                 [01;35m[K^[m[K
+[4.214s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[4.214s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:15[m[K,
+[4.214s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.214s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.214s]   129 |     [01;36m[KConstPtr[m[K;
+[4.214s]       |     [01;36m[K^~~~~~~~[m[K
+[4.217s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K In member function ‘[01m[Kvoid GetDepth::far_yoloCallback(const ConstPtr&)[m[K’:
+[4.217s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:126:109:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’)
+[4.217s]   126 |     far_distancePointPub = this->create_publisher<my_msgss::msg::Distpoints>("/sensor_far/distance_point", 1[01;31m[K)[m[K;
+[4.217s]       |                                                                                                             [01;31m[K^[m[K
+[4.217s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.217s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11[m[K,
+[4.217s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:81[m[K,
+[4.217s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[4.217s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[4.217s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.217s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[4.217s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.218s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[4.218s]       |         [01;36m[K^~~~~~~~[m[K
+[4.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.218s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’:
+[4.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> >][m[K’
+[4.218s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:126:109:[m[K   required from here
+[4.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >&>[m[K’
+[4.218s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[4.218s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[4.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.218s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[4.218s]       |         [01;36m[K^~~~~~~~[m[K
+[4.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.218s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:126:109:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[4.218s]   126 |     far_distancePointPub = this->create_publisher<my_msgss::msg::Distpoints>("/sensor_far/distance_point", 1[01;36m[K)[m[K;
+[4.218s]       |                                                                                                             [01;36m[K^[m[K
+[4.218s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.218s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11[m[K,
+[4.218s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:81[m[K,
+[4.218s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[4.218s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[4.218s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.218s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[4.218s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.218s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[4.218s]       |         [01;36m[K^~~~~~~~[m[K
+[4.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.218s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’:
+[4.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> >][m[K’
+[4.218s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:126:109:[m[K   required from here
+[4.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >&>[m[K’
+[4.218s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[4.218s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[4.219s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.219s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[4.219s]       |         [01;36m[K^~~~~~~~[m[K
+[4.219s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.219s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:126:109:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[4.219s]   126 |     far_distancePointPub = this->create_publisher<my_msgss::msg::Distpoints>("/sensor_far/distance_point", 1[01;36m[K)[m[K;
+[4.219s]       |                                                                                                             [01;36m[K^[m[K
+[4.219s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.219s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11[m[K,
+[4.219s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:81[m[K,
+[4.219s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[4.219s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[4.219s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.219s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[4.219s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.219s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.219s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[4.219s]       |                   [01;36m[K^~~~~~~~[m[K
+[4.219s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >&[m[K’
+[4.219s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[4.219s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.219s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.219s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[4.219s]       |       [01;36m[K^~~~~~~~[m[K
+[4.219s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >&&[m[K’
+[4.219s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[4.219s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[4.219s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:127:106:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’)
+[4.219s]   127 |     outpost_distancePointPub = this->create_publisher<my_msgss::msg::Distpoints>("/sensor_far/outpost", 1[01;31m[K)[m[K;
+[4.219s]       |                                                                                                          [01;31m[K^[m[K
+[4.219s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.219s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11[m[K,
+[4.219s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:81[m[K,
+[4.219s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[4.219s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[4.219s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.219s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[4.219s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.219s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.219s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[4.219s]       |         [01;36m[K^~~~~~~~[m[K
+[4.219s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.219s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.219s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[4.219s]       |         [01;36m[K^~~~~~~~[m[K
+[4.219s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.219s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:127:106:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[4.220s]   127 |     outpost_distancePointPub = this->create_publisher<my_msgss::msg::Distpoints>("/sensor_far/outpost", 1[01;36m[K)[m[K;
+[4.220s]       |                                                                                                          [01;36m[K^[m[K
+[4.220s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.220s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11[m[K,
+[4.220s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:81[m[K,
+[4.220s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[4.220s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[4.220s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.220s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[4.220s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.220s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.220s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[4.220s]       |         [01;36m[K^~~~~~~~[m[K
+[4.220s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.220s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.220s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[4.220s]       |         [01;36m[K^~~~~~~~[m[K
+[4.220s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.220s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:127:106:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[4.220s]   127 |     outpost_distancePointPub = this->create_publisher<my_msgss::msg::Distpoints>("/sensor_far/outpost", 1[01;36m[K)[m[K;
+[4.220s]       |                                                                                                          [01;36m[K^[m[K
+[4.220s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.220s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11[m[K,
+[4.220s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:81[m[K,
+[4.220s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[4.220s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[4.220s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.220s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[4.220s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.220s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.220s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[4.220s]       |                   [01;36m[K^~~~~~~~[m[K
+[4.220s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >&[m[K’
+[4.220s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[4.220s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.220s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.220s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[4.220s]       |       [01;36m[K^~~~~~~~[m[K
+[4.220s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >&&[m[K’
+[4.220s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[4.220s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[4.220s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:130:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Distpoint = struct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[4.220s]   130 |     std::vector<my_msgss::msg::Distpoint>().swap(far_distance_it.[01;31m[Kdata[m[K);
+[4.220s]       |                                                                  [01;31m[K^~~~[m[K
+[4.226s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:132:28:[m[K [01;31m[Kerror: [m[K‘[01m[KCloud2Mat[m[K’ was not declared in this scope
+[4.226s]   132 |         Mat far_MatCloud = [01;31m[KCloud2Mat[m[K(cloud);
+[4.226s]       |                            [01;31m[K^~~~~~~~~[m[K
+[4.226s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:133:20:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kint&[m[K’
+[4.226s]   133 |         MatProject([01;31m[Kfar_depthes[m[K, far_MatCloud, far_camera_matrix, far_uni_matrix);
+[4.226s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[4.226s]       |                    [01;31m[K|[m[K
+[4.226s]       |                    [01;31m[Kcv::Mat[m[K
+[4.226s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.226s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:33:24:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid GetDepth::MatProject(int&, int&, int&, int&)[m[K’
+[4.226s]    33 |   void MatProject([01;36m[KMat &input_depth[m[K, Mat &input_uv, Mat &Cam_matrix, Mat &Uni_matrix);
+[4.226s]       |                   [01;36m[K~~~~~^~~~~~~~~~~[m[K
+[4.226s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:136:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.226s]   136 |         if ([01;35m[Kfar_depth_queue.size() == length_of_cloud_queue[m[K) {
+[4.226s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.229s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:141:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Yolopoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Yolopoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.229s]   141 |         for (int j = 0; [01;35m[Kj < (*input).data.size()[m[K; j++) {
+[4.229s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.229s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:145:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGetDepth::getDepthInRect(cv::Rect, std::vector<cv::Mat>&, const _id_type&)[m[K’
+[4.229s]   145 |             point_it.dist = [01;31m[KgetDepthInRect([m[K
+[4.229s]       |                             [01;31m[K~~~~~~~~~~~~~~^[m[K
+[4.229s]   146 | [01;31m[K                    Rect((*input).data[j].x, (*input).data[j].y, (*input).data[j].width, (*input).data[j].height),[m[K
+[4.229s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.229s]   147 | [01;31m[K                    far_depth_queue, (*input).data[j].id)[m[K;
+[4.229s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.229s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.229s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:39:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kfloat GetDepth::getDepthInRect(int, int)[m[K’
+[4.229s]    39 |   float [01;36m[KgetDepthInRect[m[K(Rect rect, vector<Mat> &depth_queue, radar_msgs::msg::Yolopoint::id id);//得到ROI中点的深度
+[4.229s]       |         [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.229s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:39:9:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[4.229s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:148:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst _color_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kmy_msgss::msg::Distpoint_<std::allocator<void> >::_color_type[m[K’ {aka ‘[01m[Kbool[m[K’} in assignment
+[4.229s]   148 |             point_it.color = (*input).data[j].color;
+[4.229s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:150:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Distpoint = struct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[4.229s]   150 |             far_distance_it.[01;31m[Kdata[m[K.push_back(point_it);
+[4.229s]       |                             [01;31m[K^~~~[m[K
+[4.242s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:160:17:[m[K [01;31m[Kerror: [m[K‘[01m[Koutpost_distance_it[m[K’ was not declared in this scope; did you mean ‘[01m[Kclose_distance_it[m[K’?
+[4.242s]   160 |                 [01;31m[Koutpost_distance_it[m[K.x = outpost_point.x - 6;
+[4.242s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.242s]       |                 [32m[Kclose_distance_it[m[K
+[4.242s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:166:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+[4.242s]   166 |                 outpost_distancePointPub.[01;31m[Kpublish[m[K(outpost_distance_it);
+[4.242s]       |                                          [01;31m[K^~~~~~~[m[K
+[4.243s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:177:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+[4.243s]   177 |     far_distancePointPub.[01;31m[Kpublish[m[K(far_distance_it);
+[4.243s]       |                          [01;31m[K^~~~~~~[m[K
+[4.243s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K At global scope:
+[4.243s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:184:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.243s]   184 | void GetDepth::close_yoloCallback(const my_msgss::msg::Yolopoints::ConstPtr &input[01;35m[K)[m[K {
+[4.243s]       |                                                                                   [01;35m[K^[m[K
+[4.243s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[4.243s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:15[m[K,
+[4.243s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.243s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.243s]   129 |     [01;36m[KConstPtr[m[K;
+[4.243s]       |     [01;36m[K^~~~~~~~[m[K
+[4.243s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K In member function ‘[01m[Kvoid GetDepth::close_yoloCallback(const ConstPtr&)[m[K’:
+[4.243s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:185:113:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’)
+[4.243s]   185 |     close_distancePointPub = this->create_publisher<my_msgss::msg::Distpoints>("/sensor_close/distance_point", 1[01;31m[K)[m[K;
+[4.243s]       |                                                                                                                 [01;31m[K^[m[K
+[4.243s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.243s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11[m[K,
+[4.243s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:81[m[K,
+[4.243s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[4.243s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[4.243s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.243s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[4.243s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.243s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.243s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[4.243s]       |         [01;36m[K^~~~~~~~[m[K
+[4.243s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.243s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.243s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[4.243s]       |         [01;36m[K^~~~~~~~[m[K
+[4.244s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.244s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:185:113:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[4.244s]   185 |     close_distancePointPub = this->create_publisher<my_msgss::msg::Distpoints>("/sensor_close/distance_point", 1[01;36m[K)[m[K;
+[4.244s]       |                                                                                                                 [01;36m[K^[m[K
+[4.244s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.244s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11[m[K,
+[4.244s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:81[m[K,
+[4.244s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[4.244s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[4.244s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.244s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[4.244s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.244s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.244s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[4.244s]       |         [01;36m[K^~~~~~~~[m[K
+[4.244s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.244s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.244s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[4.244s]       |         [01;36m[K^~~~~~~~[m[K
+[4.244s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.244s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:185:113:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[4.244s]   185 |     close_distancePointPub = this->create_publisher<my_msgss::msg::Distpoints>("/sensor_close/distance_point", 1[01;36m[K)[m[K;
+[4.244s]       |                                                                                                                 [01;36m[K^[m[K
+[4.244s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.244s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11[m[K,
+[4.244s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:81[m[K,
+[4.244s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[4.244s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[4.244s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.244s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[4.244s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.244s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.244s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[4.244s]       |                   [01;36m[K^~~~~~~~[m[K
+[4.244s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >&[m[K’
+[4.244s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[4.244s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.244s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[4.244s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[4.244s]       |       [01;36m[K^~~~~~~~[m[K
+[4.244s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoints_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >&&[m[K’
+[4.244s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[4.244s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[4.244s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:188:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Distpoint = struct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[4.244s]   188 |     std::vector<my_msgss::msg::Distpoint>().swap(last_close_distance_it.[01;31m[Kdata[m[K);
+[4.244s]       |                                                                         [01;31m[K^~~~[m[K
+[4.245s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:189:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Distpoint = struct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[4.245s]   189 |     for (auto &i: close_distance_it.[01;31m[Kdata[m[K) {
+[4.245s]       |                                     [01;31m[K^~~~[m[K
+[4.245s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:190:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Distpoint = struct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[4.245s]   190 |         last_close_distance_it.[01;31m[Kdata[m[K.emplace_back(i);
+[4.245s]       |                                [01;31m[K^~~~[m[K
+[4.245s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:192:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Distpoint = struct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[4.245s]   192 |     std::vector<my_msgss::msg::Distpoint>().swap(close_distance_it.[01;31m[Kdata[m[K);
+[4.245s]       |                                                                    [01;31m[K^~~~[m[K
+[4.251s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:194:30:[m[K [01;31m[Kerror: [m[K‘[01m[KCloud2Mat[m[K’ was not declared in this scope
+[4.251s]   194 |         Mat close_MatCloud = [01;31m[KCloud2Mat[m[K(cloud);
+[4.251s]       |                              [01;31m[K^~~~~~~~~[m[K
+[4.251s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:195:20:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kint&[m[K’
+[4.251s]   195 |         MatProject([01;31m[Kclose_depthes[m[K, close_MatCloud, close_camera_matrix, close_uni_matrix);
+[4.251s]       |                    [01;31m[K^~~~~~~~~~~~~[m[K
+[4.251s]       |                    [01;31m[K|[m[K
+[4.251s]       |                    [01;31m[Kcv::Mat[m[K
+[4.251s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.251s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:33:24:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid GetDepth::MatProject(int&, int&, int&, int&)[m[K’
+[4.251s]    33 |   void MatProject([01;36m[KMat &input_depth[m[K, Mat &input_uv, Mat &Cam_matrix, Mat &Uni_matrix);
+[4.251s]       |                   [01;36m[K~~~~~^~~~~~~~~~~[m[K
+[4.251s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:198:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.251s]   198 |         if ([01;35m[Kclose_depth_queue.size() == length_of_cloud_queue[m[K) {
+[4.251s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.251s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:203:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Yolopoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Yolopoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.252s]   203 |         for (int j = 0; [01;35m[Kj < (*input).data.size()[m[K; j++) {
+[4.252s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.252s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:207:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGetDepth::getDepthInRect(cv::Rect, std::vector<cv::Mat>&, const _id_type&)[m[K’
+[4.252s]   207 |             point_it.dist = [01;31m[KgetDepthInRect([m[K
+[4.252s]       |                             [01;31m[K~~~~~~~~~~~~~~^[m[K
+[4.252s]   208 | [01;31m[K                    Rect((*input).data[j].x, (*input).data[j].y, (*input).data[j].width, (*input).data[j].height),[m[K
+[4.252s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.252s]   209 | [01;31m[K                    close_depth_queue, (*input).data[j].id)[m[K;
+[4.252s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.252s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.252s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:39:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kfloat GetDepth::getDepthInRect(int, int)[m[K’
+[4.252s]    39 |   float [01;36m[KgetDepthInRect[m[K(Rect rect, vector<Mat> &depth_queue, radar_msgs::msg::Yolopoint::id id);//得到ROI中点的深度
+[4.252s]       |         [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.252s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:39:9:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[4.252s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:226:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst _color_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kmy_msgss::msg::Distpoint_<std::allocator<void> >::_color_type[m[K’ {aka ‘[01m[Kbool[m[K’} in assignment
+[4.252s]   226 |             point_it.color = (*input).data[j].color;
+[4.252s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:228:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Distpoint = struct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[4.252s]   228 |             close_distance_it.[01;31m[Kdata[m[K.push_back(point_it);
+[4.252s]       |                               [01;31m[K^~~~[m[K
+[4.252s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:237:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Distpoint = struct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_msgss::msg::Distpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[4.252s]   237 |         for (auto &i: close_distance_it.[01;31m[Kdata[m[K) {
+[4.252s]       |                                         [01;31m[K^~~~[m[K
+[4.252s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:246:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<my_msgss::msg::Distpoint_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+[4.252s]   246 |     close_distancePointPub.[01;31m[Kpublish[m[K(close_distance_it);
+[4.252s]       |                            [01;31m[K^~~~~~~[m[K
+[4.252s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K At global scope:
+[4.252s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:255:59:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2ConstPtr[m[K’ in namespace ‘[01m[Ksensor_msgs::msg[m[K’ does not name a type
+[4.252s]   255 | void GetDepth::pointCloudCallback(const sensor_msgs::msg::[01;31m[KPointCloud2ConstPtr[m[K &input) {
+[4.252s]       |                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.254s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K In member function ‘[01m[Kvoid GetDepth::pointCloudCallback(const int&)[m[K’:
+[4.254s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:257:10:[m[K [01;31m[Kerror: [m[K‘[01m[KfromROSMsg[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[4.254s]   257 |     pcl::[01;31m[KfromROSMsg[m[K(*input, *cloud);
+[4.254s]       |          [01;31m[K^~~~~~~~~~[m[K
+[4.254s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:257:21:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+[4.254s]   257 |     pcl::fromROSMsg([01;31m[K*input[m[K, *cloud);
+[4.254s]       |                     [01;31m[K^~~~~~[m[K
+[4.254s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K At global scope:
+[4.255s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:276:7:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kfloat GetDepth::getDepthInRect(cv::Rect, std::vector<cv::Mat>&, my_msgss::msg::Yolopoint_<std::allocator<void> >::_id_type)[m[K’
+[4.255s]   276 | float [01;31m[KGetDepth[m[K::getDepthInRect(Rect rect, vector<Mat> &depth_queue, my_msgss::msg::Yolopoint::_id_type id) {
+[4.255s]       |       [01;31m[K^~~~~~~~[m[K
+[4.255s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.255s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:39:9:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kfloat GetDepth::getDepthInRect(int, int)[m[K’
+[4.255s]    39 |   float [01;36m[KgetDepthInRect[m[K(Rect rect, vector<Mat> &depth_queue, radar_msgs::msg::Yolopoint::id id);//得到ROI中点的深度
+[4.255s]       |         [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.255s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass GetDepth[m[K’ defined here
+[4.255s]    21 | class [01;36m[KGetDepth[m[K : public::rclcpp::Node
+[4.255s]       |       [01;36m[K^~~~~~~~[m[K
+[4.261s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.261s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:329:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_sub[m[K’ was not declared in this scope
+[4.261s]   329 |     [01;31m[Kcloud_sub[m[K = this->create_subscription<sensor_msgs::msg::PointCloud2ConstPtr>("/livox/lidar", 1, std::bind(&GetDepth::pointCloudCallback, this, std::placeholders::_1));
+[4.261s]       |     [01;31m[K^~~~~~~~~[m[K
+[4.262s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:329:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.262s]   329 |     cloud_sub = [01;31m[Kthis[m[K->create_subscription<sensor_msgs::msg::PointCloud2ConstPtr>("/livox/lidar", 1, std::bind(&GetDepth::pointCloudCallback, this, std::placeholders::_1));
+[4.262s]       |                 [01;31m[K^~~~[m[K
+[4.263s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:329:61:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2ConstPtr[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[4.263s]   329 |     cloud_sub = this->create_subscription<sensor_msgs::msg::[01;31m[KPointCloud2ConstPtr[m[K>("/livox/lidar", 1, std::bind(&GetDepth::pointCloudCallback, this, std::placeholders::_1));
+[4.263s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.263s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:329:82:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.263s]   329 |     cloud_sub = this->create_subscription<sensor_msgs::msg::PointCloud2ConstPtr>([01;35m[K"/livox/lidar"[m[K, 1, std::bind(&GetDepth::pointCloudCallback, this, std::placeholders::_1));
+[4.263s]       |                                                                                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.263s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:329:122:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid GetDepth::pointCloudCallback(const int&)[m[K’ is private within this context
+[4.263s]   329 |     cloud_sub = this->create_subscription<sensor_msgs::msg::PointCloud2ConstPtr>("/livox/lidar", 1, std::bind(&GetDepth::[01;31m[KpointCloudCallback[m[K, this, std::placeholders::_1));
+[4.263s]       |                                                                                                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.263s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:255:6:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.263s]   255 | void [01;36m[KGetDepth[m[K::pointCloudCallback(const sensor_msgs::msg::PointCloud2ConstPtr &input) {
+[4.263s]       |      [01;36m[K^~~~~~~~[m[K
+[4.263s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:329:142:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.263s]   329 |     cloud_sub = this->create_subscription<sensor_msgs::msg::PointCloud2ConstPtr>("/livox/lidar", 1, std::bind(&GetDepth::pointCloudCallback, [01;31m[Kthis[m[K, std::placeholders::_1));
+[4.263s]       |                                                                                                                                              [01;31m[K^~~~[m[K
+[4.271s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:330:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfar_yolo_sub[m[K’ was not declared in this scope
+[4.271s]   330 |     [01;31m[Kfar_yolo_sub[m[K = this->create_subscription<my_msgss::msg::Yolopoints::ConstPtr>("/far_rectangles", 1, std::bind(&GetDepth::far_yoloCallback, this, std::placeholders::_1));
+[4.271s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.271s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:330:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.271s]   330 |     far_yolo_sub = [01;31m[Kthis[m[K->create_subscription<my_msgss::msg::Yolopoints::ConstPtr>("/far_rectangles", 1, std::bind(&GetDepth::far_yoloCallback, this, std::placeholders::_1));
+[4.271s]       |                    [01;31m[K^~~~[m[K
+[4.271s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:330:81:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.271s]   330 |     far_yolo_sub = this->create_subscription<my_msgss::msg::Yolopoints::ConstPtr[01;31m[K>[m[K("/far_rectangles", 1, std::bind(&GetDepth::far_yoloCallback, this, std::placeholders::_1));
+[4.271s]       |                                                                                 [01;31m[K^[m[K
+[4.271s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:330:83:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.271s]   330 |     far_yolo_sub = this->create_subscription<my_msgss::msg::Yolopoints::ConstPtr>([01;35m[K"/far_rectangles"[m[K, 1, std::bind(&GetDepth::far_yoloCallback, this, std::placeholders::_1));
+[4.271s]       |                                                                                   [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[4.271s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:330:126:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid GetDepth::far_yoloCallback(const ConstPtr&)[m[K’ is private within this context
+[4.271s]   330 |     far_yolo_sub = this->create_subscription<my_msgss::msg::Yolopoints::ConstPtr>("/far_rectangles", 1, std::bind(&GetDepth::[01;31m[Kfar_yoloCallback[m[K, this, std::placeholders::_1));
+[4.271s]       |                                                                                                                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.271s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:125:6:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.271s]   125 | void [01;36m[KGetDepth[m[K::far_yoloCallback(const my_msgss::msg::Yolopoints::ConstPtr &input) {
+[4.271s]       |      [01;36m[K^~~~~~~~[m[K
+[4.271s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:330:144:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.271s]   330 |     far_yolo_sub = this->create_subscription<my_msgss::msg::Yolopoints::ConstPtr>("/far_rectangles", 1, std::bind(&GetDepth::far_yoloCallback, [01;31m[Kthis[m[K, std::placeholders::_1));
+[4.271s]       |                                                                                                                                                [01;31m[K^~~~[m[K
+[4.280s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:331:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclose_yolo_sub[m[K’ was not declared in this scope
+[4.280s]   331 |     [01;31m[Kclose_yolo_sub[m[K = this->create_subscription<my_msgss::msg::Yolopoints::ConstPtr>("/close_rectangles", 1, std::bind(&GetDepth::close_yoloCallback, this, std::placeholders::_1));
+[4.280s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.280s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:331:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.280s]   331 |     close_yolo_sub = [01;31m[Kthis[m[K->create_subscription<my_msgss::msg::Yolopoints::ConstPtr>("/close_rectangles", 1, std::bind(&GetDepth::close_yoloCallback, this, std::placeholders::_1));
+[4.280s]       |                      [01;31m[K^~~~[m[K
+[4.280s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:331:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.280s]   331 |     close_yolo_sub = this->create_subscription<my_msgss::msg::Yolopoints::ConstPtr[01;31m[K>[m[K("/close_rectangles", 1, std::bind(&GetDepth::close_yoloCallback, this, std::placeholders::_1));
+[4.280s]       |                                                                                   [01;31m[K^[m[K
+[4.280s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:331:85:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.280s]   331 |     close_yolo_sub = this->create_subscription<my_msgss::msg::Yolopoints::ConstPtr>([01;35m[K"/close_rectangles"[m[K, 1, std::bind(&GetDepth::close_yoloCallback, this, std::placeholders::_1));
+[4.280s]       |                                                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.280s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:331:130:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid GetDepth::close_yoloCallback(const ConstPtr&)[m[K’ is private within this context
+[4.280s]   331 |     close_yolo_sub = this->create_subscription<my_msgss::msg::Yolopoints::ConstPtr>("/close_rectangles", 1, std::bind(&GetDepth::[01;31m[Kclose_yoloCallback[m[K, this, std::placeholders::_1));
+[4.280s]       |                                                                                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.280s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:184:6:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.280s]   184 | void [01;36m[KGetDepth[m[K::close_yoloCallback(const my_msgss::msg::Yolopoints::ConstPtr &input) {
+[4.280s]       |      [01;36m[K^~~~~~~~[m[K
+[4.280s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:331:150:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.280s]   331 |     close_yolo_sub = this->create_subscription<my_msgss::msg::Yolopoints::ConstPtr>("/close_rectangles", 1, std::bind(&GetDepth::close_yoloCallback, [01;31m[Kthis[m[K, std::placeholders::_1));
+[4.280s]       |                                                                                                                                                      [01;31m[K^~~~[m[K
+[4.286s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:332:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koutpost_Sub[m[K’ was not declared in this scope; did you mean ‘[01m[Koutpost_point[m[K’?
+[4.286s]   332 |     [01;31m[Koutpost_Sub[m[K = this->create_subscription<my_msgss::msg::Points>("/sensor_far/calibration", 1, std::bind(&GetDepth::outpost_Callback, this, std::placeholders::_1));
+[4.286s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.286s]       |     [32m[Koutpost_point[m[K
+[4.286s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:332:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.286s]   332 |     outpost_Sub = [01;31m[Kthis[m[K->create_subscription<my_msgss::msg::Points>("/sensor_far/calibration", 1, std::bind(&GetDepth::outpost_Callback, this, std::placeholders::_1));
+[4.287s]       |                   [01;31m[K^~~~[m[K
+[4.287s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:332:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.287s]   332 |     outpost_Sub = this->create_subscription<my_msgss::msg::Points[01;31m[K>[m[K("/sensor_far/calibration", 1, std::bind(&GetDepth::outpost_Callback, this, std::placeholders::_1));
+[4.287s]       |                                                                  [01;31m[K^[m[K
+[4.287s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:332:68:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.287s]   332 |     outpost_Sub = this->create_subscription<my_msgss::msg::Points>([01;35m[K"/sensor_far/calibration"[m[K, 1, std::bind(&GetDepth::outpost_Callback, this, std::placeholders::_1));
+[4.287s]       |                                                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.287s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:332:119:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid GetDepth::outpost_Callback(const Points&)[m[K’ is private within this context
+[4.287s]   332 |     outpost_Sub = this->create_subscription<my_msgss::msg::Points>("/sensor_far/calibration", 1, std::bind(&GetDepth::[01;31m[Koutpost_Callback[m[K, this, std::placeholders::_1));
+[4.287s]       |                                                                                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.287s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:263:6:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.287s]   263 | void [01;36m[KGetDepth[m[K::outpost_Callback(const my_msgss::msg::Points &outpost) {
+[4.287s]       |      [01;36m[K^~~~~~~~[m[K
+[4.287s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:332:137:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.287s]   332 |     outpost_Sub = this->create_subscription<my_msgss::msg::Points>("/sensor_far/calibration", 1, std::bind(&GetDepth::outpost_Callback, [01;31m[Kthis[m[K, std::placeholders::_1));
+[4.287s]       |                                                                                                                                         [01;31m[K^~~~[m[K
+[5.151s] gmake[2]: *** [CMakeFiles/get_depth_node.dir/build.make:76: CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o] Error 1
+[5.152s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/get_depth_node.dir/all] Error 2
+[5.152s] gmake: *** [Makefile:146: all] Error 2
+[5.154s] Invoked command in '/home/mechax/zyb/radar_station/build/get_depth' returned '2': AMENT_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/zyb/radar_station/install/my_msgss/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/get_depth -- -j16 -l16

@@ -1,0 +1,81 @@
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type
+   29 |     [01;31m[KMat[m[K rawImg;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+   34 |     [01;31m[Kstring[m[K rcd_path_;
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Kstdin[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[KVideoSaver[m[K’ does not name a type
+   35 |     [01;31m[KVideoSaver[m[K saver;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:38:41:[m[K [01;31m[Kerror: [m[K‘[01m[KInt16[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   38 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KInt16[m[K>::SharedPtr cfg_exp_sub;
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:38:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |     rclcpp::Subscription<std_msgs::msg::Int16[01;31m[K>[m[K::SharedPtr cfg_exp_sub;
+      |                                              [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:38:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:38:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:38:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:38:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   38 |     rclcpp::Subscription<std_msgs::msg::Int16>::[01;31m[KSharedPtr[m[K cfg_exp_sub;
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+      |                                                          [32m[K;[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:38:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kcfg_exp_sub[m[K’ does not name a type
+   38 |     rclcpp::Subscription<std_msgs::msg::Int16>::SharedPtr [01;31m[Kcfg_exp_sub[m[K;
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:39:41:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   39 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KBool[m[K>::SharedPtr is_large_sub;
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:39:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |     rclcpp::Subscription<std_msgs::msg::Bool[01;31m[K>[m[K::SharedPtr is_large_sub;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:39:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:39:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:39:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:39:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   39 |     rclcpp::Subscription<std_msgs::msg::Bool>::[01;31m[KSharedPtr[m[K is_large_sub;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:39:48:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint GetImg::SharedPtr[m[K’
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:38:49:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint GetImg::SharedPtr[m[K’
+   38 |     rclcpp::Subscription<std_msgs::msg::Int16>::[01;36m[KSharedPtr[m[K cfg_exp_sub;
+      |                                                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:39:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_large_sub[m[K’ does not name a type
+   39 |     rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr [01;31m[Kis_large_sub[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:40:41:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   40 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KBool[m[K>::SharedPtr is_rcd_sub;
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:40:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   40 |     rclcpp::Subscription<std_msgs::msg::Bool[01;31m[K>[m[K::SharedPtr is_rcd_sub;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:40:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:40:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:40:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:40:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   40 |     rclcpp::Subscription<std_msgs::msg::Bool>::[01;31m[KSharedPtr[m[K is_rcd_sub;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:40:48:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint GetImg::SharedPtr[m[K’
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:38:49:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint GetImg::SharedPtr[m[K’
+   38 |     rclcpp::Subscription<std_msgs::msg::Int16>::[01;36m[KSharedPtr[m[K cfg_exp_sub;
+      |                                                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:40:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_rcd_sub[m[K’ does not name a type
+   40 |     rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr [01;31m[Kis_rcd_sub[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:40:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid GetImg::camera_init()[m[K’
+   40 | void [01;31m[KGetImg[m[K::camera_init()
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:40:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid GetImg::camera_init()[m[K’
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass GetImg[m[K’ defined here
+    7 | class [01;36m[KGetImg[m[K : public::rclcpp::Node
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:79:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   79 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

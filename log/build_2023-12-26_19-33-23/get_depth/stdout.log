@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target get_depth_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable get_depth_node[0m
+[100%] Built target get_depth_node
+-- Install configuration: ""
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/ament_index/resource_index/package_run_dependencies/get_depth
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/ament_index/resource_index/parent_prefix_path/get_depth
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/environment/ament_prefix_path.sh
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/environment/ament_prefix_path.dsv
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/environment/path.sh
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/environment/path.dsv
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/local_setup.bash
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/local_setup.sh
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/local_setup.zsh
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/local_setup.dsv
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/package.dsv
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/ament_index/resource_index/packages/get_depth
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/cmake/get_depthConfig.cmake
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/cmake/get_depthConfig-version.cmake
+-- Installing: /home/mechax/zyb/radar_station/install/get_depth/share/get_depth/package.xml

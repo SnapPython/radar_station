@@ -1,0 +1,55 @@
+[0.031s] Invoking command in '/home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img -- -j16 -l16
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target Get_Img[0m
+[0.071s] [ 33%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/get_img.cpp.o[0m
+[7.535s] [ 66%] [32m[1mLinking CXX executable Get_Img[0m
+[7.875s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Init(int)':
+[7.875s] MVCamera.cpp:(.text+0x15c): undefined reference to `CameraSdkInit'
+[7.875s] /usr/bin/ld: MVCamera.cpp:(.text+0x1cb): undefined reference to `CameraEnumerateDevice'
+[7.875s] /usr/bin/ld: MVCamera.cpp:(.text+0x357): undefined reference to `CameraInit'
+[7.875s] /usr/bin/ld: MVCamera.cpp:(.text+0x3e0): undefined reference to `CameraPlay'
+[7.875s] /usr/bin/ld: MVCamera.cpp:(.text+0x404): undefined reference to `CameraSetIspOutFormat'
+[7.875s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Uninit()':
+[7.875s] MVCamera.cpp:(.text+0x4f8): undefined reference to `CameraSaveParameter'
+[7.875s] /usr/bin/ld: MVCamera.cpp:(.text+0x531): undefined reference to `CameraUnInit'
+[7.875s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetExposureTime(bool, double)':
+[7.875s] MVCamera.cpp:(.text+0x687): undefined reference to `CameraSetAeState'
+[7.875s] /usr/bin/ld: MVCamera.cpp:(.text+0x706): undefined reference to `CameraSetAeState'
+[7.875s] /usr/bin/ld: MVCamera.cpp:(.text+0x751): undefined reference to `CameraSetExposureTime'
+[7.875s] /usr/bin/ld: MVCamera.cpp:(.text+0x802): undefined reference to `CameraGetCapability'
+[7.875s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetExposureTime()':
+[7.876s] MVCamera.cpp:(.text+0x83e): undefined reference to `CameraGetAeState'
+[7.876s] /usr/bin/ld: MVCamera.cpp:(.text+0x86c): undefined reference to `CameraGetExposureTime'
+[7.876s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetLargeResolution(bool)':
+[7.876s] MVCamera.cpp:(.text+0x94e): undefined reference to `CameraSetImageResolution'
+[7.876s] /usr/bin/ld: MVCamera.cpp:(.text+0x9d8): undefined reference to `CameraSetImageResolution'
+[7.876s] /usr/bin/ld: MVCamera.cpp:(.text+0x9ed): undefined reference to `CameraSetImageResolution'
+[7.876s] /usr/bin/ld: MVCamera.cpp:(.text+0xa6e): undefined reference to `CameraGetCapability'
+[7.876s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetWBMode(bool)':
+[7.876s] MVCamera.cpp:(.text+0xab3): undefined reference to `CameraSetWbMode'
+[7.876s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetWBMode(bool&)':
+[7.876s] MVCamera.cpp:(.text+0xbb7): undefined reference to `CameraGetWbMode'
+[7.876s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetOnceWB()':
+[7.876s] MVCamera.cpp:(.text+0xc32): undefined reference to `CameraSetOnceWB'
+[7.876s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::SetGain(double)':
+[7.876s] MVCamera.cpp:(.text+0xcb0): undefined reference to `CameraSetGain'
+[7.876s] /usr/bin/ld: MVCamera.cpp:(.text+0xcfc): undefined reference to `CameraGetCapability'
+[7.877s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetGain()':
+[7.877s] MVCamera.cpp:(.text+0xd3d): undefined reference to `CameraGetGain'
+[7.877s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Play()':
+[7.877s] MVCamera.cpp:(.text+0xddb): undefined reference to `CameraGetCapability'
+[7.877s] /usr/bin/ld: MVCamera.cpp:(.text+0xde9): undefined reference to `CameraPlay'
+[7.877s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Read()':
+[7.877s] MVCamera.cpp:(.text+0xe2e): undefined reference to `CameraGetImageBuffer'
+[7.877s] /usr/bin/ld: MVCamera.cpp:(.text+0xe88): undefined reference to `CameraImageProcess'
+[7.877s] /usr/bin/ld: MVCamera.cpp:(.text+0xed3): undefined reference to `CameraReleaseImageBuffer'
+[7.877s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::Set_fps(int)':
+[7.877s] MVCamera.cpp:(.text+0xf16): undefined reference to `CameraSetFrameSpeed'
+[7.877s] /usr/bin/ld: MVCamera.cpp:(.text+0xf51): undefined reference to `CameraGetCapability'
+[7.877s] /usr/bin/ld: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o: in function `MVCamera::GetFrame_B(cv::Mat&, bool)':
+[7.877s] MVCamera.cpp:(.text+0xff8): undefined reference to `CameraGetImageBuffer'
+[7.877s] /usr/bin/ld: MVCamera.cpp:(.text+0x120f): undefined reference to `CameraReleaseImageBuffer'
+[7.896s] collect2: error: ld returned 1 exit status
+[7.897s] gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:207: Get_Img] Error 1
+[7.898s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+[7.898s] gmake: *** [Makefile:146: all] Error 2
+[7.899s] Invoked command in '/home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img -- -j16 -l16

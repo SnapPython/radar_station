@@ -1,0 +1,19 @@
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:93:6:[m[K [01;31m[Kerror: [m[K‘[01m[KImg_Pub[m[K’ has not been declared
+   93 | void [01;31m[KImg_Pub[m[K::yolo_armor_identify()
+      |      [01;31m[K^~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:[m[K In function ‘[01m[Kvoid yolo_armor_identify()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:95:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   95 |     for(int i = 0; i < [01;31m[Kthis[m[K->robot_output.size(); i++)
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:97:31:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput[m[K’ was not declared in this scope
+   97 |         Detection detection = [01;31m[Koutput[m[K[i];
+      |                               [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:100:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  100 |         Mat armor_img = [01;31m[Kthis[m[K->sub_img(box);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:101:42:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  101 |         vector<Detection> armor_output = [01;31m[Kthis[m[K->inf_armor.runInference(armor_img);
+      |                                          [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/Img_Sub.dir/build.make:76: CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/Img_Sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

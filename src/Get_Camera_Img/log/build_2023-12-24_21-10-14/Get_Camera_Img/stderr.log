@@ -1,0 +1,14 @@
+WARNING: Package name "Get_Camera_Img" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kget_img.hpp: No such file or directory
+    1 | #include [01;31m[K"get_img.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KMVCamera.hpp: No such file or directory
+    2 | #include [01;31m[K"MVCamera.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:90: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

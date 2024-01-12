@@ -1,0 +1,70 @@
+[35m[1mConsolidate compiler generated dependencies of target Img_Sub[0m
+[ 25%] Built target Img_Pub
+[ 62%] Built target main
+[ 75%] [32mBuilding CXX object CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o[0m
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:462[m[K,
+                 from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/img_sub.hpp:1[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:[m[K In member function ‘[01m[Kvoid Img_Sub::img_callback(sensor_msgs::msg::Image)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:19:19:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kmy_msgss::msg::Yolopoints[m[K’ {aka ‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >[m[K’} and ‘[01m[Klong int[m[K’)
+   19 |     robot_boxes = [01;31m[KNULL[m[K;
+      |                   [01;31m[K^~~~[m[K
+In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/include/img_sub.hpp:9[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >& my_msgss::msg::Yolopoints_<std::allocator<void> >::operator=(const my_msgss::msg::Yolopoints_<std::allocator<void> >&)[m[K’
+   36 | struct [01;36m[KYolopoints_[m[K
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong int[m[K’ to ‘[01m[Kconst my_msgss::msg::Yolopoints_<std::allocator<void> >&[m[K’
+[01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >& my_msgss::msg::Yolopoints_<std::allocator<void> >::operator=(my_msgss::msg::Yolopoints_<std::allocator<void> >&&)[m[K’
+[01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong int[m[K’ to ‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >&&[m[K’
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:[m[K At global scope:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:60:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_msgss::msg::Yolopoint Img_Sub::rect2msg[m[K’ is not a static data member of ‘[01m[Kclass Img_Sub[m[K’
+   60 | my_msgss::msg::Yolopoint [01;31m[KImg_Sub[m[K::rect2msg(vectir<Detection> yolo_detection, cv::Mat &img)
+      |                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:60:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kvectir[m[K’ was not declared in this scope
+   60 | my_msgss::msg::Yolopoint Img_Sub::rect2msg([01;31m[Kvectir[m[K<Detection> yolo_detection, cv::Mat &img)
+      |                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:60:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   60 | my_msgss::msg::Yolopoint Img_Sub::rect2msg(vectir<Detection[01;31m[K>[m[K yolo_detection, cv::Mat &img)
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:60:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kyolo_detection[m[K’ was not declared in this scope
+   60 | my_msgss::msg::Yolopoint Img_Sub::rect2msg(vectir<Detection> [01;31m[Kyolo_detection[m[K, cv::Mat &img)
+      |                                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:60:86:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K&[m[K’ token
+   60 | my_msgss::msg::Yolopoint Img_Sub::rect2msg(vectir<Detection> yolo_detection, cv::Mat [01;31m[K&[m[Kimg)
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:60:87:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg[m[K’ was not declared in this scope
+   60 | my_msgss::msg::Yolopoint Img_Sub::rect2msg(vectir<Detection> yolo_detection, cv::Mat &[01;31m[Kimg[m[K)
+      |                                                                                       [01;31m[K^~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:61:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+   61 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:[m[K In member function ‘[01m[Kvoid Img_Sub::draw_img()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:211:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Yolopoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Yolopoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  211 |     for(int i =0 ;[01;35m[Ki<this->robot_boxes.data.size()[m[K;i++)
+      |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:[m[K In member function ‘[01m[Kvoid Img_Sub::test()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:241:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KImg_Sub::yolo_armor_identify()[m[K’
+  241 |     [01;31m[Kthis->yolo_armor_identify()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:155:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Img_Sub::yolo_armor_identify(my_msgss::msg::Yolopoint&, cv::Rect&)[m[K’
+  155 | void [01;36m[KImg_Sub[m[K::yolo_armor_identify(my_msgss::msg::Yolopoint &robot_box, cv::Rect &box)
+      |      [01;36m[K^~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:155:6:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+gmake[2]: *** [CMakeFiles/Img_Sub.dir/build.make:76: CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/Img_Sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

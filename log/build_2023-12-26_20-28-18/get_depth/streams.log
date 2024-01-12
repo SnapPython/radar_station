@@ -1,0 +1,163 @@
+[0.044s] Invoking command in '/home/mechax/zyb/radar_station/build/get_depth': CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/zyb/radar_station/install/get_depth:/home/mechax/zyb/radar_station/install/Img_Handle:/home/mechax/zyb/radar_station/install/Game_Map:/home/mechax/zyb/radar_station/install/Yolo_Handle:/home/mechax/zyb/radar_station/install/Get_Camera_Img:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/get_depth -- -j16 -l16
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o[0m
+[4.973s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.974s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:38:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.974s]    38 |   void far_yoloCallback(const my_msgss::msg::Yolopoints::ConstPtr &input[01;35m[K)[m[K;
+[4.974s]       |                                                                         [01;35m[K^[m[K
+[4.974s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[4.974s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:17[m[K,
+[4.974s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.974s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.974s]   129 |     [01;36m[KConstPtr[m[K;
+[4.974s]       |     [01;36m[K^~~~~~~~[m[K
+[4.974s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.974s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:39:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.974s]    39 |   void close_yoloCallback(const my_msgss::msg::Yolopoints::ConstPtr &input[01;35m[K)[m[K;
+[4.974s]       |                                                                           [01;35m[K^[m[K
+[4.974s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[4.974s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:17[m[K,
+[4.974s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[4.975s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.975s]   129 |     [01;36m[KConstPtr[m[K;
+[4.975s]       |     [01;36m[K^~~~~~~~[m[K
+[5.009s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[5.009s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:58:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.010s]    58 |   rclcpp::Subscription<my_msgss::msg::Yolopoints::[01;35m[KConstPtr[m[K>::SharedPtr far_yolo_sub;
+[5.010s]       |                                                   [01;35m[K^~~~~~~~[m[K
+[5.010s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[5.010s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:17[m[K,
+[5.010s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[5.010s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.010s]   129 |     [01;36m[KConstPtr[m[K;
+[5.011s]       |     [01;36m[K^~~~~~~~[m[K
+[5.038s] In file included from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[5.038s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:59:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.038s]    59 |   rclcpp::Subscription<my_msgss::msg::Yolopoints::[01;35m[KConstPtr[m[K>::SharedPtr close_yolo_sub;
+[5.038s]       |                                                   [01;35m[K^~~~~~~~[m[K
+[5.038s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[5.038s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:17[m[K,
+[5.039s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[5.039s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.039s]   129 |     [01;36m[KConstPtr[m[K;
+[5.039s]       |     [01;36m[K^~~~~~~~[m[K
+[5.076s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K In member function ‘[01m[Kvoid GetDepth::write_csv(std::string, std::vector<float>)[m[K’:
+[5.076s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:68:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.077s]    68 |     far_yolo_sub = this->create_subscription<my_msgss::msg::Yolopoints::[01;35m[KConstPtr[m[K>("/far_rectangles", 1, std::bind(&GetDepth::far_yoloCallback, this, std::placeholders::_1));
+[5.077s]       |                                                                         [01;35m[K^~~~~~~~[m[K
+[5.077s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[5.078s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:17[m[K,
+[5.078s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[5.079s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.079s]   129 |     [01;36m[KConstPtr[m[K;
+[5.079s]       |     [01;36m[K^~~~~~~~[m[K
+[5.079s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:69:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.079s]    69 |     close_yolo_sub = this->create_subscription<my_msgss::msg::Yolopoints::[01;35m[KConstPtr[m[K>("/close_rectangles", 1, std::bind(&GetDepth::close_yoloCallback, this, std::placeholders::_1));
+[5.079s]       |                                                                           [01;35m[K^~~~~~~~[m[K
+[5.079s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[5.079s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:17[m[K,
+[5.080s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[5.080s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.080s]   129 |     [01;36m[KConstPtr[m[K;
+[5.080s]       |     [01;36m[K^~~~~~~~[m[K
+[5.080s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K In member function ‘[01m[Kvoid GetDepth::frame_point_match(const Distpoints&, my_msgss::msg::Distpoints&)[m[K’:
+[5.081s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:121:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.081s]   121 |     for (int k = 0; [01;35m[Kk < this_frame.data.size()[m[K; k++) {
+[5.081s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.082s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K At global scope:
+[5.082s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:135:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.082s]   135 | void GetDepth::far_yoloCallback(const my_msgss::msg::Yolopoints::ConstPtr &input[01;35m[K)[m[K {
+[5.082s]       |                                                                                 [01;35m[K^[m[K
+[5.082s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[5.083s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:17[m[K,
+[5.083s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[5.083s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.083s]   129 |     [01;36m[KConstPtr[m[K;
+[5.084s]       |     [01;36m[K^~~~~~~~[m[K
+[5.084s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K In member function ‘[01m[Kvoid GetDepth::far_yoloCallback(const ConstPtr&)[m[K’:
+[5.084s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:140:66:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kmy_msgss::msg::Distpoints_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>[m[K’} to ‘[01m[Kstd::vector<my_msgss::msg::Distpoint_<std::allocator<void> > >&[m[K’
+[5.084s]   140 |     std::vector<my_msgss::msg::Distpoint>().swap([01;31m[Kfar_distance_it.data[m[K);
+[5.084s]       |                                                  [01;31m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[5.084s]       |                                                                  [01;31m[K|[m[K
+[5.084s]       |                                                                  [01;31m[Kmy_msgss::msg::Distpoints_<std::allocator<void> >::_data_type {aka std::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>}[m[K
+[5.085s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[5.085s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[5.085s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[5.085s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[5.086s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:55[m[K,
+[5.086s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[5.086s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[5.086s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[5.086s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[5.087s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1480:20:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid std::vector<_Tp, _Alloc>::swap(std::vector<_Tp, _Alloc>&) [with _Tp = my_msgss::msg::Distpoint_<std::allocator<void> >; _Alloc = std::allocator<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[5.087s]  1480 |       swap([01;36m[Kvector& __x[m[K) _GLIBCXX_NOEXCEPT
+[5.087s]       |            [01;36m[K~~~~~~~~^~~[m[K
+[5.087s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:146:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.087s]   146 |         if ([01;35m[Kfar_depth_queue.size() == length_of_cloud_queue[m[K) {
+[5.087s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.087s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:151:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Yolopoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Yolopoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.088s]   151 |         for (int j = 0; [01;35m[Kj < (*input).data.size()[m[K; j++) {
+[5.088s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.088s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:160:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = struct std::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>[m[K’ {aka ‘[01m[Kstruct std::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+[5.088s]   160 |             far_distance_it.data.[01;31m[Kpush_back[m[K(point_it);
+[5.088s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[5.088s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K At global scope:
+[5.088s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:194:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmy_msgss::msg::Yolopoints_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.089s]   194 | void GetDepth::close_yoloCallback(const my_msgss::msg::Yolopoints::ConstPtr &input[01;35m[K)[m[K {
+[5.089s]       |                                                                                   [01;35m[K^[m[K
+[5.089s] In file included from [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp:7[m[K,
+[5.089s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:17[m[K,
+[5.089s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[5.089s] [01m[K/home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp:129:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.089s]   129 |     [01;36m[KConstPtr[m[K;
+[5.089s]       |     [01;36m[K^~~~~~~~[m[K
+[5.090s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:[m[K In member function ‘[01m[Kvoid GetDepth::close_yoloCallback(const ConstPtr&)[m[K’:
+[5.090s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:198:73:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kmy_msgss::msg::Distpoints_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>[m[K’} to ‘[01m[Kstd::vector<my_msgss::msg::Distpoint_<std::allocator<void> > >&[m[K’
+[5.090s]   198 |     std::vector<my_msgss::msg::Distpoint>().swap([01;31m[Klast_close_distance_it.data[m[K);
+[5.090s]       |                                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[5.090s]       |                                                                         [01;31m[K|[m[K
+[5.090s]       |                                                                         [01;31m[Kmy_msgss::msg::Distpoints_<std::allocator<void> >::_data_type {aka std::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>}[m[K
+[5.090s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[5.091s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[5.091s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[5.091s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[5.091s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:55[m[K,
+[5.091s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[5.091s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[5.092s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[5.092s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[5.092s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1480:20:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid std::vector<_Tp, _Alloc>::swap(std::vector<_Tp, _Alloc>&) [with _Tp = my_msgss::msg::Distpoint_<std::allocator<void> >; _Alloc = std::allocator<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[5.092s]  1480 |       swap([01;36m[Kvector& __x[m[K) _GLIBCXX_NOEXCEPT
+[5.092s]       |            [01;36m[K~~~~~~~~^~~[m[K
+[5.092s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:200:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = struct std::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>[m[K’ {aka ‘[01m[Kstruct std::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>[m[K’} has no member named ‘[01m[Kemplace_back[m[K’
+[5.092s]   200 |         last_close_distance_it.data.[01;31m[Kemplace_back[m[K(i);
+[5.093s]       |                                     [01;31m[K^~~~~~~~~~~~[m[K
+[5.093s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:202:68:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kmy_msgss::msg::Distpoints_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>[m[K’} to ‘[01m[Kstd::vector<my_msgss::msg::Distpoint_<std::allocator<void> > >&[m[K’
+[5.093s]   202 |     std::vector<my_msgss::msg::Distpoint>().swap([01;31m[Kclose_distance_it.data[m[K);
+[5.093s]       |                                                  [01;31m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[5.093s]       |                                                                    [01;31m[K|[m[K
+[5.093s]       |                                                                    [01;31m[Kmy_msgss::msg::Distpoints_<std::allocator<void> >::_data_type {aka std::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>}[m[K
+[5.093s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[5.093s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[5.093s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[5.094s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[5.094s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:55[m[K,
+[5.094s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[5.094s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[5.094s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/include/get_depth_node.hpp:1[m[K,
+[5.094s]                  from [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:4[m[K:
+[5.094s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1480:20:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid std::vector<_Tp, _Alloc>::swap(std::vector<_Tp, _Alloc>&) [with _Tp = my_msgss::msg::Distpoint_<std::allocator<void> >; _Alloc = std::allocator<my_msgss::msg::Distpoint_<std::allocator<void> > >][m[K’
+[5.095s]  1480 |       swap([01;36m[Kvector& __x[m[K) _GLIBCXX_NOEXCEPT
+[5.095s]       |            [01;36m[K~~~~~~~~^~~[m[K
+[5.095s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:208:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.095s]   208 |         if ([01;35m[Kclose_depth_queue.size() == length_of_cloud_queue[m[K) {
+[5.095s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.095s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:213:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<my_msgss::msg::Yolopoint_<std::allocator<void> >, std::allocator<my_msgss::msg::Yolopoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.096s]   213 |         for (int j = 0; [01;35m[Kj < (*input).data.size()[m[K; j++) {
+[5.096s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.096s] [01m[K/home/mechax/zyb/radar_station/src/get_depth/src/get_depth_node.cpp:238:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = struct std::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>[m[K’ {aka ‘[01m[Kstruct std::array<my_msgss::msg::Distpoint_<std::allocator<void> >, 100>[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+[5.096s]   238 |             close_distance_it.data.[01;31m[Kpush_back[m[K(point_it);
+[5.096s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[8.539s] gmake[2]: *** [CMakeFiles/get_depth_node.dir/build.make:76: CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o] Error 1
+[8.539s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/get_depth_node.dir/all] Error 2
+[8.539s] gmake: *** [Makefile:146: all] Error 2
+[8.542s] Invoked command in '/home/mechax/zyb/radar_station/build/get_depth' returned '2': CMAKE_PREFIX_PATH=/home/mechax/zyb/radar_station/install/my_msgss:/home/mechax/zyb/radar_station/install/get_depth:/home/mechax/zyb/radar_station/install/Img_Handle:/home/mechax/zyb/radar_station/install/Game_Map:/home/mechax/zyb/radar_station/install/Yolo_Handle:/home/mechax/zyb/radar_station/install/Get_Camera_Img:/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/get_depth -- -j16 -l16

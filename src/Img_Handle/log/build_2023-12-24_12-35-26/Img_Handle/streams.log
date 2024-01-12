@@ -1,0 +1,48 @@
+[0.031s] Invoking command in '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle -- -j16 -l16
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target Img_Sub[0m
+[0.065s] [ 12%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[0.065s] [ 37%] Built target Img_Pub
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/inference.cpp.o[0m
+[0.070s] [ 75%] [32mBuilding CXX object CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o[0m
+[0.070s] [ 75%] [32mBuilding CXX object CMakeFiles/Img_Sub.dir/src/inference.cpp.o[0m
+[0.938s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.939s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:31:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[0.939s]    31 |     for (int i = 0; [01;35m[Ki < imageNames.size()[m[K; ++i)
+[0.939s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[0.942s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:12:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.942s]    12 | int main([01;35m[Kint argc[m[K, char **argv)
+[0.942s]       |          [01;35m[K~~~~^~~~[m[K
+[0.942s] [01m[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:12:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.942s]    12 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[0.942s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[1.396s] [ 87%] [32m[1mLinking CXX executable main[0m
+[1.526s] [ 87%] Built target main
+[5.921s] [100%] [32m[1mLinking CXX executable Img_Sub[0m
+[6.050s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+[6.050s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+[6.050s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[6.367s] [100%] Built target Img_Sub
+[6.374s] Invoked command in '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle -- -j16 -l16
+[6.399s] Invoking command in '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle
+[6.402s] -- Install configuration: ""
+[6.402s] -- Up-to-date: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/lib/Img_Handle/Img_Pub
+[6.403s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/lib/Img_Handle/Img_Sub
+[6.405s] -- Set runtime path of "/home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/lib/Img_Handle/Img_Sub" to ""
+[6.405s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/lib/Img_Handle/main
+[6.405s] -- Set runtime path of "/home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/lib/Img_Handle/main" to ""
+[6.405s] -- Up-to-date: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/ament_index/resource_index/package_run_dependencies/Img_Handle
+[6.405s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/ament_index/resource_index/parent_prefix_path/Img_Handle
+[6.405s] -- Up-to-date: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/environment/ament_prefix_path.sh
+[6.405s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/environment/ament_prefix_path.dsv
+[6.406s] -- Up-to-date: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/environment/path.sh
+[6.406s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/environment/path.dsv
+[6.406s] -- Up-to-date: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/local_setup.bash
+[6.406s] -- Up-to-date: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/local_setup.sh
+[6.406s] -- Up-to-date: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/local_setup.zsh
+[6.406s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/local_setup.dsv
+[6.406s] -- Installing: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/package.dsv
+[6.406s] -- Up-to-date: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/ament_index/resource_index/packages/Img_Handle
+[6.407s] -- Up-to-date: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/cmake/Img_HandleConfig.cmake
+[6.407s] -- Up-to-date: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/cmake/Img_HandleConfig-version.cmake
+[6.407s] -- Up-to-date: /home/mechax/zyb/radar_station/src/Img_Handle/install/Img_Handle/share/Img_Handle/package.xml
+[6.407s] Invoked command in '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle

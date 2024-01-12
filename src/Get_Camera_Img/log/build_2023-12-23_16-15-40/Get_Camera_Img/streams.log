@@ -1,0 +1,20 @@
+[0.033s] Invoking command in '/home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img -- -j16 -l16
+[0.067s] [ 66%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o[0m
+[0.067s] [ 66%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/get_img.cpp.o[0m
+[0.079s] In file included from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:3[m[K:
+[0.079s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/MVCamera.hpp:1:10:[m[K [01;31m[Kfatal error: [m[KCameraApi.hpp: No such file or directory
+[0.079s]     1 | #include [01;31m[K"CameraApi.hpp"[m[K
+[0.079s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.079s] compilation terminated.
+[0.080s] gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:90: CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o] Error 1
+[0.080s] gmake[2]: *** Waiting for unfinished jobs....
+[0.214s] In file included from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:8[m[K,
+[0.215s]                  from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:1[m[K:
+[0.215s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/MVCamera.hpp:1:10:[m[K [01;31m[Kfatal error: [m[KCameraApi.hpp: No such file or directory
+[0.215s]     1 | #include [01;31m[K"CameraApi.hpp"[m[K
+[0.215s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.215s] compilation terminated.
+[0.218s] gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1
+[0.218s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+[0.218s] gmake: *** [Makefile:146: all] Error 2
+[0.220s] Invoked command in '/home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img -- -j16 -l16

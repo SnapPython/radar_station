@@ -1,0 +1,25 @@
+[0.034s] Invoking command in '/home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img -- -j16 -l16
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target Get_Img[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/Get_Img.dir/src/get_img.cpp.o[0m
+[1.954s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:[m[K In member function ‘[01m[Kvoid GetImg::camera_init()[m[K’:
+[1.954s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmv_driver[m[K’ was not declared in this scope
+[1.954s]    69 |     [01;31m[Kmv_driver[m[K = new MVCamera;
+[1.954s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.955s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:69:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMVCamera[m[K’ does not name a type
+[1.955s]    69 |     mv_driver = new [01;31m[KMVCamera[m[K;
+[1.955s]       |                     [01;31m[K^~~~~~~~[m[K
+[1.961s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:[m[K In member function ‘[01m[Kvoid GetImg::get_exp(const Int16&)[m[K’:
+[1.961s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:122:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmv_driver[m[K’ was not declared in this scope
+[1.961s]   122 |         [01;31m[Kmv_driver[m[K->SetExposureTime(autoexposure_, exposure_);
+[1.961s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.967s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:[m[K In member function ‘[01m[Kvoid GetImg::get_is_large(const Bool&)[m[K’:
+[1.967s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:133:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmv_driver[m[K’ was not declared in this scope
+[1.967s]   133 |         [01;31m[Kmv_driver[m[K->SetExposureTime(0, 3000);
+[1.967s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.972s] [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:135:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmv_driver[m[K’ was not declared in this scope
+[1.972s]   135 |         [01;31m[Kmv_driver[m[K->SetExposureTime(0, 1500);
+[1.972s]       |         [01;31m[K^~~~~~~~~[m[K
+[4.085s] gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1
+[4.085s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+[4.086s] gmake: *** [Makefile:146: all] Error 2
+[4.088s] Invoked command in '/home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img -- -j16 -l16

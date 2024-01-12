@@ -1,0 +1,359 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:4:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    4 | #include [01;31m[Kget_depth_node[m[K.hpp
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:6:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ is not a namespace-name
+    6 | using namespace [01;31m[Kcv[m[K;
+      |                 [01;31m[K^~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:8:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16_t[m[K’ does not name a type
+    8 | [01;31m[Kuint16_t[m[K times = 0;
+      | [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kuint16_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+  +++ |+[32m[K#include <cstdint>[m[K
+    1 | //
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+    9 | [01;31m[Kvector[m[K<int> cnt;
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:10:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+   10 | [01;31m[Kvector[m[K<float> dists;
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:14:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint2f[m[K’ does not name a type
+   14 | [01;31m[KPoint2f[m[K outpost_point;
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:15:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl[m[K’ does not name a type
+   15 | [01;31m[Kpcl[m[K::PointCloud<pcl::PointXYZ>::Ptr cloud;
+      | [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:16:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+   16 | [01;31m[Kvector[m[K<Mat> far_depth_queue;
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:17:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type
+   17 | [01;31m[KMat[m[K far_camera_matrix = Mat_<float>(3, 3);//相机内参矩阵
+      | [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:18:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type
+   18 | [01;31m[KMat[m[K far_uni_matrix = Mat_<float>(3, 4);//相机和雷达的变换矩阵
+      | [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:19:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type
+   19 | [01;31m[KMat[m[K far_distortion_coefficient = Mat_<float>(5, 1);
+      | [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:20:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+   20 | [01;31m[Kvector[m[K<Mat> close_depth_queue;
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:21:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type
+   21 | [01;31m[KMat[m[K close_camera_matrix = Mat_<float>(3, 3);//相机内参矩阵
+      | [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:22:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type
+   22 | [01;31m[KMat[m[K close_uni_matrix = Mat_<float>(3, 4);//相机和雷达的变换矩阵
+      | [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:23:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type
+   23 | [01;31m[KMat[m[K close_distortion_coefficient = Mat_<float>(5, 1);
+      | [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:37:6:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ has not been declared
+   37 | void [01;31m[KGetDepth[m[K::Kalman_Init() {
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:46:7:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ has not been declared
+   46 | float [01;31m[KGetDepth[m[K::my_KalmanFilter(Kalman *kfp, float input) {
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:58:6:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ has not been declared
+   58 | void [01;31m[KGetDepth[m[K::write_csv(std::string filename, vector<float> vals) {
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:58:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kwrite_csv[m[K’ declared void
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:58:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   58 | void GetDepth::write_csv(std::[01;31m[Kstring[m[K filename, vector<float> vals) {
+      |                               [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+  +++ |+[32m[K#include <string>[m[K
+    1 | //
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:58:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ was not declared in this scope
+   58 | void GetDepth::write_csv(std::string filename, [01;31m[Kvector[m[K<float> vals) {
+      |                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+  +++ |+[32m[K#include <vector>[m[K
+    1 | //
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:58:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+   58 | void GetDepth::write_csv(std::string filename, vector<[01;31m[Kfloat[m[K> vals) {
+      |                                                       [01;31m[K^~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:74:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type
+   74 | [01;31m[KMat[m[K GetDepth::Cloud2Mat(const pcl::PointCloud<pcl::PointXYZ>::Ptr &input) {
+      | [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:91:6:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ has not been declared
+   91 | void [01;31m[KGetDepth[m[K::MatProject(Mat &input_depth, Mat &input_uv, Mat &Cam_matrix, Mat &Uni_matrix) {
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:91:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KMatProject[m[K’ declared void
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:91:27:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope
+   91 | void GetDepth::MatProject([01;31m[KMat[m[K &input_depth, Mat &input_uv, Mat &Cam_matrix, Mat &Uni_matrix) {
+      |                           [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:91:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_depth[m[K’ was not declared in this scope
+   91 | void GetDepth::MatProject(Mat &[01;31m[Kinput_depth[m[K, Mat &input_uv, Mat &Cam_matrix, Mat &Uni_matrix) {
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:91:45:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope
+   91 | void GetDepth::MatProject(Mat &input_depth, [01;31m[KMat[m[K &input_uv, Mat &Cam_matrix, Mat &Uni_matrix) {
+      |                                             [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:91:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_uv[m[K’ was not declared in this scope
+   91 | void GetDepth::MatProject(Mat &input_depth, Mat &[01;31m[Kinput_uv[m[K, Mat &Cam_matrix, Mat &Uni_matrix) {
+      |                                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:91:60:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope
+   91 | void GetDepth::MatProject(Mat &input_depth, Mat &input_uv, [01;31m[KMat[m[K &Cam_matrix, Mat &Uni_matrix) {
+      |                                                            [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:91:65:[m[K [01;31m[Kerror: [m[K‘[01m[KCam_matrix[m[K’ was not declared in this scope
+   91 |  GetDepth::MatProject(Mat &input_depth, Mat &input_uv, Mat &[01;31m[KCam_matrix[m[K, Mat &Uni_matrix) {
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:91:77:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope
+   91 | atProject(Mat &input_depth, Mat &input_uv, Mat &Cam_matrix, [01;31m[KMat[m[K &Uni_matrix) {
+      |                                                             [01;31m[K^~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:91:82:[m[K [01;31m[Kerror: [m[K‘[01m[KUni_matrix[m[K’ was not declared in this scope
+   91 | ject(Mat &input_depth, Mat &input_uv, Mat &Cam_matrix, Mat &[01;31m[KUni_matrix[m[K) {
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:107:6:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ has not been declared
+  107 | void [01;31m[KGetDepth[m[K::frame_point_match(const radar_msgs::msg::dist_points &last_frame, radar_msgs::msg::dist_points &this_frame) {
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:107:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kradar_msgs[m[K’ does not name a type
+  107 | void GetDepth::frame_point_match(const [01;31m[Kradar_msgs[m[K::msg::dist_points &last_frame, radar_msgs::msg::dist_points &this_frame) {
+      |                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:107:55:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+  107 | void GetDepth::frame_point_match(const radar_msgs::msg[01;31m[K::[m[Kdist_points &last_frame, radar_msgs::msg::dist_points &this_frame) {
+      |                                                       [01;31m[K^~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:107:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  107 | void GetDepth::frame_point_match[34m[K([m[Kconst radar_msgs::msg[01;31m[K:[m[K[32m[K:[m[Kdist_points &last_frame, radar_msgs::msg::dist_points &this_frame) {
+      |                                 [34m[K~[m[K                     [01;31m[K^[m[K[32m[K~[m[K
+      |                                                       [32m[K)[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:107:55:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+  107 | void GetDepth::frame_point_match(const radar_msgs::msg[01;31m[K::[m[Kdist_points &last_frame, radar_msgs::msg::dist_points &this_frame) {
+      |                                                       [01;31m[K^~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:123:6:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ has not been declared
+  123 | void [01;31m[KGetDepth[m[K::far_yoloCallback(const radar_msgs::msg::yolo_points::ConstPtr &input) {
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:123:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kradar_msgs[m[K’ does not name a type
+  123 | void GetDepth::far_yoloCallback(const [01;31m[Kradar_msgs[m[K::msg::yolo_points::ConstPtr &input) {
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:123:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+  123 | void GetDepth::far_yoloCallback(const radar_msgs::msg[01;31m[K::[m[Kyolo_points::ConstPtr &input) {
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:123:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  123 | void GetDepth::far_yoloCallback[34m[K([m[Kconst radar_msgs::msg[01;31m[K:[m[K[32m[K:[m[Kyolo_points::ConstPtr &input) {
+      |                                [34m[K~[m[K                     [01;31m[K^[m[K[32m[K~[m[K
+      |                                                      [32m[K)[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:123:54:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+  123 | void GetDepth::far_yoloCallback(const radar_msgs::msg[01;31m[K::[m[Kyolo_points::ConstPtr &input) {
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:182:6:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ has not been declared
+  182 | void [01;31m[KGetDepth[m[K::close_yoloCallback(const radar_msgs::msg::yolo_points::ConstPtr &input) {
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:182:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kradar_msgs[m[K’ does not name a type
+  182 | void GetDepth::close_yoloCallback(const [01;31m[Kradar_msgs[m[K::msg::yolo_points::ConstPtr &input) {
+      |                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:182:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+  182 | void GetDepth::close_yoloCallback(const radar_msgs::msg[01;31m[K::[m[Kyolo_points::ConstPtr &input) {
+      |                                                        [01;31m[K^~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:182:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  182 | void GetDepth::close_yoloCallback[34m[K([m[Kconst radar_msgs::msg[01;31m[K:[m[K[32m[K:[m[Kyolo_points::ConstPtr &input) {
+      |                                  [34m[K~[m[K                     [01;31m[K^[m[K[32m[K~[m[K
+      |                                                        [32m[K)[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:182:56:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+  182 | void GetDepth::close_yoloCallback(const radar_msgs::msg[01;31m[K::[m[Kyolo_points::ConstPtr &input) {
+      |                                                        [01;31m[K^~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:254:6:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ has not been declared
+  254 | void [01;31m[KGetDepth[m[K::pointCloudCallback(const sensor_msgs::msg::PointCloud2ConstPtr &input) {
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:254:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+  254 | void GetDepth::pointCloudCallback(const [01;31m[Ksensor_msgs[m[K::msg::PointCloud2ConstPtr &input) {
+      |                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:254:57:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+  254 | void GetDepth::pointCloudCallback(const sensor_msgs::msg[01;31m[K::[m[KPointCloud2ConstPtr &input) {
+      |                                                         [01;31m[K^~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:254:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  254 | void GetDepth::pointCloudCallback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KPointCloud2ConstPtr &input) {
+      |                                  [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+      |                                                         [32m[K)[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:254:57:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+  254 | void GetDepth::pointCloudCallback(const sensor_msgs::msg[01;31m[K::[m[KPointCloud2ConstPtr &input) {
+      |                                                         [01;31m[K^~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:262:6:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ has not been declared
+  262 | void [01;31m[KGetDepth[m[K::outpost_Callback(const radar_msgs::msg::points &outpost) {
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:262:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kradar_msgs[m[K’ does not name a type
+  262 | void GetDepth::outpost_Callback(const [01;31m[Kradar_msgs[m[K::msg::points &outpost) {
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:262:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+  262 | void GetDepth::outpost_Callback(const radar_msgs::msg[01;31m[K::[m[Kpoints &outpost) {
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:262:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  262 | void GetDepth::outpost_Callback[34m[K([m[Kconst radar_msgs::msg[01;31m[K:[m[K[32m[K:[m[Kpoints &outpost) {
+      |                                [34m[K~[m[K                     [01;31m[K^[m[K[32m[K~[m[K
+      |                                                      [32m[K)[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:262:54:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+  262 | void GetDepth::outpost_Callback(const radar_msgs::msg[01;31m[K::[m[Kpoints &outpost) {
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:275:7:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ has not been declared
+  275 | float [01;31m[KGetDepth[m[K::getDepthInRect(Rect rect, vector<Mat> &depth_queue, radar_msgs::msg::yolo_point::_id_type id) {
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:275:32:[m[K [01;31m[Kerror: [m[K‘[01m[KRect[m[K’ was not declared in this scope
+  275 | float GetDepth::getDepthInRect([01;31m[KRect[m[K rect, vector<Mat> &depth_queue, radar_msgs::msg::yolo_point::_id_type id) {
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:275:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ was not declared in this scope
+  275 | float GetDepth::getDepthInRect(Rect rect, [01;31m[Kvector[m[K<Mat> &depth_queue, radar_msgs::msg::yolo_point::_id_type id) {
+      |                                           [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:275:43:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:275:50:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope
+  275 | float GetDepth::getDepthInRect(Rect rect, vector<[01;31m[KMat[m[K> &depth_queue, radar_msgs::msg::yolo_point::_id_type id) {
+      |                                                  [01;31m[K^~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:275:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_queue[m[K’ was not declared in this scope
+  275 | float GetDepth::getDepthInRect(Rect rect, vector<Mat> &[01;31m[Kdepth_queue[m[K, radar_msgs::msg::yolo_point::_id_type id) {
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:275:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kradar_msgs[m[K’ has not been declared
+  275 | tDepth::getDepthInRect(Rect rect, vector<Mat> &depth_queue, [01;31m[Kradar_msgs[m[K::msg::yolo_point::_id_type id) {
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:275:109:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  275 | , vector<Mat> &depth_queue, radar_msgs::msg::yolo_point::_id_type id[01;31m[K)[m[K {
+      |                                                                     [01;31m[K^[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:325:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  325 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:327:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  327 |     auto node = std::[01;31m[Kmake_shared[m[K<GetDepth>();
+      |                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+  +++ |+[32m[K#include <memory>[m[K
+    1 | //
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:327:34:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ was not declared in this scope
+  327 |     auto node = std::make_shared<[01;31m[KGetDepth[m[K>();
+      |                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:327:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  327 |     auto node = std::make_shared<GetDepth>([01;31m[K)[m[K;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:328:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_sub[m[K’ was not declared in this scope
+  328 |     [01;31m[Kcloud_sub[m[K = this->create_subscription<sensor_msgs::msg::PointCloud2ConstPtr>("/livox/lidar", 1, std::bind(&GetDepth::pointCloudCallback, this, std::placeholders::_1));
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:328:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  328 |     cloud_sub = [01;31m[Kthis[m[K->create_subscription<sensor_msgs::msg::PointCloud2ConstPtr>("/livox/lidar", 1, std::bind(&GetDepth::pointCloudCallback, this, std::placeholders::_1));
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:328:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ has not been declared
+  328 |     cloud_sub = this->create_subscription<[01;31m[Ksensor_msgs[m[K::msg::PointCloud2ConstPtr>("/livox/lidar", 1, std::bind(&GetDepth::pointCloudCallback, this, std::placeholders::_1));
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:328:82:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  328 | >create_subscription<sensor_msgs::msg::PointCloud2ConstPtr>([01;35m[K"/livox/lidar"[m[K, 1, std::bind(&GetDepth::pointCloudCallback, this, std::placeholders::_1));
+      |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:328:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kbind[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  328 | sor_msgs::msg::PointCloud2ConstPtr>("/livox/lidar", 1, std::[01;31m[Kbind[m[K(&GetDepth::pointCloudCallback, this, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::bind[m[K’ is defined in header ‘[01m[K<functional>[m[K’; did you forget to ‘[01m[K#include <functional>[m[K’?
+  +++ |+[32m[K#include <functional>[m[K
+    1 | //
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:328:112:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ is not a class, namespace, or enumeration
+  328 | gs::msg::PointCloud2ConstPtr>("/livox/lidar", 1, std::bind(&[01;31m[KGetDepth[m[K::pointCloudCallback, this, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:328:142:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  328 | "/livox/lidar", 1, std::bind(&GetDepth::pointCloudCallback, [01;31m[Kthis[m[K, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:328:153:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholders[m[K’ has not been declared
+  328 | ar", 1, std::bind(&GetDepth::pointCloudCallback, this, std::[01;31m[Kplaceholders[m[K::_1));
+      |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:329:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfar_yolo_sub[m[K’ was not declared in this scope
+  329 |     [01;31m[Kfar_yolo_sub[m[K = this->create_subscription<radar_msgs::msg::yolo_points::ConstPtr>("/far_rectangles", 1, std::bind(&GetDepth::far_yoloCallback, this, std::placeholders::_1));
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:329:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  329 |     far_yolo_sub = [01;31m[Kthis[m[K->create_subscription<radar_msgs::msg::yolo_points::ConstPtr>("/far_rectangles", 1, std::bind(&GetDepth::far_yoloCallback, this, std::placeholders::_1));
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:329:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kradar_msgs[m[K’ has not been declared
+  329 |     far_yolo_sub = this->create_subscription<[01;31m[Kradar_msgs[m[K::msg::yolo_points::ConstPtr>("/far_rectangles", 1, std::bind(&GetDepth::far_yoloCallback, this, std::placeholders::_1));
+      |                                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:329:86:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  329 | create_subscription<radar_msgs::msg::yolo_points::ConstPtr>([01;35m[K"/far_rectangles"[m[K, 1, std::bind(&GetDepth::far_yoloCallback, this, std::placeholders::_1));
+      |                                                             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:329:113:[m[K [01;31m[Kerror: [m[K‘[01m[Kbind[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  329 | sgs::msg::yolo_points::ConstPtr>("/far_rectangles", 1, std::[01;31m[Kbind[m[K(&GetDepth::far_yoloCallback, this, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:329:113:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::bind[m[K’ is defined in header ‘[01m[K<functional>[m[K’; did you forget to ‘[01m[K#include <functional>[m[K’?
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:329:119:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ is not a class, namespace, or enumeration
+  329 | sg::yolo_points::ConstPtr>("/far_rectangles", 1, std::bind(&[01;31m[KGetDepth[m[K::far_yoloCallback, this, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:329:147:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  329 | /far_rectangles", 1, std::bind(&GetDepth::far_yoloCallback, [01;31m[Kthis[m[K, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:329:158:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholders[m[K’ has not been declared
+  329 | gles", 1, std::bind(&GetDepth::far_yoloCallback, this, std::[01;31m[Kplaceholders[m[K::_1));
+      |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:330:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclose_yolo_sub[m[K’ was not declared in this scope
+  330 |     [01;31m[Kclose_yolo_sub[m[K = this->create_subscription<radar_msgs::msg::yolo_points::ConstPtr>("/close_rectangles", 1, std::bind(&GetDepth::close_yoloCallback, this, std::placeholders::_1));
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:330:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  330 |     close_yolo_sub = [01;31m[Kthis[m[K->create_subscription<radar_msgs::msg::yolo_points::ConstPtr>("/close_rectangles", 1, std::bind(&GetDepth::close_yoloCallback, this, std::placeholders::_1));
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:330:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kradar_msgs[m[K’ has not been declared
+  330 |     close_yolo_sub = this->create_subscription<[01;31m[Kradar_msgs[m[K::msg::yolo_points::ConstPtr>("/close_rectangles", 1, std::bind(&GetDepth::close_yoloCallback, this, std::placeholders::_1));
+      |                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:330:88:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  330 | create_subscription<radar_msgs::msg::yolo_points::ConstPtr>([01;35m[K"/close_rectangles"[m[K, 1, std::bind(&GetDepth::close_yoloCallback, this, std::placeholders::_1));
+      |                                                             [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:330:117:[m[K [01;31m[Kerror: [m[K‘[01m[Kbind[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  330 | s::msg::yolo_points::ConstPtr>("/close_rectangles", 1, std::[01;31m[Kbind[m[K(&GetDepth::close_yoloCallback, this, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:330:117:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::bind[m[K’ is defined in header ‘[01m[K<functional>[m[K’; did you forget to ‘[01m[K#include <functional>[m[K’?
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:330:123:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ is not a class, namespace, or enumeration
+  330 | ::yolo_points::ConstPtr>("/close_rectangles", 1, std::bind(&[01;31m[KGetDepth[m[K::close_yoloCallback, this, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:330:153:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  330 | se_rectangles", 1, std::bind(&GetDepth::close_yoloCallback, [01;31m[Kthis[m[K, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:330:164:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholders[m[K’ has not been declared
+  330 | es", 1, std::bind(&GetDepth::close_yoloCallback, this, std::[01;31m[Kplaceholders[m[K::_1));
+      |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:331:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koutpost_Sub[m[K’ was not declared in this scope
+  331 |     [01;31m[Koutpost_Sub[m[K = this->create_subscription<radar_msgs::msg::points>("/sensor_far/calibration", 1, std::bind(&GetDepth::outpost_Callback, this, std::placeholders::_1));
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:331:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  331 |     outpost_Sub = [01;31m[Kthis[m[K->create_subscription<radar_msgs::msg::points>("/sensor_far/calibration", 1, std::bind(&GetDepth::outpost_Callback, this, std::placeholders::_1));
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:331:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kradar_msgs[m[K’ has not been declared
+  331 |     outpost_Sub = this->create_subscription<[01;31m[Kradar_msgs[m[K::msg::points>("/sensor_far/calibration", 1, std::bind(&GetDepth::outpost_Callback, this, std::placeholders::_1));
+      |                                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:331:70:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  331 | st_Sub = this->create_subscription<radar_msgs::msg::points>([01;35m[K"/sensor_far/calibration"[m[K, 1, std::bind(&GetDepth::outpost_Callback, this, std::placeholders::_1));
+      |                                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:331:105:[m[K [01;31m[Kerror: [m[K‘[01m[Kbind[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  331 | radar_msgs::msg::points>("/sensor_far/calibration", 1, std::[01;31m[Kbind[m[K(&GetDepth::outpost_Callback, this, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:331:105:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::bind[m[K’ is defined in header ‘[01m[K<functional>[m[K’; did you forget to ‘[01m[K#include <functional>[m[K’?
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:331:111:[m[K [01;31m[Kerror: [m[K‘[01m[KGetDepth[m[K’ is not a class, namespace, or enumeration
+  331 | msgs::msg::points>("/sensor_far/calibration", 1, std::bind(&[01;31m[KGetDepth[m[K::outpost_Callback, this, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:331:139:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  331 | far/calibration", 1, std::bind(&GetDepth::outpost_Callback, [01;31m[Kthis[m[K, std::placeholders::_1));
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:331:150:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholders[m[K’ has not been declared
+  331 | tion", 1, std::bind(&GetDepth::outpost_Callback, this, std::[01;31m[Kplaceholders[m[K::_1));
+      |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:332:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  332 |     [01;31m[Krclcpp[m[K::spin(node);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:333:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  333 |     [01;31m[Krclcpp[m[K::shutdown();
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/get_depth_node.dir/build.make:76: CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/get_depth_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

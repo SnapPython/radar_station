@@ -1,0 +1,13 @@
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:[m[K In constructor ‘[01m[KMVCamera::MVCamera()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:17:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   17 |     [01;35m[KtCapability[m[K;      //设备描述信息
+      |     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:18:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   18 |     [01;35m[KsFrameInfo[m[K;
+      |     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:[m[K In member function ‘[01m[Kint MVCamera::Init(int)[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:32:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcam_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   32 |     int [01;35m[Kcam_id[m[K;
+      |         [01;35m[K^~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408

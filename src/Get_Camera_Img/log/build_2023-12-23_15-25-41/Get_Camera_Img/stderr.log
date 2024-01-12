@@ -1,0 +1,49 @@
+WARNING: Package name "Get_Camera_Img" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ does not name a type
+   15 |     [01;31m[KMat[m[K img_;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:[m[K In member function ‘[01m[Kvoid GetImg::timer_callback()[m[K’:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:27:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kh_camera_[m[K’ was not declared in this scope
+   27 |     CameraGetImageBuffer([01;31m[Kh_camera_[m[K, &sFrameInfo_, &pbyBuffer_, 1000);
+      |                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:27:38:[m[K [01;31m[Kerror: [m[K‘[01m[KsFrameInfo_[m[K’ was not declared in this scope
+   27 |     CameraGetImageBuffer(h_camera_, &[01;31m[KsFrameInfo_[m[K, &pbyBuffer_, 1000);
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:27:52:[m[K [01;31m[Kerror: [m[K‘[01m[KpbyBuffer_[m[K’ was not declared in this scope
+   27 |     CameraGetImageBuffer(h_camera_, &sFrameInfo_, &[01;31m[KpbyBuffer_[m[K, 1000);
+      |                                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg_[m[K’ was not declared in this scope
+   30 |         [01;31m[Kimg_[m[K = Mat(sFrameInfo_.iHeight, sFrameInfo_.iWidth, CV_8UC1, pbyBuffer_);
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:30:16:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Mat[m[K’?
+   30 |         img_ = [01;31m[KMat[m[K(sFrameInfo_.iHeight, sFrameInfo_.iWidth, CV_8UC1, pbyBuffer_);
+      |                [01;31m[K^~~[m[K
+      |                [32m[Kcv::Mat[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:3[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:1[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:810:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat[m[K’ declared here
+  810 | class CV_EXPORTS [01;36m[KMat[m[K
+      |                  [01;36m[K^~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg_[m[K’ was not declared in this scope
+   34 |         [01;31m[Kimg_[m[K = Mat(sFrameInfo_.iHeight, sFrameInfo_.iWidth, CV_8UC3, pbyBuffer_);
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:34:16:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Mat[m[K’?
+   34 |         img_ = [01;31m[KMat[m[K(sFrameInfo_.iHeight, sFrameInfo_.iWidth, CV_8UC3, pbyBuffer_);
+      |                [01;31m[K^~~[m[K
+      |                [32m[Kcv::Mat[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:3[m[K,
+                 from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:1[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:810:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat[m[K’ declared here
+  810 | class CV_EXPORTS [01;36m[KMat[m[K
+      |                  [01;36m[K^~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:45:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg_[m[K’ was not declared in this scope
+   45 |     img_msg.height = [01;31m[Kimg_[m[K.rows;
+      |                      [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

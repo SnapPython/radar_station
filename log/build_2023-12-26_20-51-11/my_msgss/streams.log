@@ -1,0 +1,374 @@
+[0.115s] Invoking command in '/home/mechax/zyb/radar_station/build/my_msgss': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechax/zyb/radar_station/src/my_msgss -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/install/my_msgss
+[0.150s] -- The C compiler identification is GNU 11.4.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.190s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.237s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.237s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.291s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.399s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.460s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.686s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.796s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.934s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.948s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.950s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.971s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.971s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.971s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.971s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.985s] -- Found PythonExtra: .so  
+[1.008s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.035s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.036s] -- Configured cppcheck include dirs: 
+[1.036s] -- Configured cppcheck exclude dirs and/or files: 
+[1.038s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.042s] -- Added test 'lint_cmake' to check CMake code style
+[1.045s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.061s] -- Added test 'uncrustify' to check C / C++ code style
+[1.061s] -- Configured uncrustify additional arguments: 
+[1.063s] -- Added test 'xmllint' to check XML markup files
+[1.065s] -- Configuring done
+[1.083s] -- Generating done
+[1.084s] -- Build files have been written to: /home/mechax/zyb/radar_station/build/my_msgss
+[1.089s] Invoked command in '/home/mechax/zyb/radar_station/build/my_msgss' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechax/zyb/radar_station/src/my_msgss -DCMAKE_INSTALL_PREFIX=/home/mechax/zyb/radar_station/install/my_msgss
+[1.090s] Invoking command in '/home/mechax/zyb/radar_station/build/my_msgss': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/my_msgss -- -j16 -l16
+[1.113s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.120s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.137s] [  2%] Built target ament_cmake_python_copy_my_msgss
+[1.304s] running egg_info
+[1.304s] creating my_msgss.egg-info
+[1.304s] writing my_msgss.egg-info/PKG-INFO
+[1.304s] writing dependency_links to my_msgss.egg-info/dependency_links.txt
+[1.305s] writing top-level names to my_msgss.egg-info/top_level.txt
+[1.305s] writing manifest file 'my_msgss.egg-info/SOURCES.txt'
+[1.306s] reading manifest file 'my_msgss.egg-info/SOURCES.txt'
+[1.307s] writing manifest file 'my_msgss.egg-info/SOURCES.txt'
+[1.350s] [  2%] Built target ament_cmake_python_build_my_msgss_egg
+[1.430s] [  2%] Built target my_msgss__cpp
+[1.444s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.445s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.445s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.465s] [  8%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/yolopoint__functions.c.o[0m
+[1.469s] [ 15%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/distpoints__functions.c.o[0m
+[1.470s] [ 15%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/point__functions.c.o[0m
+[1.470s] [ 15%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/distpoint__functions.c.o[0m
+[1.470s] [ 15%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/points__functions.c.o[0m
+[1.470s] [ 15%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_c.dir/rosidl_generator_c/my_msgss/msg/detail/yolopoints__functions.c.o[0m
+[1.522s] [ 16%] [32m[1mLinking C shared library libmy_msgss__rosidl_generator_c.so[0m
+[1.546s] [ 16%] Built target my_msgss__rosidl_generator_c
+[1.553s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.557s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.557s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.734s] [ 26%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[1.734s] [ 26%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/distpoint__type_support.cpp.o[0m
+[1.734s] [ 26%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/distpoints__type_support.cpp.o[0m
+[1.734s] [ 26%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/yolopoints__type_support.cpp.o[0m
+[1.735s] [ 28%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/yolopoint__type_support.cpp.o[0m
+[1.738s] [ 29%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgss/msg/detail/dds_fastrtps/points__type_support.cpp.o[0m
+[1.798s] [ 32%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/yolopoints__type_support.cpp.o[0m
+[1.798s] [ 33%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/yolopoint__type_support.cpp.o[0m
+[1.799s] [ 32%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/distpoints__type_support.cpp.o[0m
+[1.805s] [ 35%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/point__type_support.cpp.o[0m
+[1.810s] [ 36%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/points__type_support.cpp.o[0m
+[1.819s] [ 38%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgss/msg/distpoint__type_support.cpp.o[0m
+[1.882s] [ 39%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgss/msg/yolopoint__type_support.cpp.o[0m
+[1.994s] [ 40%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgss/msg/yolopoints__type_support.cpp.o[0m
+[2.082s] [ 42%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgss/msg/distpoint__type_support.cpp.o[0m
+[2.144s] [ 43%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgss/msg/distpoints__type_support.cpp.o[0m
+[2.194s] [ 45%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgss/msg/detail/yolopoint__type_support.cpp.o[0m
+[2.204s] [ 46%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgss/msg/point__type_support.cpp.o[0m
+[2.244s] [ 47%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgss/msg/points__type_support.cpp.o[0m
+[2.255s] [ 49%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgss/msg/detail/yolopoints__type_support.cpp.o[0m
+[2.280s] [ 52%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgss/msg/detail/distpoints__type_support.cpp.o[0m
+[2.281s] [ 52%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgss/msg/detail/distpoint__type_support.cpp.o[0m
+[2.299s] [ 53%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgss/msg/detail/yolopoint__type_support_c.cpp.o[0m
+[2.307s] [ 54%] [32m[1mLinking CXX shared library libmy_msgss__rosidl_typesupport_c.so[0m
+[2.315s] [ 56%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgss/msg/detail/point__type_support.cpp.o[0m
+[2.319s] [ 59%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgss/msg/detail/yolopoints__type_support_c.cpp.o[0m
+[2.319s] [ 59%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgss/msg/detail/yolopoint__type_support.c.o[0m
+[2.327s] [ 60%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgss/msg/detail/points__type_support.cpp.o[0m
+[2.385s] [ 61%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgss/msg/detail/yolopoints__type_support.c.o[0m
+[2.388s] [ 63%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgss/msg/detail/distpoints__type_support_c.cpp.o[0m
+[2.399s] [ 66%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgss/msg/detail/distpoint__type_support_c.cpp.o[0m
+[2.401s] [ 66%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgss/msg/detail/point__type_support_c.cpp.o[0m
+[2.403s] [ 67%] [32m[1mLinking CXX shared library libmy_msgss__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.406s] [ 67%] Built target my_msgss__rosidl_typesupport_c
+[2.414s] [ 69%] [32m[1mLinking CXX shared library libmy_msgss__rosidl_typesupport_cpp.so[0m
+[2.421s] [ 70%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgss/msg/detail/distpoints__type_support.c.o[0m
+[2.433s] [ 71%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgss/msg/detail/distpoint__type_support.c.o[0m
+[2.494s] [ 74%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgss/msg/detail/points__type_support.c.o[0m
+[2.510s] [ 74%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgss/msg/detail/point__type_support.c.o[0m
+[2.521s] [ 76%] [32mBuilding CXX object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgss/msg/detail/points__type_support_c.cpp.o[0m
+[2.579s] [ 76%] Built target my_msgss__rosidl_typesupport_cpp
+[2.615s] [ 76%] Built target my_msgss__rosidl_typesupport_fastrtps_cpp
+[2.616s] [ 77%] [32m[1mLinking C shared library libmy_msgss__rosidl_typesupport_introspection_c.so[0m
+[2.680s] [ 77%] Built target my_msgss__rosidl_typesupport_introspection_c
+[2.881s] [ 78%] [32m[1mLinking CXX shared library libmy_msgss__rosidl_typesupport_introspection_cpp.so[0m
+[2.937s] [ 80%] [32m[1mLinking CXX shared library libmy_msgss__rosidl_typesupport_fastrtps_c.so[0m
+[2.939s] [ 80%] Built target my_msgss__rosidl_typesupport_introspection_cpp
+[2.988s] [ 80%] Built target my_msgss__rosidl_typesupport_fastrtps_c
+[3.001s] [ 80%] Built target my_msgss
+[3.014s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.398s] [ 81%] Built target my_msgss__py
+[3.412s] [ 83%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_py.dir/rosidl_generator_py/my_msgss/msg/_distpoint_s.c.o[0m
+[3.413s] [ 87%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_py.dir/rosidl_generator_py/my_msgss/msg/_point_s.c.o[0m
+[3.413s] [ 87%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_py.dir/rosidl_generator_py/my_msgss/msg/_yolopoint_s.c.o[0m
+[3.413s] [ 87%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_py.dir/rosidl_generator_py/my_msgss/msg/_yolopoints_s.c.o[0m
+[3.414s] [ 88%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_py.dir/rosidl_generator_py/my_msgss/msg/_distpoints_s.c.o[0m
+[3.419s] [ 90%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_generator_py.dir/rosidl_generator_py/my_msgss/msg/_points_s.c.o[0m
+[3.513s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/my_msgss/libmy_msgss__rosidl_generator_py.so[0m
+[3.540s] [ 91%] Built target my_msgss__rosidl_generator_py
+[3.555s] [ 94%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_msgss/_my_msgss_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.555s] [ 94%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_msgss/_my_msgss_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.563s] [ 95%] [32mBuilding C object CMakeFiles/my_msgss__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_msgss/_my_msgss_s.ep.rosidl_typesupport_c.c.o[0m
+[3.620s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/my_msgss/my_msgss_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.620s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/my_msgss/my_msgss_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.646s] [ 98%] Built target my_msgss__rosidl_typesupport_introspection_c__pyext
+[3.649s] [ 98%] Built target my_msgss__rosidl_typesupport_fastrtps_c__pyext
+[3.652s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_msgss/my_msgss_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.674s] [100%] Built target my_msgss__rosidl_typesupport_c__pyext
+[3.683s] Invoked command in '/home/mechax/zyb/radar_station/build/my_msgss' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/build/my_msgss -- -j16 -l16
+[3.768s] Invoking command in '/home/mechax/zyb/radar_station/build/my_msgss': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechax/zyb/radar_station/build/my_msgss
+[3.774s] -- Install configuration: ""
+[3.774s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/ament_index/resource_index/rosidl_interfaces/my_msgss
+[3.774s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss
+[3.775s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg
+[3.775s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.h
+[3.775s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/distpoint.h
+[3.775s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail
+[3.775s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__struct.h
+[3.775s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__functions.c
+[3.775s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__functions.c
+[3.775s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__type_support.h
+[3.776s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__struct.h
+[3.776s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__struct.h
+[3.776s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__functions.c
+[3.776s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__struct.h
+[3.776s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__type_support.h
+[3.776s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__struct.h
+[3.776s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__functions.c
+[3.776s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.h
+[3.776s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__functions.c
+[3.776s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__functions.h
+[3.776s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__type_support.h
+[3.777s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__functions.h
+[3.777s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__functions.c
+[3.777s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__type_support.h
+[3.777s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__functions.h
+[3.777s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__functions.h
+[3.777s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__type_support.h
+[3.777s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__type_support.h
+[3.777s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__functions.h
+[3.777s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__functions.h
+[3.778s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/rosidl_generator_c__visibility_control.h
+[3.778s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/distpoints.h
+[3.778s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoint.h
+[3.778s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/point.h
+[3.778s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/points.h
+[3.778s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/environment/library_path.sh
+[3.778s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/environment/library_path.dsv
+[3.778s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_generator_c.so
+[3.778s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_generator_c.so" to ""
+[3.778s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss
+[3.778s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg
+[3.779s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail
+[3.779s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__rosidl_typesupport_fastrtps_c.h
+[3.779s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__rosidl_typesupport_fastrtps_c.h
+[3.779s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[3.779s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__rosidl_typesupport_fastrtps_c.h
+[3.779s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__rosidl_typesupport_fastrtps_c.h
+[3.779s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__rosidl_typesupport_fastrtps_c.h
+[3.779s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.779s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_fastrtps_c.so
+[3.779s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_fastrtps_c.so" to ""
+[3.779s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss
+[3.780s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg
+[3.780s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.780s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail
+[3.780s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__rosidl_typesupport_introspection_c.h
+[3.780s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__type_support.c
+[3.780s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__rosidl_typesupport_introspection_c.h
+[3.780s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__rosidl_typesupport_introspection_c.h
+[3.780s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__rosidl_typesupport_introspection_c.h
+[3.780s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__type_support.c
+[3.780s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__type_support.c
+[3.780s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__type_support.c
+[3.781s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__rosidl_typesupport_introspection_c.h
+[3.781s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__type_support.c
+[3.781s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__type_support.c
+[3.781s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__rosidl_typesupport_introspection_c.h
+[3.781s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_introspection_c.so
+[3.781s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_introspection_c.so" to ""
+[3.781s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_c.so
+[3.781s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_c.so" to ""
+[3.781s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss
+[3.781s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/distpoints.hpp
+[3.782s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__traits.hpp
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__struct.hpp
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__traits.hpp
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__struct.hpp
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__builder.hpp
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__traits.hpp
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__builder.hpp
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__traits.hpp
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__builder.hpp
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__traits.hpp
+[3.782s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__traits.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__builder.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__struct.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__struct.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__builder.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__struct.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__builder.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__struct.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/distpoint.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoint.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/yolopoints.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/point.hpp
+[3.783s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/points.hpp
+[3.783s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss
+[3.783s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg
+[3.783s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail
+[3.784s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.784s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.784s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__rosidl_typesupport_fastrtps_cpp.hpp
+[3.784s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__rosidl_typesupport_fastrtps_cpp.hpp
+[3.784s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.784s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__rosidl_typesupport_fastrtps_cpp.hpp
+[3.784s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/dds_fastrtps
+[3.784s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.784s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_fastrtps_cpp.so
+[3.784s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.784s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss
+[3.784s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg
+[3.784s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail
+[3.784s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__rosidl_typesupport_introspection_cpp.hpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__type_support.cpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__type_support.cpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoint__rosidl_typesupport_introspection_cpp.hpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__type_support.cpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoints__rosidl_typesupport_introspection_cpp.hpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__type_support.cpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/yolopoint__rosidl_typesupport_introspection_cpp.hpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__rosidl_typesupport_introspection_cpp.hpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/points__type_support.cpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/include/my_msgss/my_msgss/msg/detail/distpoints__type_support.cpp
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_introspection_cpp.so
+[3.785s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_introspection_cpp.so" to ""
+[3.785s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_cpp.so
+[3.786s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_typesupport_cpp.so" to ""
+[3.786s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/environment/pythonpath.sh
+[3.786s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/environment/pythonpath.dsv
+[3.786s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss-0.0.0-py3.10.egg-info
+[3.786s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.786s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss-0.0.0-py3.10.egg-info/top_level.txt
+[3.786s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss-0.0.0-py3.10.egg-info/PKG-INFO
+[3.786s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.786s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss
+[3.786s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg
+[3.786s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_yolopoints.py
+[3.786s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_yolopoint_s.c
+[3.786s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_distpoints.py
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_point_s.c
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_yolopoint.py
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_distpoint.py
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_yolopoints_s.c
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_point.py
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_points.py
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_points_s.c
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_distpoint_s.c
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/__init__.py
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_distpoints_s.c
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/_my_msgss_s.ep.rosidl_typesupport_c.c
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/my_msgss_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/_my_msgss_s.ep.rosidl_typesupport_introspection_c.c
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/_my_msgss_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.787s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/my_msgss_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.788s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/libmy_msgss__rosidl_generator_py.so
+[3.788s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/my_msgss_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.788s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/__init__.py
+[3.807s] Listing '/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss'...
+[3.807s] Compiling '/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/__init__.py'...
+[3.807s] Listing '/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg'...
+[3.807s] Compiling '/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/__init__.py'...
+[3.808s] Compiling '/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_distpoint.py'...
+[3.808s] Compiling '/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_distpoints.py'...
+[3.808s] Compiling '/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_point.py'...
+[3.808s] Compiling '/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_points.py'...
+[3.808s] Compiling '/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_yolopoint.py'...
+[3.808s] Compiling '/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/msg/_yolopoints.py'...
+[3.811s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/my_msgss_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.811s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/my_msgss_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.811s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/my_msgss_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.811s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/my_msgss_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.811s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/my_msgss_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.812s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/my_msgss/local/lib/python3.10/dist-packages/my_msgss/my_msgss_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.812s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_generator_py.so
+[3.812s] -- Set runtime path of "/home/mechax/zyb/radar_station/install/my_msgss/lib/libmy_msgss__rosidl_generator_py.so" to ""
+[3.812s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Yolopoint.idl
+[3.812s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Yolopoints.idl
+[3.812s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Distpoint.idl
+[3.812s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Distpoints.idl
+[3.812s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Point.idl
+[3.812s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Points.idl
+[3.813s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Yolopoint.msg
+[3.813s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Yolopoints.msg
+[3.813s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Distpoint.msg
+[3.813s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Distpoints.msg
+[3.813s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Point.msg
+[3.813s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/msg/Points.msg
+[3.813s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/launch
+[3.814s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/launch/radar_station_launch.py
+[3.814s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/ament_index/resource_index/package_run_dependencies/my_msgss
+[3.814s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/ament_index/resource_index/parent_prefix_path/my_msgss
+[3.814s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/environment/ament_prefix_path.sh
+[3.814s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/environment/ament_prefix_path.dsv
+[3.814s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/environment/path.sh
+[3.814s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/environment/path.dsv
+[3.814s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/local_setup.bash
+[3.814s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/local_setup.sh
+[3.814s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/local_setup.zsh
+[3.814s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/local_setup.dsv
+[3.814s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/package.dsv
+[3.814s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/ament_index/resource_index/packages/my_msgss
+[3.814s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/export_my_msgss__rosidl_generator_cExport.cmake
+[3.815s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/export_my_msgss__rosidl_generator_cExport-noconfig.cmake
+[3.815s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/export_my_msgss__rosidl_typesupport_fastrtps_cExport.cmake
+[3.815s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/export_my_msgss__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.815s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/my_msgss__rosidl_typesupport_introspection_cExport.cmake
+[3.815s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/my_msgss__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.815s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/my_msgss__rosidl_typesupport_cExport.cmake
+[3.815s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/my_msgss__rosidl_typesupport_cExport-noconfig.cmake
+[3.815s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/export_my_msgss__rosidl_generator_cppExport.cmake
+[3.815s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/export_my_msgss__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.816s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/export_my_msgss__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.816s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/my_msgss__rosidl_typesupport_introspection_cppExport.cmake
+[3.816s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/my_msgss__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.816s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/my_msgss__rosidl_typesupport_cppExport.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/my_msgss__rosidl_typesupport_cppExport-noconfig.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/export_my_msgss__rosidl_generator_pyExport.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/export_my_msgss__rosidl_generator_pyExport-noconfig.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/rosidl_cmake-extras.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/ament_cmake_export_libraries-extras.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/ament_cmake_export_targets-extras.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/my_msgssConfig.cmake
+[3.817s] -- Installing: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/cmake/my_msgssConfig-version.cmake
+[3.818s] -- Up-to-date: /home/mechax/zyb/radar_station/install/my_msgss/share/my_msgss/package.xml
+[3.821s] Invoked command in '/home/mechax/zyb/radar_station/build/my_msgss' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechax/zyb/radar_station/build/my_msgss

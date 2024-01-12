@@ -1,0 +1,11 @@
+[0.030s] Invoking command in '/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/build/get_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/build/get_depth -- -j16 -l16
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o[0m
+[0.350s] In file included from [01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/src/get_depth_node.cpp:4[m[K:
+[0.350s] [01m[K/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/include/get_depth_node.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.h: No such file or directory
+[0.350s]     5 | #include [01;31m[K<pcl_conversions/pcl_conversions.h>[m[K
+[0.350s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.350s] compilation terminated.
+[0.355s] gmake[2]: *** [CMakeFiles/get_depth_node.dir/build.make:76: CMakeFiles/get_depth_node.dir/src/get_depth_node.cpp.o] Error 1
+[0.355s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/get_depth_node.dir/all] Error 2
+[0.355s] gmake: *** [Makefile:146: all] Error 2
+[0.357s] Invoked command in '/home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/build/get_depth' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/AAAmy_ws/12.22/radar_station2022/get_depth/build/get_depth -- -j16 -l16

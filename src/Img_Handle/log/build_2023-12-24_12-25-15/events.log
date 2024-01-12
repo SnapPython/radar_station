@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (Img_Handle) JobQueued: {'identifier': 'Img_Handle', 'dependencies': OrderedDict()}
+[0.000799] (Img_Handle) JobStarted: {'identifier': 'Img_Handle'}
+[0.028770] (Img_Handle) JobProgress: {'identifier': 'Img_Handle', 'progress': 'cmake'}
+[0.029102] (Img_Handle) JobProgress: {'identifier': 'Img_Handle', 'progress': 'build'}
+[0.029650] (Img_Handle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle', '--', '-j16', '-l16'], 'cwd': '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'mechax'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/mechax/ws_livox/install/livox_ros2_driver/lib:/home/mechax/ws_livox/install/livox_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mechax'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/mechax/zyb/radar_station/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1429'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=98cbe96397077928128704d2658584bb'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mechax/ws_livox/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mechax'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mechax'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mechax/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mechax/.fishros/bin/:/home/mechax/.fishros/bin/'), ('SESSION_MANAGER', 'local/mechax-NUC13ANHi5:@/tmp/.ICE-unix/1429,unix/mechax-NUC13ANHi5:/tmp/.ICE-unix/1429'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fbd1efce_199e_4af7_9e12_d2adc8cff538'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-31dbb064b4.sock'), ('GNOME_TERMINAL_SERVICE', ':1.11103'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=98cbe96397077928128704d2658584bb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mechax/ws_livox/install/livox_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.044682] (Img_Handle) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100006] (-) TimerEvent: {}
+[0.124256] (Img_Handle) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.141270] (Img_Handle) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.142366] (Img_Handle) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.146294] (Img_Handle) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.152659] (Img_Handle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.161465] (Img_Handle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.194011] (Img_Handle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.194864] (Img_Handle) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200072] (-) TimerEvent: {}
+[0.265534] (Img_Handle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300280] (-) TimerEvent: {}
+[0.356863] (Img_Handle) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.400504] (-) TimerEvent: {}
+[0.430875] (Img_Handle) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.435052] (Img_Handle) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.465643] (Img_Handle) StderrLine: {'line': b'WARNING: Package name "Img_Handle" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[0.479381] (Img_Handle) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.479632] (Img_Handle) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mechax/zyb/radar_station/src/Img_Handle/include\n'}
+[0.479669] (Img_Handle) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.480576] (Img_Handle) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.481960] (Img_Handle) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.482880] (Img_Handle) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.488027] (Img_Handle) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.488055] (Img_Handle) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.488904] (Img_Handle) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.489261] (Img_Handle) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.499086] (Img_Handle) StdoutLine: {'line': b'-- Generating done\n'}
+[0.499955] (Img_Handle) StdoutLine: {'line': b'-- Build files have been written to: /home/mechax/zyb/radar_station/src/Img_Handle/build/Img_Handle\n'}
+[0.500595] (-) TimerEvent: {}
+[0.517545] (Img_Handle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Img_Pub\x1b[0m\n'}
+[0.517746] (Img_Handle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Img_Sub\x1b[0m\n'}
+[0.523246] (Img_Handle) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o\x1b[0m\n'}
+[0.525875] (Img_Handle) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/main.dir/src/inference.cpp.o\x1b[0m\n'}
+[0.530507] (Img_Handle) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o\x1b[0m\n'}
+[0.532110] (Img_Handle) StdoutLine: {'line': b'[ 62%] Built target Img_Pub\n'}
+[0.533269] (Img_Handle) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/Img_Sub.dir/src/inference.cpp.o\x1b[0m\n'}
+[0.600715] (-) TimerEvent: {}
+[0.701090] (-) TimerEvent: {}
+[0.801441] (-) TimerEvent: {}
+[0.901873] (-) TimerEvent: {}
+[1.002363] (-) TimerEvent: {}
+[1.102815] (-) TimerEvent: {}
+[1.203196] (-) TimerEvent: {}
+[1.303599] (-) TimerEvent: {}
+[1.404024] (-) TimerEvent: {}
+[1.472344] (Img_Handle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.472644] (Img_Handle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:31:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.472738] (Img_Handle) StderrLine: {'line': b'   31 |     for (int i = 0; \x1b[01;35m\x1b[Ki < imageNames.size()\x1b[m\x1b[K; ++i)\n'}
+[1.472816] (Img_Handle) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.475530] (Img_Handle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:12:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.475901] (Img_Handle) StderrLine: {'line': b'   12 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char **argv)\n'}
+[1.475980] (Img_Handle) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[1.476060] (Img_Handle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Img_Handle/src/main.cpp:12:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.476134] (Img_Handle) StderrLine: {'line': b'   12 | int main(int argc, \x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K)\n'}
+[1.476202] (Img_Handle) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.504216] (-) TimerEvent: {}
+[1.604660] (-) TimerEvent: {}
+[1.705099] (-) TimerEvent: {}
+[1.805548] (-) TimerEvent: {}
+[1.905880] (-) TimerEvent: {}
+[1.932930] (Img_Handle) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable main\x1b[0m\n'}
+[2.005987] (-) TimerEvent: {}
+[2.065061] (Img_Handle) StdoutLine: {'line': b'[ 87%] Built target main\n'}
+[2.106092] (-) TimerEvent: {}
+[2.206377] (-) TimerEvent: {}
+[2.306801] (-) TimerEvent: {}
+[2.407209] (-) TimerEvent: {}
+[2.507561] (-) TimerEvent: {}
+[2.607911] (-) TimerEvent: {}
+[2.671186] (Img_Handle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Img_Sub::yolo_identify()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.671391] (Img_Handle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:54:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinf_robot\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.671458] (Img_Handle) StderrLine: {'line': b'   54 |         std::vector<Detection> output = \x1b[01;31m\x1b[Kinf_robot\x1b[m\x1b[K.runInference(this->sub_img);\n'}
+[2.671521] (Img_Handle) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.675423] (Img_Handle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:61:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kframe\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.675666] (Img_Handle) StderrLine: {'line': b'   61 |         cv::resize(\x1b[01;31m\x1b[Kframe\x1b[m\x1b[K, frame, cv::Size(thia->sub_img.cols, this->sub_img.rows));\n'}
+[2.675733] (Img_Handle) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.678998] (Img_Handle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Img_Handle/src/img_sub.cpp:61:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kthia\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.679177] (Img_Handle) StderrLine: {'line': b'   61 |         cv::resize(frame, frame, cv::Size(\x1b[01;31m\x1b[Kthia\x1b[m\x1b[K->sub_img.cols, this->sub_img.rows));\n'}
+[2.679243] (Img_Handle) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.679304] (Img_Handle) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[Kthis\x1b[m\x1b[K\n'}
+[2.708143] (-) TimerEvent: {}
+[2.808600] (-) TimerEvent: {}
+[2.909112] (-) TimerEvent: {}
+[3.009475] (-) TimerEvent: {}
+[3.109959] (-) TimerEvent: {}
+[3.210245] (-) TimerEvent: {}
+[3.310526] (-) TimerEvent: {}
+[3.410833] (-) TimerEvent: {}
+[3.511189] (-) TimerEvent: {}
+[3.611558] (-) TimerEvent: {}
+[3.712054] (-) TimerEvent: {}
+[3.812404] (-) TimerEvent: {}
+[3.912820] (-) TimerEvent: {}
+[4.013264] (-) TimerEvent: {}
+[4.113727] (-) TimerEvent: {}
+[4.214165] (-) TimerEvent: {}
+[4.314537] (-) TimerEvent: {}
+[4.327886] (Img_Handle) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Img_Sub.dir/build.make:76: CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o] Error 1\n'}
+[4.328277] (Img_Handle) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/Img_Sub.dir/all] Error 2\n'}
+[4.328490] (Img_Handle) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.330511] (Img_Handle) CommandEnded: {'returncode': 2}
+[4.378668] (Img_Handle) JobEnded: {'identifier': 'Img_Handle', 'rc': 2}
+[4.389166] (-) EventReactorShutdown: {}

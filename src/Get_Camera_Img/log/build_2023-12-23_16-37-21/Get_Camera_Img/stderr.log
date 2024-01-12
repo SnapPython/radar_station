@@ -1,0 +1,19 @@
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:155:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::string GetImg::num2str(double)[m[K’
+  155 | string [01;31m[KGetImg[m[K::num2str(double i)
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:155:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::string GetImg::num2str(double)[m[K’
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:13:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass GetImg[m[K’ defined here
+   13 | class [01;36m[KGetImg[m[K : public::rclcpp::Node
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:167:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool GetImg::take_and_send_image()[m[K’
+  167 | bool [01;31m[KGetImg[m[K::take_and_send_image()
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:167:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool GetImg::take_and_send_image()[m[K’
+In file included from [01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:1[m[K:
+[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/include/get_img.hpp:13:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass GetImg[m[K’ defined here
+   13 | class [01;36m[KGetImg[m[K : public::rclcpp::Node
+      |       [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

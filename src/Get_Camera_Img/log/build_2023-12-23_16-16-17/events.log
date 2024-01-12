@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (Get_Camera_Img) JobQueued: {'identifier': 'Get_Camera_Img', 'dependencies': OrderedDict()}
+[0.000293] (Get_Camera_Img) JobStarted: {'identifier': 'Get_Camera_Img'}
+[0.034878] (Get_Camera_Img) JobProgress: {'identifier': 'Get_Camera_Img', 'progress': 'cmake'}
+[0.035613] (Get_Camera_Img) JobProgress: {'identifier': 'Get_Camera_Img', 'progress': 'build'}
+[0.036308] (Get_Camera_Img) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img', '--', '-j16', '-l16'], 'cwd': '/home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'mechax'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/mechax/ws_livox/install/livox_ros2_driver/lib:/home/mechax/ws_livox/install/livox_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mechax'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/mechax/zyb/radar_station/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1429'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=98cbe96397077928128704d2658584bb'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mechax/ws_livox/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mechax'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mechax'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mechax/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mechax/.fishros/bin/:/home/mechax/.fishros/bin/'), ('SESSION_MANAGER', 'local/mechax-NUC13ANHi5:@/tmp/.ICE-unix/1429,unix/mechax-NUC13ANHi5:/tmp/.ICE-unix/1429'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c307a533_d8ca_461c_8328_16a38e7b0c9e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f255e4c845.sock'), ('GNOME_TERMINAL_SERVICE', ':1.541'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mechax/zyb/radar_station/src/Get_Camera_Img/build/Get_Camera_Img'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=98cbe96397077928128704d2658584bb'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mechax/ws_livox/install/livox_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mechax/ws_livox/install/livox_ros2_driver:/home/mechax/ws_livox/install/livox_sdk_vendor:/home/mechax/ws_livox/install/livox_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.069380] (Get_Camera_Img) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/Get_Img.dir/src/MVCamera.cpp.o\x1b[0m\n'}
+[0.069596] (Get_Camera_Img) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/Get_Img.dir/src/get_img.cpp.o\x1b[0m\n'}
+[0.099766] (-) TimerEvent: {}
+[0.199988] (-) TimerEvent: {}
+[0.300320] (-) TimerEvent: {}
+[0.400698] (-) TimerEvent: {}
+[0.501242] (-) TimerEvent: {}
+[0.601591] (-) TimerEvent: {}
+[0.701879] (-) TimerEvent: {}
+[0.802204] (-) TimerEvent: {}
+[0.902705] (-) TimerEvent: {}
+[1.003054] (-) TimerEvent: {}
+[1.103405] (-) TimerEvent: {}
+[1.203660] (-) TimerEvent: {}
+[1.304023] (-) TimerEvent: {}
+[1.404297] (-) TimerEvent: {}
+[1.504653] (-) TimerEvent: {}
+[1.605017] (-) TimerEvent: {}
+[1.705318] (-) TimerEvent: {}
+[1.805625] (-) TimerEvent: {}
+[1.905927] (-) TimerEvent: {}
+[1.953322] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GetImg::camera_init()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.953486] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:69:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmv_driver\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.953531] (Get_Camera_Img) StderrLine: {'line': b'   69 |     \x1b[01;31m\x1b[Kmv_driver\x1b[m\x1b[K = &mvcamera;\n'}
+[1.953562] (Get_Camera_Img) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.960455] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GetImg::get_exp(const Int16&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.960637] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:122:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmv_driver\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.960731] (Get_Camera_Img) StderrLine: {'line': b'  122 |         \x1b[01;31m\x1b[Kmv_driver\x1b[m\x1b[K->SetExposureTime(autoexposure_, exposure_);\n'}
+[1.960804] (Get_Camera_Img) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.966901] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GetImg::get_is_large(const Bool&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.967113] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:133:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmv_driver\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.967183] (Get_Camera_Img) StderrLine: {'line': b'  133 |         \x1b[01;31m\x1b[Kmv_driver\x1b[m\x1b[K->SetExposureTime(0, 3000);\n'}
+[1.967252] (Get_Camera_Img) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.973482] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:135:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmv_driver\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.973664] (Get_Camera_Img) StderrLine: {'line': b'  135 |         \x1b[01;31m\x1b[Kmv_driver\x1b[m\x1b[K->SetExposureTime(0, 1500);\n'}
+[1.973742] (Get_Camera_Img) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.006040] (-) TimerEvent: {}
+[2.106491] (-) TimerEvent: {}
+[2.196717] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMVCamera::MVCamera()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.196884] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:17:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.196925] (Get_Camera_Img) StderrLine: {'line': b'   17 |     \x1b[01;35m\x1b[KtCapability\x1b[m\x1b[K;      //\xe8\xae\xbe\xe5\xa4\x87\xe6\x8f\x8f\xe8\xbf\xb0\xe4\xbf\xa1\xe6\x81\xaf\n'}
+[2.196965] (Get_Camera_Img) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.197002] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:18:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.197041] (Get_Camera_Img) StderrLine: {'line': b'   18 |     \x1b[01;35m\x1b[KsFrameInfo\x1b[m\x1b[K;\n'}
+[2.197079] (Get_Camera_Img) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.198364] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint MVCamera::Init(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.198406] (Get_Camera_Img) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/MVCamera.cpp:32:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcam_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.198435] (Get_Camera_Img) StderrLine: {'line': b'   32 |     int \x1b[01;35m\x1b[Kcam_id\x1b[m\x1b[K;\n'}
+[2.198467] (Get_Camera_Img) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.206604] (-) TimerEvent: {}
+[2.306952] (-) TimerEvent: {}
+[2.407312] (-) TimerEvent: {}
+[2.507671] (-) TimerEvent: {}
+[2.608034] (-) TimerEvent: {}
+[2.708406] (-) TimerEvent: {}
+[2.808749] (-) TimerEvent: {}
+[2.909092] (-) TimerEvent: {}
+[3.009444] (-) TimerEvent: {}
+[3.109798] (-) TimerEvent: {}
+[3.210045] (-) TimerEvent: {}
+[3.310294] (-) TimerEvent: {}
+[3.410660] (-) TimerEvent: {}
+[3.511157] (-) TimerEvent: {}
+[3.611495] (-) TimerEvent: {}
+[3.711860] (-) TimerEvent: {}
+[3.812343] (-) TimerEvent: {}
+[3.912864] (-) TimerEvent: {}
+[4.013296] (-) TimerEvent: {}
+[4.092451] (Get_Camera_Img) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1\n'}
+[4.092756] (Get_Camera_Img) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2\n'}
+[4.092965] (Get_Camera_Img) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.094096] (Get_Camera_Img) CommandEnded: {'returncode': 2}
+[4.113656] (-) TimerEvent: {}
+[4.131427] (Get_Camera_Img) JobEnded: {'identifier': 'Get_Camera_Img', 'rc': 2}
+[4.141986] (-) EventReactorShutdown: {}

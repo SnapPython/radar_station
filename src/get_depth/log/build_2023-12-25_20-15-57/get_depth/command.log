@@ -1,0 +1,2 @@
+Invoking command in '/home/mechax/zyb/radar_station/src/get_depth/build/get_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/get_depth/build/get_depth -- -j16 -l16
+Invoked command in '/home/mechax/zyb/radar_station/src/get_depth/build/get_depth' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechax/zyb/radar_station/src/get_depth/build/get_depth -- -j16 -l16
