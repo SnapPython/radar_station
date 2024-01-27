@@ -1,5 +1,8 @@
+echo "Starting colcon build"
 colcon build --symlink-install
-cmds=( "ros2 launch Get_Camera_Img get_camera_img_launch.py"
+echo "Colcon build finished"
+
+cmds=( "ros2 launch mindvision_camera mv_launch.py"
         "ros2 launch Img_Handle img_handle_launch.py"
         "ros2 launch get_depth get_depth_launch.py"
         "ros2 launch Game_Map game_map_launch.py")
@@ -18,3 +21,5 @@ do
   	gnome-terminal -- bash -c "cd $(pwd);source install/setup.bash;$cmd;exec bash;"
     sleep 0.2
 done
+
+echo "Script finished"

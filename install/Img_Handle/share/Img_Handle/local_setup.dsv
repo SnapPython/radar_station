@@ -1,1 +1,2 @@
-/home/mechax/zyb/radar_station/build/Img_Handle/ament_cmake_environment_hooks/local_setup.dsv
+source;share/Img_Handle/environment/ament_prefix_path.sh
+source;share/Img_Handle/environment/path.sh

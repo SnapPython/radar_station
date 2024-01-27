@@ -15,8 +15,8 @@ void onMouse(int event, int x, int y, int flags, void *userdata);//event鼠标�
 Game_Map::Game_Map() : Node("game_map")
 {
     // 初始化
-    field_width = 28;
-    field_height = 15;
+    field_width = 28; //28
+    field_height = 15; //15
     imgCols = 1280.0;
     imgRows = 1024.0;
     red_or_blue = 0; //0 is red, 1 is blue
@@ -51,6 +51,7 @@ Game_Map::Game_Map() : Node("game_map")
     get_map_init();
 }
 
+//在小地图上画分区域
 void Game_Map::warn_regions_init()
 {
     our_R1 = {Point(0, 395), Point(0, 562), Point(33, 562), Point(33, 395)};
@@ -279,17 +280,20 @@ void Game_Map::camera_pnp_calibration()
 //初始化小地图，根据颜色选择不同的小地图
 void Game_Map::get_map_init()
 {
-    if (red_or_blue == 0)
-    {
-        std::string small_map_png = "/home/mechax/zyb/radar_station/src/Game_Map/map/red_minimap.png";
-        small_map = imread(small_map_png);
-    }
-    else
-    {
-        std::string small_map_png = "/home/mechax/zyb/radar_station/src/Game_Map/map/blue_minimap.png";
-        small_map = imread(small_map_png);
-    }
-    resize(small_map, small_map, Size(450, 840));
+    // if (red_or_blue == 0)
+    // {
+    //     std::string small_map_png = "/home/mechax/AAAmy_ws/1.14/radar_station/src/Game_Map/map/blue_minimap.png";
+    //     small_map = imread(small_map_png);
+    // }
+    // else
+    // {
+    //     std::string small_map_png = "/home/mechax/AAAmy_ws/1.14/radar_station/src/Game_Map/map/blue_minimap.png";
+    //     small_map = imread(small_map_png);
+    // }
+    //for test
+    std::string small_map_png = "/home/mechax/AAAmy_ws/1.14/radar_station/src/Game_Map/map/test.png";
+    small_map = imread(small_map_png);
+     resize(small_map, small_map, Size(640, 480));
     small_map.copyTo(small_map_copy);
     namedWindow("small_map");
     setMouseCallback("small_map", onMouse, &small_map_copy);
@@ -319,7 +323,7 @@ void onMouse(int event, int x, int y, int flags, void *userdata)
     }
 }
 
-
+// 这是干啥的 看起来是计算两点的距离
 double Game_Map::Point2PointDist(const my_msgss::msg::Point &a, const Point3f &b)
 {
     double res = sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2));
@@ -358,93 +362,94 @@ bool Game_Map::is_enemy_car(uint8_t id) {
 /**
  * 去重算法，去除双相机中重复的部分
  */
-void Game_Map::remove_duplicate() {
-    RCLCPP_INFO(this->get_logger(), "begin to remove_duplicate");
-    vector<my_msgss::msg::Point>().swap(result_points.data);
-    my_msgss::msg::Points red_no_id_cars;
-    my_msgss::msg::Points blue_no_id_cars;
-    my_msgss::msg::Points left_may_overlap_points;
-    my_msgss::msg::Points right_may_overlap_points;
-    vector<Point2f> left_region = {Point(0, 0), Point(0, 840), Point(168, 840), Point(278, 0)};
-    vector<Point2f> right_region = {Point(278, 0), Point(168, 840), Point(450, 840), Point(450, 0)};
-    for (auto &i: far_points.data) {
-        int test = pointPolygonTest(left_region, calculate_pixel_codi(i), false);
-        int test2=pointPolygonTest(right_region, calculate_pixel_codi(i), false);
-        if (test > 0) {
-            result_points.data.emplace_back(i);
-        } else if (test == 0 && i.x != 200) {
-            result_points.data.emplace_back(i);
-        } else if (pointPolygonTest(right_region, calculate_pixel_codi(i), false)<=0) {
-            left_may_overlap_points.data.emplace_back(i);
-        }
-    }
-    for (auto &i: close_points.data) {
-        int test = pointPolygonTest(right_region, calculate_pixel_codi(i), false);
-        int test2=pointPolygonTest(left_region, calculate_pixel_codi(i), false);
-        if (test > 0) {
-            result_points.data.emplace_back(i);
-        } else if (test == 0 && i.x != 255) {
-            result_points.data.emplace_back(i);
-        } else if (pointPolygonTest(left_region, calculate_pixel_codi(i), false)<=0) {
-            right_may_overlap_points.data.emplace_back(i);
-        }
-    }
-    uint8_t inner_erase_flag = 0;
-    uint8_t outer_erase_flag = 0;
-    for (auto it_left = left_may_overlap_points.data.begin(); it_left < left_may_overlap_points.data.end();) {
-        for (auto it_right = right_may_overlap_points.data.begin(); it_right < right_may_overlap_points.data.end();) {
-            if (it_left->id == it_right->id && it_left->id == 12 && calculate_dist(*it_left, *it_right) < 5) {
-                my_msgss::msg::Point center;
-                center.id = 12;
-                center.x = (it_left->x + it_right->x) / 2;
-                center.y = (it_left->y + it_right->y) / 2;
-                result_points.data.emplace_back(center);
-                if (!left_may_overlap_points.data.empty())left_may_overlap_points.data.erase(it_left);
-                if (!right_may_overlap_points.data.empty())right_may_overlap_points.data.erase(it_right);
-                inner_erase_flag = 1;
-                outer_erase_flag = 1;
-            } else if (it_left->id == it_right->id && it_left->id == 13 && calculate_dist(*it_left, *it_right) < 5) {
-                my_msgss::msg::Point center;
-                center.id = 13;
-                center.x = (it_left->x + it_right->x) / 2;
-                center.y = (it_left->y + it_right->y) / 2;
-                result_points.data.emplace_back(center);
-                if (!left_may_overlap_points.data.empty())left_may_overlap_points.data.erase(it_left);
-                if (!right_may_overlap_points.data.empty())right_may_overlap_points.data.erase(it_right);
-                inner_erase_flag = 1;
-                outer_erase_flag = 1;
-            } else if (it_left->id == it_right->id && it_left->id < 12 && it_left->id > 0) {
-                my_msgss::msg::Point center;
-                center.id = it_left->id;
-                center.x = (it_left->x + it_right->x) / 2;
-                center.y = (it_left->y + it_right->y) / 2;
-                result_points.data.emplace_back(center);
-                if (!left_may_overlap_points.data.empty())left_may_overlap_points.data.erase(it_left);
-                if (!right_may_overlap_points.data.empty())right_may_overlap_points.data.erase(it_right);
-                inner_erase_flag = 1;
-                outer_erase_flag = 1;
-            }
-            if (inner_erase_flag == 1) {
-                inner_erase_flag = 0;
-                continue;
-            }
-            it_right++;
-        }
-        if (outer_erase_flag == 1) {
-            outer_erase_flag = 0;
-            continue;
-        }
-        it_left++;
-    }
-    for (auto &i: left_may_overlap_points.data) {
-        result_points.data.emplace_back(i);
-    }
-    for (auto &i: right_may_overlap_points.data) {
-        result_points.data.emplace_back(i);
-    }
-    RCLCPP_INFO(this->get_logger(), "remove_duplicate finished");
-}
+// void Game_Map::remove_duplicate() {
+//     RCLCPP_INFO(this->get_logger(), "begin to remove_duplicate");
+//     vector<my_msgss::msg::Point>().swap(result_points.data);
+//     my_msgss::msg::Points red_no_id_cars;
+//     my_msgss::msg::Points blue_no_id_cars;
+//     my_msgss::msg::Points left_may_overlap_points;
+//     my_msgss::msg::Points right_may_overlap_points;
+//     vector<Point2f> left_region = {Point(0, 0), Point(0, 840), Point(168, 840), Point(278, 0)};
+//     vector<Point2f> right_region = {Point(278, 0), Point(168, 840), Point(450, 840), Point(450, 0)};
+//     for (auto &i: far_points.data) {
+//         int test = pointPolygonTest(left_region, calculate_pixel_codi(i), false);
+//         int test2=pointPolygonTest(right_region, calculate_pixel_codi(i), false);
+//         if (test > 0) {
+//             result_points.data.emplace_back(i);
+//         } else if (test == 0 && i.x != 200) {
+//             result_points.data.emplace_back(i);
+//         } else if (pointPolygonTest(right_region, calculate_pixel_codi(i), false)<=0) {
+//             left_may_overlap_points.data.emplace_back(i);
+//         }
+//     }
+//     for (auto &i: close_points.data) {
+//         int test = pointPolygonTest(right_region, calculate_pixel_codi(i), false);
+//         int test2=pointPolygonTest(left_region, calculate_pixel_codi(i), false);
+//         if (test > 0) {
+//             result_points.data.emplace_back(i);
+//         } else if (test == 0 && i.x != 255) {
+//             result_points.data.emplace_back(i);
+//         } else if (pointPolygonTest(left_region, calculate_pixel_codi(i), false)<=0) {
+//             right_may_overlap_points.data.emplace_back(i);
+//         }
+//     }
+//     uint8_t inner_erase_flag = 0;
+//     uint8_t outer_erase_flag = 0;
+//     for (auto it_left = left_may_overlap_points.data.begin(); it_left < left_may_overlap_points.data.end();) {
+//         for (auto it_right = right_may_overlap_points.data.begin(); it_right < right_may_overlap_points.data.end();) {
+//             if (it_left->id == it_right->id && it_left->id == 12 && calculate_dist(*it_left, *it_right) < 5) {
+//                 my_msgss::msg::Point center;
+//                 center.id = 12;
+//                 center.x = (it_left->x + it_right->x) / 2;
+//                 center.y = (it_left->y + it_right->y) / 2;
+//                 result_points.data.emplace_back(center);
+//                 if (!left_may_overlap_points.data.empty())left_may_overlap_points.data.erase(it_left);
+//                 if (!right_may_overlap_points.data.empty())right_may_overlap_points.data.erase(it_right);
+//                 inner_erase_flag = 1;
+//                 outer_erase_flag = 1;
+//             } else if (it_left->id == it_right->id && it_left->id == 13 && calculate_dist(*it_left, *it_right) < 5) {
+//                 my_msgss::msg::Point center;
+//                 center.id = 13;
+//                 center.x = (it_left->x + it_right->x) / 2;
+//                 center.y = (it_left->y + it_right->y) / 2;
+//                 result_points.data.emplace_back(center);
+//                 if (!left_may_overlap_points.data.empty())left_may_overlap_points.data.erase(it_left);
+//                 if (!right_may_overlap_points.data.empty())right_may_overlap_points.data.erase(it_right);
+//                 inner_erase_flag = 1;
+//                 outer_erase_flag = 1;
+//             } else if (it_left->id == it_right->id && it_left->id < 12 && it_left->id > 0) {
+//                 my_msgss::msg::Point center;
+//                 center.id = it_left->id;
+//                 center.x = (it_left->x + it_right->x) / 2;
+//                 center.y = (it_left->y + it_right->y) / 2;
+//                 result_points.data.emplace_back(center);
+//                 if (!left_may_overlap_points.data.empty())left_may_overlap_points.data.erase(it_left);
+//                 if (!right_may_overlap_points.data.empty())right_may_overlap_points.data.erase(it_right);
+//                 inner_erase_flag = 1;
+//                 outer_erase_flag = 1;
+//             }
+//             if (inner_erase_flag == 1) {
+//                 inner_erase_flag = 0;
+//                 continue;
+//             }
+//             it_right++;
+//         }
+//         if (outer_erase_flag == 1) {
+//             outer_erase_flag = 0;
+//             continue;
+//         }
+//         it_left++;
+//     }
+//     for (auto &i: left_may_overlap_points.data) {
+//         result_points.data.emplace_back(i);
+//     }
+//     for (auto &i: right_may_overlap_points.data) {
+//         result_points.data.emplace_back(i);
+//     }
+//     RCLCPP_INFO(this->get_logger(), "remove_duplicate finished");
+// }
 
+//小地图区域警告
 void Game_Map::warn_on_map(const my_msgss::msg::Points &points, Mat &image) {
     vector<my_msgss::msg::Point>().swap(guard_relative.data);
     vector<my_msgss::msg::Point>().swap(relative_coordinates.data);
@@ -552,11 +557,15 @@ void Game_Map::draw_point_on_map(const my_msgss::msg::Point &point, Mat &image) 
     RCLCPP_INFO(this->get_logger(), "begin to draw_point_on_map");
     Scalar scalar;
     string id;
+
     cout << point.id << endl;
     if (point.id <= 5 || point.id == 12)scalar = Scalar(0, 0, 255);
     else scalar = Scalar(255, 0, 0);
     circle(image, calculate_pixel_codi(point), 10,
            scalar, -1, LINE_8, 0);
+    putText(image, id,
+                calculate_pixel_text_codi(point), cv::FONT_HERSHEY_SIMPLEX, 0.7,
+                cv::Scalar(0xFF, 0xFF, 0xFF), 2);
     if (point.id != 12 && point.id != 13) {
         if (point.id <= 5)id = to_string(point.id + 1);
         if (point.id == 5)id = "G";
@@ -565,6 +574,10 @@ void Game_Map::draw_point_on_map(const my_msgss::msg::Point &point, Mat &image) 
         putText(image, id,
                 calculate_pixel_text_codi(point), cv::FONT_HERSHEY_SIMPLEX, 0.7,
                 cv::Scalar(0xFF, 0xFF, 0xFF), 2);
+        //将距离标注在小地图上
+        // putText(image, distance,
+        //         calculate_pixel_text_codi(point), cv::FONT_HERSHEY_SIMPLEX, 0.7,
+        //         cv::Scalar(0xFF, 0xFF, 0xFF), 2);
     }
     RCLCPP_INFO(this->get_logger(), "draw_point_on_map finished");
 }
@@ -764,7 +777,7 @@ void Game_Map::timer_callback()
     if(rclcpp::ok())
     {
         small_map.copyTo(small_map_copy);
-        draw_warn_region(small_map_copy, our_warn_regions, enemy_warn_regions);
+        //draw_warn_region(small_map_copy, our_warn_regions, enemy_warn_regions);
         warn_on_map(result_points, small_map_copy);
         //remove_duplicate();
         vector<my_msgss::msg::Point>().swap(result_points.data);

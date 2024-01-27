@@ -1,9 +1,0 @@
-[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:[m[K In member function ‘[01m[Kvoid GetImg::camera_init()[m[K’:
-[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:74:43:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<MVCamera>[m[K’ to ‘[01m[KMVCamera*[m[K’ in assignment
-   74 |     mv_driver = [01;31m[Kstd::make_shared<MVCamera>()[m[K;
-      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
-      |                                           [01;31m[K|[m[K
-      |                                           [01;31m[Kstd::shared_ptr<MVCamera>[m[K
-gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

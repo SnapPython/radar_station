@@ -46,4 +46,5 @@ public:
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr img_sub_;
     rclcpp::Publisher<my_msgss::msg::Yolopoint>::SharedPtr yolopoint_pub_;
     rclcpp::Publisher<my_msgss::msg::Yolopoints>::SharedPtr yolopoints_pub_;
+    rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr far_qimage_pub_;
 };

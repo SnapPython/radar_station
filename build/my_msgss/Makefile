@@ -315,17 +315,17 @@ my_msgss__rosidl_typesupport_cpp/fast:
 .PHONY : my_msgss__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_my_msgss
+# Target rules for targets named ament_cmake_python_copy_my_msgss
 
 # Build rule for target.
-ament_cmake_python_symlink_my_msgss: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_my_msgss
-.PHONY : ament_cmake_python_symlink_my_msgss
+ament_cmake_python_copy_my_msgss: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_my_msgss
+.PHONY : ament_cmake_python_copy_my_msgss
 
 # fast build rule for target.
-ament_cmake_python_symlink_my_msgss/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_my_msgss.dir/build.make CMakeFiles/ament_cmake_python_symlink_my_msgss.dir/build
-.PHONY : ament_cmake_python_symlink_my_msgss/fast
+ament_cmake_python_copy_my_msgss/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_my_msgss.dir/build.make CMakeFiles/ament_cmake_python_copy_my_msgss.dir/build
+.PHONY : ament_cmake_python_copy_my_msgss/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_my_msgss_egg
@@ -1643,7 +1643,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_my_msgss_egg"
-	@echo "... ament_cmake_python_symlink_my_msgss"
+	@echo "... ament_cmake_python_copy_my_msgss"
 	@echo "... my_msgss"
 	@echo "... my_msgss__cpp"
 	@echo "... my_msgss__py"

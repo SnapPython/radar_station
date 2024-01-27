@@ -1,7 +1,0 @@
-[0m** WARNING ** io features related to pcap will be disabled[0m
-[31mCMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find
-  "/home/mechax/zyb/radar_station/src/get_depth/launch": No such file or
-  directory.
-
-[0m

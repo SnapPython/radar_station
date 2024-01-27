@@ -1,9 +1,12 @@
 #include <opencv2/opencv.hpp>
 #include <opencv2/core/core.hpp>
+#include "cv_bridge/cv_bridge.h"
 #include <iostream>
 #include <rclcpp/rclcpp.hpp>
 #include <pcl/point_cloud.h>
+#include <sensor_msgs/msg/detail/image__struct.hpp>
 #include <sensor_msgs/msg/point_cloud2.hpp>
+#include <sensor_msgs/msg/image.hpp>
 #include <pcl/conversions.h>
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
@@ -45,6 +48,7 @@ private:
   rclcpp::Publisher<my_msgss::msg::Distpoints>::SharedPtr far_distancePointPub;
   rclcpp::Publisher<my_msgss::msg::Distpoints>::SharedPtr close_distancePointPub;
   rclcpp::Publisher<my_msgss::msg::Distpoint>::SharedPtr outpost_distancePointPub;
+  rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr depth_qimage_pub;
 
   //声明消息
   my_msgss::msg::Distpoints far_distance_it;

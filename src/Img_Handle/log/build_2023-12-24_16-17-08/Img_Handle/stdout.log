@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target main[0m
-[ 37%] Built target Img_Pub
-[ 37%] [32mBuilding CXX object CMakeFiles/Img_Sub.dir/src/img_sub.cpp.o[0m
-[ 75%] Built target main

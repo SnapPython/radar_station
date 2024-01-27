@@ -1,1 +1,4 @@
-/home/mechax/zyb/radar_station/src/my_msgss/msg/Point.msg
+uint8 id
+float32 x
+float32 y
+float32 z

@@ -63,8 +63,8 @@ using namespace cv;
 GetDepth::GetDepth() : Node("GetDepth_node")
 {
     times = 0;
-    imgRows = 1024;
-    imgCols = 1280;
+    imgRows = 480;
+    imgCols = 640;
     length_of_cloud_queue = 5;//default length is 5
     post_pub_flag = 0;
     far_camera_matrix = cv::Mat_<float>(3, 3);//相机内参矩阵
@@ -78,6 +78,7 @@ GetDepth::GetDepth() : Node("GetDepth_node")
     far_distancePointPub = this->create_publisher<my_msgss::msg::Distpoints>("/sensor_far/distance_point", 10);
     close_distancePointPub = this->create_publisher<my_msgss::msg::Distpoints>("/sensor_close/distance_point", 10);
     outpost_distancePointPub = this->create_publisher<my_msgss::msg::Distpoint>("sensor_far/outpost", 10);
+    depth_qimage_pub = this->create_publisher<sensor_msgs::msg::Image>("/qt/depth_qimage", 1);
 
     cloud_sub = this->create_subscription<sensor_msgs::msg::PointCloud2>("/livox/lidar", 10, std::bind(&GetDepth::pointCloudCallback, this, std::placeholders::_1));
     far_yolo_sub = this->create_subscription<my_msgss::msg::Yolopoints>("/far_rectangles", 1, std::bind(&GetDepth::far_yoloCallback, this, std::placeholders::_1));
@@ -95,18 +96,18 @@ void GetDepth::init_camera_matrix()
     far_camera_matrix.at<float>(2, 0) = 0;
     far_camera_matrix.at<float>(2, 1) = 0;
     far_camera_matrix.at<float>(2, 2) = 1;
-    far_uni_matrix.at<float>(0, 0) = 0.21985;
-    far_uni_matrix.at<float>(0, 1) = -0.97504;
-    far_uni_matrix.at<float>(0, 2) = 0.0310196;
-    far_uni_matrix.at<float>(0, 3) = 0.124368;
-    far_uni_matrix.at<float>(1, 0) = 0.0753007;
-    far_uni_matrix.at<float>(1, 1) = -0.0147413;
-    far_uni_matrix.at<float>(1, 2) = -0.997052;
-    far_uni_matrix.at<float>(1, 3) = 0.0121193;
-    far_uni_matrix.at<float>(2, 0) = 0.972623;
-    far_uni_matrix.at<float>(2, 1) = 0.221538;
-    far_uni_matrix.at<float>(2, 2) = 0.0701804;
-    far_uni_matrix.at<float>(2, 3) = 0.24331;
+    far_uni_matrix.at<float>(0, 0) = 0.0242125;
+    far_uni_matrix.at<float>(0, 1) = -0.999689;
+    far_uni_matrix.at<float>(0, 2) = 0.00604586;
+    far_uni_matrix.at<float>(0, 3) = 0.00730231;
+    far_uni_matrix.at<float>(1, 0) = 0.0189659;
+    far_uni_matrix.at<float>(1, 1) = -0.00558721;
+    far_uni_matrix.at<float>(1, 2) = -0.999805;
+    far_uni_matrix.at<float>(1, 3) = 0.0320061;
+    far_uni_matrix.at<float>(2, 0) = 0.999527;
+    far_uni_matrix.at<float>(2, 1) = 0.0243225;
+    far_uni_matrix.at<float>(2, 2) = 0.0188247;
+    far_uni_matrix.at<float>(2, 3) = 0.163526;
     far_distortion_coefficient.at<float>(0,0) = -0.025299;
     far_distortion_coefficient.at<float>(1,0) = -0.874546;
     far_distortion_coefficient.at<float>(2,0) = -0.000261;
@@ -238,9 +239,11 @@ void GetDepth::far_yoloCallback(const my_msgss::msg::Yolopoints &input) {
         }
     }
     far_distancePointPub->publish(far_distance_it);
-    resize(far_depth_show, far_depth_show, Size(960, 768));
-    imshow("far_depth_show", far_depth_show);
-    waitKey(1);
+    resize(far_depth_show, far_depth_show, Size(640, 480));
+    //std::cout << "发送深度图像Qimage" << endl;
+    depth_qimage_pub->publish(*(cv_bridge::CvImage(std_msgs::msg::Header(), "32FC1", far_depth_show).toImageMsg()));
+    /*imshow("far_depth_show", far_depth_show);
+    waitKey(1);*/
 };
 
 //update the car_rects

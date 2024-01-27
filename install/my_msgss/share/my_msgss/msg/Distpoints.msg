@@ -1,1 +1,3 @@
-/home/mechax/zyb/radar_station/src/my_msgss/msg/Distpoints.msg
+uint8 id
+string text
+Distpoint[] data

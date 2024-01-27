@@ -2,9 +2,10 @@
 
 Img_Sub::Img_Sub() : Node("img_sub")
 {
-   img_sub_ = this->create_subscription<sensor_msgs::msg::Image>("/img/send",1,std::bind(&Img_Sub::img_callback,this,std::placeholders::_1));
+   img_sub_ = this->create_subscription<sensor_msgs::msg::Image>("/image_raw",1,std::bind(&Img_Sub::img_callback,this,std::placeholders::_1));
    this->yolopoint_pub_ = this->create_publisher<my_msgss::msg::Yolopoint>("/img/yolopoint",1);
    this->yolopoints_pub_ = this->create_publisher<my_msgss::msg::Yolopoints>("/far_rectangles",1);
+   this->far_qimage_pub_ = this->create_publisher<sensor_msgs::msg::Image>("/qt/far_qimage",1);
 //    this->i = 5;
 //    this->declare_parameter("y", 2);
 //    this->get_parameter("y", this->i);
@@ -199,19 +200,25 @@ void Img_Sub::draw_img()
         cv::rectangle(this->sub_img, box, Scalar(255,0,0), 2);
         if(this->robot_boxes.data[i].id != 5 || this->robot_boxes.data[i].id != 11)
         {
-            classString = std::to_string(this->robot_boxes.data[i].id + 1) + " " + this->robot_boxes.data[i].color;
+            classString = "3 " + this->robot_boxes.data[i].color;
+        }
+        else if(this->robot_boxes.data[i].id == 5 || this->robot_boxes.data[i].id == 11)
+        {
+            classString = "shaobin " + this->robot_boxes.data[i].color;
         }
         else
         {
-            classString = "shaobin " + this->robot_boxes.data[i].color;
+            classString = "不确定";
         }
         cv::Size textSize = cv::getTextSize(classString, cv::FONT_HERSHEY_DUPLEX, 1, 2, 0);
         cv::Rect textBox(box.x, box.y - 40, textSize.width + 10, textSize.height + 20);
         cv::rectangle(this->sub_img, textBox, Scalar(0,0,255), cv::FILLED);
         cv::putText(this->sub_img, classString, cv::Point(box.x + 5, box.y - 10), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 0), 2, 0);
     }
-    imshow("Inference", this->sub_img);
-    waitKey(1);
+    far_qimage_pub_->publish(*(cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", this->sub_img).toImageMsg()));
+    //std::cout << "发送qimage图片" << std::endl;
+    /*imshow("Img_Sub::draw_img", this->sub_img);
+    waitKey(1);*/
 }
 
 void Img_Sub::test()
@@ -229,8 +236,7 @@ void Img_Sub::save_img()
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
-    auto node = std::make_shared<Img_Sub>();
-    rclcpp::spin(node);
+    rclcpp::spin(std::make_shared<Img_Sub>());
     rclcpp::shutdown();
     return 0;
 }

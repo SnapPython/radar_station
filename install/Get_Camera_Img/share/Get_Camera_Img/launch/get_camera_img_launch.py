@@ -1,1 +1,0 @@
-/home/mechax/zyb/radar_station/src/Get_Camera_Img/launch/get_camera_img_launch.py

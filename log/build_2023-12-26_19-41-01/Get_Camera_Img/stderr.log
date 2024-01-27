@@ -1,8 +1,0 @@
-[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:[m[K In member function ‘[01m[Kvoid GetImg::get_exp(const Int16&)[m[K’:
-[01m[K/home/mechax/zyb/radar_station/src/Get_Camera_Img/src/get_img.cpp:132:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kexposure[m[K’ was not declared in this scope; did you mean ‘[01m[Kexposure_[m[K’?
-  132 |         [01;31m[Kexposure[m[K = 3000;
-      |         [01;31m[K^~~~~~~~[m[K
-      |         [32m[Kexposure_[m[K
-gmake[2]: *** [CMakeFiles/Get_Img.dir/build.make:76: CMakeFiles/Get_Img.dir/src/get_img.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Get_Img.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -1,1 +1,4 @@
-/home/mechax/zyb/radar_station/src/my_msgss/msg/Points.msg
+uint8 id
+string color
+string text
+Point[] data

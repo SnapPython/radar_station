@@ -1,1 +1,2 @@
-/home/mechax/zyb/radar_station/build/Yolo_Handle/ament_cmake_environment_hooks/local_setup.dsv
+source;share/Yolo_Handle/environment/ament_prefix_path.sh
+source;share/Yolo_Handle/environment/path.sh

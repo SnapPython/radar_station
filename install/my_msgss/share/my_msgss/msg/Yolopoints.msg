@@ -1,1 +1,3 @@
-/home/mechax/zyb/radar_station/src/my_msgss/msg/Yolopoints.msg
+uint8 id
+string text
+Yolopoint[] data
